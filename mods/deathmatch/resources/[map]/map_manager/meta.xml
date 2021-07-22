@@ -1,0 +1,9 @@
+<meta>
+	<info author='Maxime - OwlGaming'/>
+	<script src='functions_g.lua' type='shared'/>
+	<script src='functions_s.lua' type='server'/>
+	<script src='functions_c.lua' type='client'/>
+	<script src='main_s.lua' type='server'/>
+	<script src='main_c.lua' type='client'/>
+	<file src="img/map_example.jpg" />
+</meta>	

@@ -1,0 +1,187 @@
+<meta>
+    <script src="c_createObject.lua" type="client"/>
+    <script src="s_cleanup.lua" type="server" />
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client"></script>
+
+    <script src="s_gridsupport.lua" type="server"/>
+    <script src="c_gridsupport.lua" type="client"/>
+    	<export function="restoreSA" type="client" />
+
+<!-- Fixes, etc. -->
+	<map src="fixes/stuntfix.map" dimension="0"></map>
+	<map src="fixes/missingwall_fix.map" dimension="0"></map>
+	<map src="fixes/casper-wallace-project.map" dimension="0"></map>
+   	<map src="fixes/kingis-exterior-fix-alptraum.map" dimension="0"></map>
+	<map src="fixes/BRIDGE-MAP-FIX.map" dimension="0"></map>
+	<map src="fixes/tokyotownflckz.map" dimension="0"></map>
+   	<script src="fixes/swimmingPools.lua" type="client"/>
+	<map src="fixes/7Palinstreetexteriorfix.map" dimensnion="0"></map>
+	<map src="fixes/ContainerRemoval.map" dimensnion="0"></map>
+	<map src="fixes/auctionhouse-removal-obj.map" dimensnion="0"></map>
+
+	<!--<file src="fixes/oci-office/office.col"/>
+	<file src="fixes/oci-office/office2.col"/>
+   	<script src="fixes/oci-office/c_oci_office.lua" type="client"/>-->
+
+<!-- PUBLIC (OFFICIAL) AREAS -->
+	<map src="public/idlewood-terrace.map" dimension="0"></map>
+	<map src="public/tolls.map" dimension="0"></map>
+	<map src="public/Ext-GasStations/Market-Gas-Station2.map" dimension="0"></map>
+	<map src="public/Ext-GasStations/Rodeo-Gas-Station.map" dimension="0"></map>
+	<map src="public/Ext-HousingProject/Studios-Additional.map" dimension="0"></map>
+	<map src="public/Ext-HousingProject/Studios-Extras.map" dimension="0"></map>
+	<map src="public/Ext-Sicily/Sicily.map" dimension="0"></map>
+	<map src="public/Ext-saints_blvd/saints_blvd.map" dimension="0"></map>
+	<map src="public/Ext-saints_blvd/STLAWERENCE_FENCES.map" dimension="0"></map>
+	<map src="public/Ext-CleaningC/CleaningC.map" dimension="0"></map>
+	<map src="public/Ext-GrooveStreetRemake/rp-highills1.map" dimension="0"></map>
+	<map src="public/Ext-WillowfieldTrailerPark/Willowfield-mc-clubhouse.map" dimension="0"></map>
+	<map src="public/Ext-BoatSalesDock/BoatDockOG.map" dimension="0"></map>
+	<map src="public/Ext-IrishBarLittleMoscow/ext-bar.map" dimension="0"></map>
+	<map src="public/Ext-IGS/igs.map" dimension="0"></map>
+	<map src="public/Ext-govcameras/rp-camprojectFINAL.map" dimension="0"></map>
+	<script src="public/busstops.lua" type="server" />
+	<map src="public/Ext-WillowfieldFences/wf_fences.map" />
+	<map src="public/drag-map222.map" />
+	<map src="public/Ext-EastLS/Zollar-EastLS-Bloc-approved.map" dimension="0"/>
+	<map src="public/Ext-GasStations/og-public-palo-paynspray-approved.map" dimension="0"/>
+	<map src="public/Ext-GasStations/og-public-palo-gas.map" dimension="0"/>
+	<map src="public/map_PhoenixBusinessPlaza_helipads.map" dimension="0"/>
+	<map src="public/NPS-Toll-1.map" dimension="0"/>
+	<!-- Shipping terminal at LS Docks -->
+		<map src="public/map_isps.map" dimension="0"/>
+	<map src="public/Ext-Hampton Barns/hamptonbarns_public.map" dimension="0"/>
+	<map src="public/Ext-AngelPineTrailerPark/angelpine.map" dimension="0"/>
+	<!-- Toll gate Verdant Bluffs -->
+		<map src="public/MemorialOutside.map" dimension="0"></map>
+<!-- SPECIAL INTERIORS -->
+	<map src="interior/Int-UnitySewers\Sewers.map" dimension="655"></map>
+
+<!-- FACTION MAPS -->
+	<!-- FAA -->
+		<!-- LSIA -->
+			<map src="faction/LSIA/ext_lsia_exciter.map" dimension="0"></map>
+		<!-- Control towers -->
+			<script src="faction/LSIA/atctowerinteriors.lua" type="client" />
+		<!-- Airport interior -->
+			<map src="faction/LSIA/int_LSA_1.map" dimension="1317"></map>
+			<map src="faction/LSIA/int_LSA_2.map" dimension="2337"></map>
+			<map src="faction/LSIA/int_LSA_term2.map" dimension="2340"></map>
+	<!-- SACMA -->
+		<!--<map src="faction/SACMA/SACMA.map" dimension="0"></map>
+		<script src="faction/SACMA/removeWorldObj.lua" type="client" />
+		-->
+	<!-- Prison -->
+		<map src="faction/prison/prison.map" dimension="0"></map>
+	<!-- SAHP -->
+		<map src="faction/SAHP/SAHP_LVHQ.map" dimension="0"></map>
+		<map src="faction/SAHP/sahp-nogate.map" dimension="0"></map>
+		<map src="faction/SAHP/SAHP-NoGates.map" dimension="0"></map>
+		<map src="faction/SAHP/pd-training-ground-ranch/pd-training-ground-ranch.map" dimension="0"></map>
+		<map src="faction/SAHP/montgomery-precinct-Ext.map" dimension="0"></map>
+	<!-- Al-Najjar -->
+		<!-- <map src="faction/Al-Najjar/Bashasexterior.map" dimension="0"></map> -->
+	<!-- LSN -->
+		<map src="faction/LSN/notrespasser.map" dimension="0"></map>
+		<map src="faction/LSN/StarTower_TopFloor.map" dimension="0"></map>
+		<map src="faction/LSN/Int-LSN.map" dimension="6"></map>
+	<!-- LSFD -->
+		<map src="faction/FD/FD.map" dimension="0"></map>
+		<map src="faction/FD/FDparking.map" dimension="0"></map>
+		<map src="faction/FD/CompleteHospitalInt.map" dimension="180"></map>
+	<!-- LSPD -->
+		<map src="faction/LSPD/LSPD-exterior.map" dimension="0"></map>
+		<map src="faction/LSPD/detective.map" dimension="0"></map>
+		<map src="faction/LSPD/lscsd.map" dimension="10"></map>
+		<script src="faction/LSPD/s_lscsd.lua" type="server" />
+		<map src="faction/LSPD/lspdinterior.map" dimension="10"></map>
+		<script src="faction/LSPD/s_lspd.lua" type="server" />
+		<!-- https://forums.owlgaming.net/showthread.php?38202-Almeida-Map-Addition -->
+			<map src="faction/LSPD/LSPD-Almeida-Back-Metro.map" dimension="0"></map>
+		<!-- St. Francis Crook Squad - http://bugs.owlgaming.net/view.php?id=188 -->
+			<map src="faction/LSPD/courts.map" dimension="0"></map>
+	<!-- Towing -->
+		<!--<script src="faction/towing/s_remove.lua" type="server" />-->
+		<map src="faction/towing/RT_4_withoutgates.map" dimension="0"></map>
+		<map src="faction/towing/maintenance-map-by-lsgov.map" dimension="0"></map>
+		<map src="faction/towing/og-ext-crusher.map" dimension="0"></map>
+	<!-- Reaper Crew (Reaper's MC) -->
+		<!-- <map src="faction/ReaperCrew/ReapersMC.map" dimension="0"></map> -->
+	<!-- Government of Los Santos -->
+		<map src="faction/gov/int_CityHall.map" dimension="2695"></map>
+		<map src="faction/gov/Oil-Rig.map" dimension="0"></map>
+	<!-- Nordic MC -->
+		<map src="faction/NordicMC/og-nordic-res-accepted.map" dimension="0"></map>
+	<!-- JGC -->
+		<!-- Faction HQ and REC dealership at Market - https://forums.owlgaming.net/index.php?showtopic=30474#entry191431 -->
+			<map src="faction/JGC/jgchq.map" dimension="0"></map>
+	<!-- Strikeforce -->
+		<map src="faction/Strikeforce/s88-carwashmap-accepted.map" dimension="0"></map>
+	<!-- USMCR -->
+		<map src="faction/USMCR/area51.map" dimension="0"></map>
+		<!--https://forums.owlgaming.net/index.php?showtopic=35771-->
+		<map src="faction/SalesSpreeInc/GeorgeFaction.map" dimension="0"></map>
+	<!-- Cargo Group -->
+		<!-- HQ - Northwestern ocean docks, right next to the airport -->
+			<map src="faction/CargoGroup/CargoGroupHQ.map" dimension="0"></map>
+	<!-- Ace Street Locos XIII -->
+		<!-- The map adds things across the general El Corona area. -->
+			<map src="faction/AceStreetLocos/ElCorona.map" dimension="0"></map>
+	<!-- Liverpool Hoover Criminals -->
+		<!-- The map addition adds an interior in world 0. It adds the interior on the Northern side of Liverpool road in Ganton. -->
+			<map src="faction/LiverpoolHoover/ganton-barber.map" dimension="0"></map>
+
+<!-- EVENT MAPS (limited time) -->
+
+
+<!-- SECONDARY: EXTERNAL ISLANDS, ETC. -->
+	<map src="secondary/Ext-DonutDriftingMap/Ext-DonutDriftingMap.map" dimension="0"></map>
+	<map src="secondary/tortuguilla/tortuguilla.map" dimension="0"></map>
+
+<!-- SECONDARY: PERSONAL MAPS -->
+	<!-- Libby -->
+		<!--https://forums.owlgaming.net/index.php?showtopic=32243 -->
+			<map src="personal/Libby/Eaton-Headquarters.map"/>
+	<!-- CourtezBoi -->
+		<map src="personal/CourtezBoi/jefferson_carsonstreet.map"/>
+	<!-- Uzi -->
+		<!-- Rodeo map for some casino by uzi -->
+			<map src="personal/Uzi/Ext-RodeoCasino.map"/>
+	<!-- saku446 -->
+		<map src="personal/saku446/Ext_1PasadenaBlvd.map"/>
+	<!-- BrukONE -->
+		<map src="personal/BrukONE/BrukONE-BlueberryFences.map" dimension="0"></map>
+	<!-- Exciter -->
+		<!-- Blueberry Factory. Jacob Goldsmith. http://142.4.218.194/showthread.php?29686-q_666%29-Map-Addition -->
+			<map src="personal/Exciter/bbhq.map"/>
+	<!-- Edwards -->
+		<!-- Small farm in Flint County, on the hill just west of RS Haul. Position: -367.25 -1049.1982421875 59.33634185791 -->
+			<!-- <map src="personal/Edwards/Edwards_FlintCountyFarm.map" dimension="0"></map> AWAITING CONSTRUCTION -->
+	<!-- xSweg -->
+		<!-- Object removals of fences @ 0 0 2260.86328125 96.8056640625 26.484375 https://forums.owlgaming.net/showthread.php?37019-xSweg-Map-Addition -->
+			<map src="personal/xSweg/8palo.map" dimension="0"></map>
+	<!-- Kaka -->
+		<!-- Object Removals https://forums.owlgaming.net/showthread.php?39917-Map-Addition-Kaka -->
+			<map src="personal/Kaka/kaka.map" dimension="0"></map>
+	<!-- Nadr -- >
+		<!-- Nadr Unofficial Faction -->
+			<map src="personal/Nadr/Taxidermy-and-Extermination-approved.map" dimension="0"></map>
+	<!-- Maracha2 -- >
+		<!-- Fence Removals https://forums.owlgaming.net/showthread.php?40115 -->
+			<script src="personal/Maracha2/fenceRemoval.lua" type="client"/>
+	<!-- Joe -->
+		<map src="personal/Joe/1-Leafy-Hollow-Farm.map" dimension="0"></map>
+		<map src="personal/Joe/houseBalcony.map" dimension="0"></map>
+	<!-- DemiD -->
+		<!-- David Ellsworth The Factory, Willowfield - https://forums.owlgaming.net/index.php?showtopic=29869&page=1&#entry189882 -->
+			<map src="personal/DemiD/factory_willowfield.map" dimension="0"></map>
+	<!-- BlueBerry -->
+		<!-- Blueberry wants this added for his carwash to prevent people parking there. -->
+			<map src="personal/BlueBerry/gate-carwash.map" dimension="0"></map>
+	<!-- undercover -->
+		<!-- Monastery in Red County - Northstar Rock, replaces the abandoned shack there -->
+			<map src="personal/undercover/monastery-red-county.map" dimension="0"></map>
+
+<min_mta_version client="1.3.0-9.03783"></min_mta_version>
+</meta>

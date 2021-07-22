@@ -1,0 +1,115 @@
+<map edf:definitions="editor_main">
+    <!--
+	<object id="object (sub_roadbarrier) (1)" breakable="true" interior="0" alpha="255" model="973" doublesided="false" scale="1" dimension="0" posX="1942.09998" posY="-1776.5" posZ="13.2" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (sub_roadbarrier) (2)" breakable="true" interior="0" alpha="255" model="973" doublesided="false" scale="1" dimension="0" posX="1942.09998" posY="-1768.80005" posZ="13.2" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (sub_roadbarrier) (3)" breakable="true" interior="0" alpha="255" model="973" doublesided="false" scale="1" dimension="0" posX="1940.90002" posY="-1768.80005" posZ="13.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sub_roadbarrier) (4)" breakable="true" interior="0" alpha="255" model="973" doublesided="false" scale="1" dimension="0" posX="1940.90002" posY="-1776.69995" posZ="13.2" rotX="0" rotY="0" rotZ="90"></object>
+	-->
+    <object id="object (DYN_TABLE_2) (1)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="1930.5" posY="-1764.30005" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (2)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="1928.09998" posY="-1761.5" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (3)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="1925.80005" posY="-1764.19995" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (parkbench1) (1)" breakable="true" interior="0" alpha="255" model="1280" doublesided="false" scale="1" dimension="0" posX="1971.40002" posY="-1776.59998" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (parkbench1) (2)" breakable="true" interior="0" alpha="255" model="1280" doublesided="false" scale="1" dimension="0" posX="1951.80005" posY="-1765" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (parkbench1) (3)" breakable="true" interior="0" alpha="255" model="1280" doublesided="false" scale="1" dimension="0" posX="1951.69995" posY="-1774.90002" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (parkbench1) (4)" breakable="true" interior="0" alpha="255" model="1280" doublesided="false" scale="1" dimension="0" posX="1951.69995" posY="-1770" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fire_hydrant) (1)" breakable="true" interior="0" alpha="255" model="1211" doublesided="false" scale="1" dimension="0" posX="1953.59998" posY="-1758.19995" posZ="13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_PHONE_KIOSK2) (1)" breakable="true" interior="0" alpha="255" model="1346" doublesided="false" scale="1" dimension="0" posX="1935.40002" posY="-1795.40002" posZ="13.9" rotX="0" rotY="0" rotZ="130"></object>
+    <object id="object (CJ_POSTBOX) (1)" breakable="true" interior="0" alpha="255" model="1367" doublesided="false" scale="1" dimension="0" posX="1927.90002" posY="-1786.69995" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_NOODLE_1) (1)" breakable="true" interior="0" alpha="255" model="1571" doublesided="false" scale="1" dimension="0" posX="1947.09998" posY="-1794.69995" posZ="13.9" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (CJ_NOODLE_3) (1)" breakable="true" interior="0" alpha="255" model="1570" doublesided="false" scale="1" dimension="0" posX="1940.09998" posY="-1794.30005" posZ="13.9" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (BUST_CABINET_4) (1)" breakable="true" interior="0" alpha="255" model="910" doublesided="false" scale="1" dimension="0" posX="1915.40002" posY="-1787" posZ="13.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_urb_rub_4) (1)" breakable="true" interior="0" alpha="255" model="852" doublesided="false" scale="1" dimension="0" posX="1902.19995" posY="-1784.40002" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (k_smashboxes) (1)" breakable="true" interior="0" alpha="255" model="2971" doublesided="false" scale="1" dimension="0" posX="1902" posY="-1790.40002" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (parkbench1) (5)" breakable="true" interior="0" alpha="255" model="1280" doublesided="false" scale="1" dimension="0" posX="1957.30005" posY="-1743" posZ="12.9" rotX="0" rotY="0" rotZ="90"></object>
+	
+	
+	
+
+<removeWorldObject id="removeWorldObject (washgaspump) (1)" radius="3.887178" interior="0" model="1676" lodModel="0" posX="1941.974" posY="-1777.535" posZ="13.92291" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (washgaspump) (2)" radius="3.887178" interior="0" model="1676" lodModel="0" posX="1942.141" posY="-1770.723" posZ="14.40288" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<object id="object (washgaspump) (3)" breakable="false" interior="0" alpha="255" model="1676" doublesided="false" scale="1" dimension="0" posX="1941.7" posY="-1778.6" posZ="14.2" rotX="0" rotY="0" rotZ="90"></object>
+<object id="object (washgaspump) (4)" breakable="false" interior="0" alpha="255" model="1676" doublesided="false" scale="1" dimension="0" posX="1941.7" posY="-1774.2" posZ="14.2" rotX="0" rotY="0" rotZ="90"></object>
+<object id="object (washgaspump) (5)" breakable="false" interior="0" alpha="255" model="1676" doublesided="false" scale="1" dimension="0" posX="1941.7" posY="-1771.5" posZ="14.2" rotX="0" rotY="0" rotZ="90"></object>
+<object id="object (washgaspump) (6)" breakable="false" interior="0" alpha="255" model="1676" doublesided="false" scale="1" dimension="0" posX="1941.7" posY="-1767.2" posZ="14.2" rotX="0" rotY="0" rotZ="90"></object>
+<removeWorldObject id="removeWorldObject (telgrphpole02) (1)" radius="8.530844" interior="0" model="1308" lodModel="0" posX="1954.054" posY="-1801.141" posZ="19.29454" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<object id="object (telgrphpole02) (2)" breakable="true" interior="0" alpha="255" model="1308" doublesided="false" scale="1" dimension="0" posX="1955.2" posY="-1801.1" posZ="11.3" rotX="0" rotY="0" rotZ="356"></object>
+<object id="object (telgrphpole02) (3)" breakable="true" interior="0" alpha="255" model="1308" doublesided="false" scale="1" dimension="0" posX="1949.9" posY="-1798.3" posZ="12.9" rotX="0" rotY="0" rotZ="330"></object>
+<object id="object (arrows01_lvs) (1)" breakable="true" interior="0" alpha="255" model="8843" doublesided="false" scale="1" dimension="0" posX="1944.8" posY="-1771.4" posZ="12.4" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (arrows01_lvs) (4)" breakable="true" interior="0" alpha="255" model="8843" doublesided="false" scale="1" dimension="0" posX="1938.2" posY="-1771.8" posZ="12.4" rotX="0" rotY="0" rotZ="180"></object>
+<object id="object (CJ_PHONE_KIOSK) (1)" breakable="true" interior="0" alpha="255" model="1363" doublesided="false" scale="1" dimension="0" posX="1951.7" posY="-1770" posZ="13.4" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (phonesign) (1)" breakable="true" interior="0" alpha="255" model="1234" doublesided="false" scale="1" dimension="0" posX="1954.1" posY="-1758.6" posZ="14.1" rotX="0" rotY="0" rotZ="120"></object>
+<object id="object (phonesign) (2)" breakable="true" interior="0" alpha="255" model="1234" doublesided="false" scale="1" dimension="0" posX="1955.2" posY="-1779.1" posZ="14.1" rotX="0" rotY="0" rotZ="93.998"></object>
+<object id="object (Stonebench1) (1)" breakable="true" interior="0" alpha="255" model="1256" doublesided="false" scale="1" dimension="0" posX="1951.2" posY="-1774.9" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Stonebench1) (2)" breakable="true" interior="0" alpha="255" model="1256" doublesided="false" scale="1" dimension="0" posX="1952" posY="-1774.87" posZ="13.2" rotX="0" rotY="0" rotZ="180"></object>
+<object id="object (Stonebench1) (3)" breakable="true" interior="0" alpha="255" model="1256" doublesided="false" scale="1" dimension="0" posX="1952.1" posY="-1766.17" posZ="13.2" rotX="0" rotY="0" rotZ="179.995"></object>
+<object id="object (Stonebench1) (4)" breakable="true" interior="0" alpha="255" model="1256" doublesided="false" scale="1" dimension="0" posX="1951.3" posY="-1766.2" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+<removeWorldObject id="removeWorldObject (MTraffic1) (1)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1952.598" posY="-1746.823" posZ="14.07333" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (2)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1936.354" posY="-1741.323" posZ="14.18728" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (3)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1930.776" posY="-1757.969" posZ="15.19294" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (4)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1955.839" posY="-1801.726" posZ="16.54914" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (5)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1967.368" posY="-1822.908" posZ="15.63308" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (6)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1972.689" posY="-1806.657" posZ="14.75796" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (7)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1833.415" posY="-1746.769" posZ="15.60957" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (8)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1816.444" posY="-1741.315" posZ="15.28708" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (9)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1827.718" posY="-1763.195" posZ="15.07841" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (10)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1990.064" posY="-1757.527" posZ="15.81505" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (11)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1996.256" posY="-1741.116" posZ="14.49104" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (12)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2012.986" posY="-1746.947" posZ="15.02526" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (13)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2069.384" posY="-1757.588" posZ="17.10992" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (14)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2076.024" posY="-1741.201" posZ="14.11901" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (15)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2088.439" posY="-1744.896" posZ="18.88894" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (16)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2105.417" posY="-1747.15" posZ="16.33287" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (17)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2099.246" posY="-1762.65" posZ="16.64566" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (18)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2076.33" posY="-1800.663" posZ="16.32388" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (19)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2070.418" posY="-1817.435" posZ="14.16816" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<removeWorldObject id="removeWorldObject (MTraffic1) (20)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="2087.274" posY="-1823.495" posZ="15.23943" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<object id="object (lamppost3) (1)" breakable="true" interior="0" alpha="255" model="1226" doublesided="false" scale="1" dimension="0" posX="1921.3" posY="-1748" posZ="16.3" rotX="0" rotY="0" rotZ="90"></object>
+<object id="object (lamppost3) (2)" breakable="true" interior="0" alpha="255" model="1226" doublesided="false" scale="1" dimension="0" posX="1966.2" posY="-1764.2" posZ="16.4" rotX="0" rotY="0" rotZ="0"></object>
+<removeWorldObject id="removeWorldObject (lamppost3) (1)" radius="6.614927" interior="0" model="1226" lodModel="0" posX="1952.158" posY="-1757.372" posZ="13.02096" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+<object id="object (lamppost2) (2)" breakable="true" interior="0" alpha="255" model="1290" doublesided="false" scale="1" dimension="0" posX="1951.7" posY="-1758.2" posZ="18.6" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (lamppost2) (3)" breakable="true" interior="0" alpha="255" model="1290" doublesided="false" scale="1" dimension="0" posX="1933.8" posY="-1744.9" posZ="18.6" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (postbox1) (2)" breakable="true" interior="0" alpha="255" model="1291" doublesided="false" scale="1" dimension="0" posX="1947.2" posY="-1796.5" posZ="13" rotX="0" rotY="0" rotZ="180"></object>
+<object id="object (Streetlamp1) (1)" breakable="true" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1943" posY="-1795.1" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Streetlamp1) (2)" breakable="true" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1906.9" posY="-1789.4" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Streetlamp1) (3)" breakable="true" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1906.1" posY="-1768.4" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Streetlamp1) (4)" breakable="true" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1919.4" posY="-1764.4" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Streetlamp1) (5)" breakable="true" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1930.8" posY="-1781" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Streetlamp1) (6)" breakable="true" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1951.5" posY="-1771.7" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (cr_door_02) (1)" breakable="true" interior="0" alpha="255" model="2948" doublesided="false" scale="1" dimension="0" posX="1928.2" posY="-1775.4" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (cr_door_02) (2)" breakable="true" interior="0" alpha="255" model="2948" doublesided="false" scale="1" dimension="0" posX="1928.2" posY="-1777.3" posZ="12.5" rotX="0" rotY="0" rotZ="180"></object>
+<object id="object (chinaTgate) (1)" breakable="true" interior="0" alpha="255" model="2930" doublesided="false" scale="1" dimension="0" posX="1972.4" posY="-1781.9" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Gen_doorINT05) (1)" breakable="true" interior="0" alpha="255" model="1499" doublesided="false" scale="1" dimension="0" posX="1972.4" posY="-1783.6" posZ="12.5" rotX="0" rotY="0" rotZ="268"></object>
+<object id="object (chinaTgate) (2)" breakable="true" interior="0" alpha="255" model="2930" doublesided="false" scale="1" dimension="0" posX="1972.3" posY="-1785.1" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (chinaTgate) (3)" breakable="true" interior="0" alpha="255" model="2930" doublesided="false" scale="1" dimension="0" posX="1972.3" posY="-1786.8" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (chinaTgate) (4)" breakable="true" interior="0" alpha="255" model="2930" doublesided="false" scale="1" dimension="0" posX="2020.3" posY="-1764.6" posZ="15.2" rotX="0" rotY="0" rotZ="270"></object>
+<object id="object (chinaTgate) (5)" breakable="true" interior="0" alpha="255" model="2930" doublesided="false" scale="1" dimension="0" posX="2017.1" posY="-1764.6" posZ="15.2" rotX="0" rotY="0" rotZ="270"></object>
+<object id="object (Gen_doorINT02) (2)" breakable="true" interior="0" alpha="255" model="1492" doublesided="false" scale="1" dimension="0" posX="2017.1" posY="-1764.6" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (DYN_F_R_WOOD_1b) (1)" breakable="true" interior="0" alpha="255" model="1410" doublesided="false" scale="1" dimension="0" posX="1987.3" posY="-1781.9" posZ="13.3" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (DYN_GAZ_1) (1)" breakable="true" interior="0" alpha="255" model="1479" doublesided="false" scale="1" dimension="0" posX="1985" posY="-1781.7" posZ="14" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (lounge_wood_dn) (1)" breakable="true" interior="0" alpha="255" model="1647" doublesided="false" scale="1" dimension="0" posX="1986.4" posY="-1779.8" posZ="12.5" rotX="0" rotY="0" rotZ="90"></object>
+<object id="object (FRUITCRATE3) (1)" breakable="true" interior="0" alpha="255" model="924" doublesided="true" scale="1" dimension="0" posX="1983.8" posY="-1779.8" posZ="12.7" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (CJ_IND_LIGHT) (1)" breakable="true" interior="0" alpha="255" model="921" doublesided="true" scale="1" dimension="0" posX="1984" posY="-1779.53" posZ="14.8" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (CJ_urb_rub_1) (1)" breakable="true" interior="0" alpha="255" model="850" doublesided="false" scale="1" dimension="0" posX="1984.3" posY="-1785.7" posZ="12.7" rotX="0" rotY="0" rotZ="102"></object>
+<object id="object (kmb_paper_code) (1)" breakable="true" interior="0" alpha="255" model="2953" doublesided="false" scale="1" dimension="0" posX="1984.8" posY="-1780.2" posZ="12.6" rotX="0" rotY="0" rotZ="40"></object>
+<object id="object (DYN_woodpile) (1)" breakable="true" interior="0" alpha="255" model="1462" doublesided="false" scale="1" dimension="0" posX="1987.1" posY="-1780.6" posZ="12.6" rotX="0" rotY="0" rotZ="274"></object>
+<object id="object (DYN_FIREBIN0) (1)" breakable="true" interior="0" alpha="255" model="1442" doublesided="false" scale="1" dimension="0" posX="1991.4" posY="-1783.9" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (DYN_BOX_PILE_4) (1)" breakable="true" interior="0" alpha="255" model="1441" doublesided="false" scale="1" dimension="0" posX="1995.6" posY="-1782.3" posZ="13.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (sw_pickupwreck01) (1)" breakable="true" interior="0" alpha="255" model="12957" doublesided="false" scale="1" dimension="0" posX="2018.4" posY="-1784.1" posZ="13.4" rotX="0" rotY="0" rotZ="180"></object>
+<object id="object (bin1) (1)" breakable="true" interior="0" alpha="255" model="1300" doublesided="true" scale="1" dimension="0" posX="1971.1" posY="-1780.4" posZ="12.9" rotX="0" rotY="0" rotZ="92"></object>
+<object id="object (DYN_TV) (1)" breakable="false" interior="0" alpha="255" model="1429" doublesided="true" scale="1" dimension="0" posX="1983.7" posY="-1780.8" posZ="12.8" rotX="0" rotY="0" rotZ="104"></object>
+<object id="object (PROC_RUBBISH_1) (1)" breakable="true" interior="0" alpha="255" model="2670" doublesided="false" scale="1" dimension="0" posX="1985.7" posY="-1781.1" posZ="12.64" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (PROC_RUBBISH_3) (1)" breakable="true" interior="0" alpha="255" model="2671" doublesided="false" scale="1" dimension="0" posX="1984.5" posY="-1782.6" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (sub_roadbarrier) (1)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1806.8" posY="-1737.9" posZ="13.4" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (sub_roadbarrier) (2)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1815.9" posY="-1747.1" posZ="13.4" rotX="0" rotY="0" rotZ="270"></object>
+<object id="object (sub_roadbarrier) (3)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1797.5" posY="-1737.9" posZ="13.4" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (sub_roadbarrier) (4)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1788.2" posY="-1737.9" posZ="13.4" rotX="0" rotY="0" rotZ="0"></object>
+<!--<object id="object (sub_roadbarrier) (5)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1778.9" posY="-1737.9" posZ="13.4" rotX="0" rotY="0" rotZ="0"></object>-->
+<object id="object (sub_roadbarrier) (6)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1827.1" posY="-1739.6" posZ="13.4" rotX="0" rotY="0" rotZ="90"></object>
+<object id="object (sub_roadbarrier) (7)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1836.5" posY="-1746.9" posZ="13.4" rotX="0" rotY="0" rotZ="180"></object>
+<object id="object (sub_roadbarrier) (8)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1845.8" posY="-1746.9" posZ="13.4" rotX="0" rotY="0" rotZ="179.995"></object>
+<object id="object (sub_roadbarrier) (9)" breakable="true" interior="0" alpha="255" model="973" doublesided="true" scale="1" dimension="0" posX="1855.1" posY="-1746.9" posZ="13.4" rotX="0" rotY="0" rotZ="179.995"></object>
+<object id="object (Streetlamp1) (7)" breakable="false" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1829.4" posY="-1745.5" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+<object id="object (Streetlamp1) (8)" breakable="false" interior="0" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="1813.9" posY="-1740.6" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+
+
+</map>

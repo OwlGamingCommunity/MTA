@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (DYN_BOX_PILE_2) (1)" radius="3.8295994" interior="0" model="1438" lodModel="0" posX="206.36974" posY="-162.39061" posZ="1.10129" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_BOX_PILE_3) (1)" radius="3.6364884" interior="0" model="1440" lodModel="0" posX="195.99051" posY="-180.44859" posZ="0.6359" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (fenceshit2) (1)" breakable="false" interior="0" alpha="255" model="984" doublesided="true" scale="1" dimension="0" posX="192.89999" posY="-159.7" posZ="1.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (bar_gatebox01) (1)" breakable="false" interior="0" alpha="255" model="967" doublesided="false" scale="1" dimension="0" posX="193.60001" posY="-166.89999" posZ="0.6" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bar_gatebar01) (1)" breakable="false" interior="0" alpha="255" model="966" doublesided="false" scale="1" dimension="0" posX="193.10001" posY="-168" posZ="0.6" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fenceshit2) (2)" breakable="false" interior="0" alpha="255" model="984" doublesided="true" scale="1" dimension="0" posX="192.89999" posY="-181.5" posZ="1.2" rotX="0" rotY="0" rotZ="0"></object>
+</map>

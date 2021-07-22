@@ -1,0 +1,10 @@
+<meta>
+	<info author="Chuevo" type="script" description="Testing Resource"/>
+	<script src="s_commands.lua" type="server"/>
+	<script src="s_vehtheft.lua" type="server"/>
+	<script src="c_vehtheft.lua" type="client"/>
+	<script src="s_intpost.lua" type="server"/>
+	<script src="c_intpost.lua" type="client"/>
+	<script src="s_gmpost.lua" type="server"/>
+	<script src="c_gmpost.lua" type="client"/>
+</meta>

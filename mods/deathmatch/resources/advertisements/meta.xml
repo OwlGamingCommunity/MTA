@@ -1,0 +1,32 @@
+<meta>
+	<info author="CourtezBoi" type="script" description="A classifieds-like advertisement system" />
+	<oop>true</oop>
+
+	<script src="utils/character_data.lua"/>
+	<script src="utils/index_query.lua" type="server"/>
+	<script src="utils/browser_manager_c.lua" type="client"/>
+	<script src="utils/vehicle_velocity_c.lua" type="client"/>
+	<script src="utils/cinematic_screen_bars_c.lua" type="client"/>
+
+	<script src="advertisements.lua"/>
+	<script src="job_advertisements.lua"/>
+	<script src="advertisements_c.lua" type="client"/>
+
+	<script src="auction/keymaster.lua"/>
+	<script src="auction/keymaster_c.lua" type="client"/>
+	<script src="auction/vehicle_sale.lua"/>
+	<script src="auction/vehicle_auctions.lua"/>
+	<script src="auction/vehicle_auctions_c.lua" type="client"/>
+	<script src="auction/vehicle_auction_form_c.lua" type="client"/>
+
+	<script src="auction/auction_floor.lua"/>
+	<script src="auction/auction_floor_c.lua" type="client"/>
+	<script src="auction/auction_floor_form_c.lua" type="client"/>
+
+	<file src="advertisements.css"/>
+	<file src="advertisements.htm"/>
+
+	<file src="auction/form.htm"/>
+
+	<file src="auction/floor_bid.htm"/>
+</meta>

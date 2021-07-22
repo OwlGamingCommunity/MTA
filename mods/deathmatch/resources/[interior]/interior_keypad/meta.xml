@@ -1,0 +1,29 @@
+<meta>
+	<info author="Maxime - OWL MTA Scripting Team" type="script" description="Interior System - Keypad Lock"/>
+	
+	<script src="interior_keypad_c.lua" type="client" />
+	<script src="interior_keypad_s.lua" type="server" />
+
+	<script src="functions_g.lua" type="client" />
+	<script src="functions_g.lua" type="server" />
+
+	<file src="images/keypad.png"/>
+	<file src="images/keypad_locked.png"/>
+	<file src="images/keypad_unlocked.png"/>
+	<!--
+	<file src="fonts/led_sas.ttf"/>
+	<file src="fonts/led_board-7.ttf"/>
+	-->
+	<file src="fonts/digi.ttf"/>
+	
+	<file src="sounds/granted.mp3"/>
+	<file src="sounds/denied.mp3"/>
+	<file src="sounds/warning.mp3"/>
+	<file src="sounds/aborted.mp3"/>
+	<file src="sounds/login_authorized.mp3"/>
+	<file src="sounds/all_system_actived.mp3"/>
+	<file src="sounds/deactivating.mp3"/>
+	<file src="sounds/enter_password.mp3"/>
+	<file src="sounds/processing.mp3"/>
+	<file src="sounds/system_overloaded.mp3"/>
+</meta>

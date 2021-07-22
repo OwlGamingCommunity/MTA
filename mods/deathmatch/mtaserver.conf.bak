@@ -1,0 +1,248 @@
+<config>
+    <!-- ################################
+    # Must be changed on production
+    ################################ -->
+    <http_dos_exclude>SERVER_IP</http_dos_exclude>
+    <ase>SHOULD_BROADCAST</ase>
+    <module src="mta_mysql.dll" />  <!-- # mta_mysql.so on linux -->
+    <module src="bcrypt.dll" /> <!-- # bcrypt.so on linux -->
+    <owner_email_address>OWNER_EMAIL_ADDRESS</owner_email_address>
+
+    <!-- ##################################
+    # Other Variables
+    #################################### -->
+    <servername>OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net</servername>
+    <serverip></serverip>
+    <serverport>22003</serverport>
+    <maxplayers>1024</maxplayers>
+    <password></password>
+
+    <httpserver>1</httpserver>
+    <httpport>22005</httpport>
+    <httpdownloadurl></httpdownloadurl>
+
+    <httpmaxconnectionsperclient>5</httpmaxconnectionsperclient>
+
+    <allow_gta3_img_mods>peds</allow_gta3_img_mods>
+    <enablesd>14,15,16,31,32</enablesd>
+    <hideac>1</hideac> <!-- Hide allowed files -->
+
+    <httpdosthreshold>100</httpdosthreshold>
+
+    <client_file name="anim/ped.ifp" verify="0" />
+    <client_file name="data/maps" verify="0" />
+
+    <disableac></disableac>
+    <enablesd></enablesd>
+    <networkencryption>1</networkencryption>
+    <minclientversion>1.5.7-9.20324.0</minclientversion>
+    <minclientversion_auto_update>1</minclientversion_auto_update>
+    <recommendedclientversion></recommendedclientversion>
+    <bandwidth_reduction>none</bandwidth_reduction>
+    <donotbroadcastlan>0</donotbroadcastlan>
+
+    <player_sync_interval>100</player_sync_interval>
+    <lightweight_sync_interval>1500</lightweight_sync_interval>
+    <camera_sync_interval>500</camera_sync_interval>
+    <ped_sync_interval>400</ped_sync_interval>
+    <unoccupied_vehicle_sync_interval>400</unoccupied_vehicle_sync_interval>
+    <keysync_mouse_sync_interval>100</keysync_mouse_sync_interval>
+    <keysync_analog_sync_interval>100</keysync_analog_sync_interval>
+
+    <bullet_sync>1</bullet_sync>
+    <vehext_percent>50</vehext_percent>
+    <vehext_ping_limit>150</vehext_ping_limit>
+    <latency_reduction>0</latency_reduction>
+    <idfile>server-id.keys</idfile>
+    <logfile>logs/server.log</logfile>
+    <authfile>logs/server_auth.log</authfile>
+    <dbfile>logs/db.log</dbfile>
+    <acl>acl.xml</acl>
+    <scriptdebuglogfile>logs/scripts.log</scriptdebuglogfile>
+    <scriptdebugloglevel>0</scriptdebugloglevel>
+    <htmldebuglevel>0</htmldebuglevel>
+    <filter_duplicate_log_lines>1</filter_duplicate_log_lines>
+    <fpslimit>100</fpslimit>
+    <autologin>0</autologin>
+    <voice>0</voice>
+    <voice_samplerate>1</voice_samplerate>
+    <voice_quality>4</voice_quality>
+    <backup_path>backups</backup_path>
+    <backup_interval>0</backup_interval>
+
+    <backup_copies>0</backup_copies>
+
+    <compact_internal_databases>2</compact_internal_databases>
+
+    <crash_dump_upload>1</crash_dump_upload>
+
+    <!-- This parameter lists the ACL groups that are protected by serial authorization.
+         Login attempts to a protected account from a second serial are blocked until the serial is manually authorized via
+         the authserial command.
+         For more info see: https://mtasa.com/authserial
+         Note: This is security critical feature and disabling auth_serial_groups can affect visibility in the master server list.
+         Values: Comma separated list of ACL groups.  Default - Admin -->
+    <auth_serial_groups></auth_serial_groups>
+
+    <!-- This parameter specifies if the authorized serial login checks should also apply to the http interface.
+         Protected account login attempts to the http interface will only succeed if the IP address matches one
+         recently used by the account holder in-game
+         For more info see: https://mtasa.com/authserialhttp
+         Note: This is security critical feature and disabling auth_serial_http can affect visibility in the master server list.
+         Values: 0 - Off, 1 - Enabled.  Default - 1 -->
+    <auth_serial_http>1</auth_serial_http>
+
+    <!-- This parameter specifies which IP addresses should always pass auth_serial_http checks.
+         Values: Comma separated list of IP addresses -->
+    <auth_serial_http_ip_exceptions>127.0.0.1</auth_serial_http_ip_exceptions>
+
+    <!-- This parameter specifies if extra security measures are applied to resources which use dbConnect with mysql.
+         The extra measures are:
+         - Script files cannot be accessed with fileOpen()
+         - meta.xml is read only
+         *NOTE* This only protects resources which use dbConnect with mysql
+         Values: 0 - Off, 1 - Enabled.  Default - 1 -->
+    <database_credentials_protection>1</database_credentials_protection>
+
+    <busy_sleep_time>1</busy_sleep_time>
+    <idle_sleep_time>10</idle_sleep_time>
+
+    <resource src="mysql" startup="1" protected="1" />
+    <resource src="data" startup="1" />
+    <resource src="pool" startup="1" />
+    <resource src="global" startup="1" />
+    <resource src="release-notes" startup="1" />
+    <resource src="resources" startup="1" />
+    <resource src="datetime" startup="1" />
+    <resource src="integration" startup="1" />
+    <resource src="anticheat" startup="1" />
+    <resource src="cache" startup="1" />
+    <resource src="fonts" startup="1" />
+    <resource src="rightclick" startup="1" />
+    <resource src="hud" startup="1" />
+    <resource src="logs" startup="1" />
+    <resource src="bans" startup="1" />
+    <resource src="account" startup="1" />
+    <resource src="serialwhitelist" startup="1" />
+    <resource src="admin-system" startup="1" />
+    <resource src="donators" startup="1" />
+    <resource src="superman" startup="1" />
+    <resource src="report" startup="1" />
+    <resource src="scoreboard" startup="1" />
+    <resource src="saveplayer-system" startup="1" />
+    <resource src="chat-system" startup="1" />
+    <resource src="grid" startup="1" />
+    <resource src="mods" startup="1" />
+    <resource src="realtime-system" startup="1" />
+    <resource src="OwlGamingLogs" startup="1" />
+    <resource src="apps" startup="1" />
+    <resource src="map_load" startup="1" />
+    <resource src="map_manager" startup="1" />
+    <resource src="colorblender" startup="1" />
+    <resource src="selfck-system" startup="1" />
+    <resource src="animation-system" startup="1" />
+    <resource src="camera-system" startup="1" />
+    <resource src="computers-system" startup="1" />
+    <resource src="driveby" startup="1" />
+    <resource src="elevator-system" startup="1" />
+    <resource src="duty" startup="1" />
+    <resource src="factions" startup="1" />
+    <resource src="freecam" startup="1" />
+    <resource src="freecam-tv" startup="1" />
+    <resource src="gps" startup="1" />
+    <resource src="help" startup="1" />
+    <resource src="heligrab" startup="1" />
+    <resource src="id-system" startup="1" />
+    <resource src="object-system" startup="1" />
+    <resource src="interior_system" startup="1" />
+    <resource src="interior_load" startup="1" />
+    <resource src="language-system" startup="1" />
+    <resource src="bank" startup="1" />
+    <resource src="item-system" startup="1" />
+    <resource src="artifacts" startup="1" />
+    <resource src="item-world" startup="1" />
+    <resource src="item-texture" startup="1" />
+    <resource src="item-move" startup="1" />
+    <resource src="gatekeepers-system" startup="1" />
+    <resource src="job-system" startup="1" />
+    <resource src="job-system-trucker" startup="1" />
+    <resource src="license-system" startup="1" />
+    <resource src="es-system" startup="1" />
+    <resource src="pd-system" startup="1" />
+    <resource src="mdc" startup="1" />
+    <resource src="parachute" startup="1" />
+    <resource src="paynspray-system" startup="1" />
+    <resource src="phone" startup="1" />
+    <resource src="realism" startup="1" />
+    <resource src="social" startup="1" />
+    <resource src="npc" startup="1" />
+    <resource src="spike-system" startup="1" />
+    <resource src="tag-system" startup="1" />
+    <resource src="tow-system" startup="1" />
+    <resource src="insurance" startup="1" />
+    <resource src="gate-manager" startup="1" />
+    <resource src="vehicle" startup="1" />
+    <resource src="vehicleplate" startup="1" />
+    <resource src="vehicle-interiors" startup="1" />
+    <resource src="vehicle_fuel" startup="1" />
+    <resource src="vehicle_manager" startup="1" />
+    <resource src="vehicle_load" startup="1" />
+    <resource src="carshop-system" startup="1" />
+    <resource src="carradio" startup="1" />
+    <resource src="weaponcap" startup="1" />
+    <resource src="weather-system" startup="1" />
+    <resource src="weather" startup="1" />
+    <resource src="roadblock-system" startup="1" />
+    <resource src="glue-system" startup="1" />
+    <resource src="dancer-system" startup="1" />
+    <resource src="payday" startup="1" />
+    <resource src="sittablechairs" startup="1" />
+    <resource src="usercontrolpanel" startup="1" />
+    <resource src="tintedwindows" startup="1" />
+    <resource src="selfck-system" startup="1" />
+    <resource src="lottery-system" startup="1" />
+    <resource src="chance-system" startup="1" />
+    <resource src="sfia" startup="1" />
+    <resource src="description" startup="1" />
+    <resource src="anti-cmdspam" startup="1" />
+    <resource src="model-system" startup="1" />
+    <resource src="interior-manager" startup="1" />
+    <resource src="business-system" startup="1" />
+    <resource src="official-interiors" startup="1" />
+    <resource src="advertisements" startup="1" />
+    <resource src="object-interaction" startup="1" />
+    <resource src="texture-system" startup="1" />
+    <resource src="announcement" startup="1" />
+    <resource src="bone_attach" startup="1" />
+    <resource src="weapon" startup="1" />
+    <resource src="ramp-system" startup="1" />
+    <resource src="shader_car_paint" startup="1" />
+    <resource src="shader_water" startup="1" />
+    <resource src="toll" startup="1" />
+    <resource src="achievement" startup="1" />
+    <resource src="clothes" startup="1" />
+    <resource src="LSFD" startup="1" />
+    <resource src="death" startup="1" />
+    <resource src="interior_keypad" startup="1" />
+    <resource src="prison-system" startup="1" />
+    <resource src="cockpit" startup="1" />
+    <resource src="ped-system" startup="1" />
+    <resource src="sapt-system" startup="1" />
+    <resource src="health-addon" startup="1" />
+    <resource src="shader_radar" startup="1" />
+    <resource src="customblips" startup="1" />
+    <resource src="cargo" startup="1" />
+    <resource src="event-system" startup="1" />
+    <resource src="event-system" startup="1" />
+    <resource src="san" startup="1" />
+    <resource src="cards" startup="1" />
+    <resource src="clubtec" startup="1" />
+    <resource src="fakevideo" startup="1" />
+    <resource src="activities" startup="1" />
+	<resource src="dynamic_lighting" startup="1" />
+	<resource src="dynamic_lighting_flash" startup="1" />
+	<resource src="dynamic_lighting_vehicles" startup="1" />
+    <!--<resource src="snow" startup="1"/>
+    <resource src="shader_snow_ground" startup="1"/>
+    <resource src="xmas" startup="1"/>-->
+</config>

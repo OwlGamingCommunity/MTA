@@ -1,0 +1,34 @@
+<meta>
+	<script src="permissions_g.lua" type="shared" />
+	<script src="permissions_s.lua" type="server" />
+
+	<script src="migrations.lua" />
+	<script src="mdc.lua" />
+	<script src="mdc_c.lua" type="client" />
+	
+	<script src="gui/main.lua" type="client" />
+	<script src="gui/search.lua" type="client" />
+	<script src="gui/display_person.lua" type="client" />
+	<script src="gui/display_vehicle.lua" type="client" />
+	<script src="gui/display_property.lua" type="client" />
+	<script src="gui/system_admin.lua" type="client" />
+	<script src="gui/add_apb.lua" type="client" />
+	<script src="gui/tolls.lua" type="client" />
+	
+	<file src="img/red.png"/>
+	<file src="img/green.png"/>
+	<file src="img/add.png"/>
+	<file src="img/settings.png"/>
+	<file src="img/search.png"/>
+	<file src="img/tolls.png"/>
+
+	<export function="getPlayerPilotLicenses" type="server"/>
+	<export function="hasMDCPermissions" type="client"/>
+	<export function="cleanUpMdcUsersAndGroups" type="server"/>
+	<export function="login" type="server"/>
+	<export function="canAccess" type="shared"/>
+	<export function="getANPRTable" type="server"/>
+
+	<script src="apbbox/s_apb_box.lua" type="server" />
+	<script src="apbbox/c_apb_box.lua" type="client" />
+</meta>

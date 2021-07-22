@@ -1,0 +1,6 @@
+<meta>
+	<info author="Express" type="script" description="SAN System"/>
+	
+	<script src="c_victoria.lua" type="client"/>
+	<script src="s_victoria.lua" type="server"/>
+</meta>

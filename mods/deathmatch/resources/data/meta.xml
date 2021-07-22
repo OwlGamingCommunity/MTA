@@ -1,0 +1,26 @@
+<meta>
+    <info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="A temporary database to back and restore important data from other resources"/>
+	
+	<script src="general.lua" type="shared"/>
+	<export function="save" type="shared" />
+	<export function="load" type="shared" />
+	
+	<script src="report_s.lua" type="server"/>
+	<export function="saveReports" type="server" />
+	<export function="loadReports" type="server" />
+	
+	<script src="faction_drop_s.lua" type="server"/>
+	<export function="savePurchaseLogs" type="server" />
+	<export function="loadPurchaseLogs" type="server" />
+	
+	<script src="timestamp_c.lua" type="client"/>
+	<script src="timestamp_s.lua" type="server"/>
+	<export function="getServerTimestamp" type="shared" />
+	
+	<script src="json.lua" type="shared"/>
+	<export function="jsonGET" type="shared" />
+	<export function="jsonSAVE" type="shared" />
+	<export function="toJSON" type="shared" />
+	<export function="fromJSON" type="shared" />
+
+</meta>

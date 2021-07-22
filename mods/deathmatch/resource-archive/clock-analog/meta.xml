@@ -1,0 +1,12 @@
+<meta>
+	<info type='script' version='1.0' author='JoZeF' description='Clock' />
+	
+	<script src='clock.lua' type='client' />
+	<file src='clock.xml' type='client'/>
+	<file src='clock.png' type='client'/>
+	<file src='clock2.png' type='client'/>
+	<file src='whyzerbig.png' type='client' />
+	<file src='whyzerseconds.png' type='client' />
+
+	
+</meta>

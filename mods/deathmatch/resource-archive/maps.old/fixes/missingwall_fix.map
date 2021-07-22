@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (Carter_GROUND) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="17946" doublesided="false" scale="1" dimension="0" posX="2533.8799" posY="-1290.502" posZ="36.949" rotX="0" rotY="0" rotZ="0.242"></object>
+    <object id="object (oldwoodpanel) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3260" doublesided="false" scale="1" dimension="0" posX="2522.2998" posY="-1276" posZ="34.9" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (oldwoodpanel) (8)" breakable="true" interior="0" collisions="true" alpha="255" model="3260" doublesided="false" scale="1" dimension="0" posX="2522.1001" posY="-1269.8" posZ="34.9" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (oldwoodpanel) (9)" breakable="true" interior="0" collisions="true" alpha="255" model="3260" doublesided="false" scale="1" dimension="0" posX="2522.30005" posY="-1270.40002" posZ="37.8" rotX="0" rotY="90" rotZ="269.995"></object>
+    <object id="object (oldwoodpanel) (10)" breakable="true" interior="0" collisions="true" alpha="255" model="3260" doublesided="false" scale="1" dimension="0" posX="2522.30005" posY="-1273.40002" posZ="37.8" rotX="0" rotY="90" rotZ="269.989"></object>
+    <object id="object (oldwoodpanel) (12)" breakable="true" interior="0" collisions="true" alpha="255" model="3260" doublesided="false" scale="1" dimension="0" posX="2522.30005" posY="-1276.40002" posZ="37.8" rotX="0" rotY="90" rotZ="269.989"></object>
+</map>

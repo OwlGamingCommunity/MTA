@@ -1,0 +1,22 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="License System"/>
+
+	<script src="s_license_system.lua" type="server"/>
+	<script src="c_license_system.lua" type="client"/>
+
+	<script src="s_drivers_license.lua" type="server"/>
+	<script src="c_drivers_license.lua" type="client"/>
+
+	<script src="s_bikers_license.lua" type="server"/>
+	<script src="c_bikers_license.lua" type="client"/>
+
+	<script src="s_boat_license.lua" type="server"/>
+	<script src="c_boat_license.lua" type="client"/>
+
+	<script src="s_fishing_license.lua" type="server"/>
+
+	<script src="s_gunlicensesmanager.lua" type="server"/>
+	<script src="c_gunlicensesmanager.lua" type="client"/>
+
+	<script src="g_questions.lua" type="shared" cache="false"/>
+</meta>

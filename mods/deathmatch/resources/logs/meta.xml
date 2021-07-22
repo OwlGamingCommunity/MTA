@@ -1,0 +1,8 @@
+<meta>
+	<info author="Chaos, OwlGaming Scripting Team" type="script" description="Logs"/>
+
+	<script src="s_logs.lua" type="server"/>
+
+	<export function="dbLog" type="server"/>
+	<export function="dbLogDetectTypeSource" type="server"/>
+</meta>

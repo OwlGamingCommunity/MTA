@@ -1,0 +1,7 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="Save Player System"/>
+	
+	<script src="s_saveplayer_system.lua" type="server" />
+
+
+</meta>

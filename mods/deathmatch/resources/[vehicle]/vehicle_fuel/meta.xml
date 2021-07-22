@@ -1,0 +1,13 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Fuel System"/>
+
+	<script src="deplete_s.lua" type="server" />
+	<script src='deplete_c.lua' type='client' cache='false' />
+	<script src="s_fuel_peds.lua" type="server" />
+	<script src="s_fuel_bank.lua" type="server" />
+	<script src="c_fuel_peds.lua" type="client" />
+
+	<script src="g_fuel.lua" type="shared" />
+	<export function="getMaxFuel" type="shared" />
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

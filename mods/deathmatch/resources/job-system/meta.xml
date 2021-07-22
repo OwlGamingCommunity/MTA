@@ -1,0 +1,55 @@
+<meta>
+	<info author="UG MTA Scripting Team" type="script" description="Spike System"/>
+
+	<script src="s_job_system.lua" type="server"/>
+	<script src="c_job_system.lua" type="client"/>
+	<!--<script src="s_job_commands.lua" type="server"/>-->
+	
+	<script src="s_job_framework.lua" type="server"/>
+	<script src="c_job_framework.lua" type="client"/>
+	
+	<!--
+	<script src="trucker/s_trucker_job.lua" type="server"/>
+	<script src="trucker/c_trucker_job.lua" type="client"/>
+	-->
+
+	<script src="fishing/s_fishing_job.lua" type="server"/>
+	<script src="fishing/c_fishing_job.lua" type="client"/>
+	
+	<script src="photographer/s_photographer_job.lua" type="server"/>
+	<script src="photographer/c_photographer_job.lua" type="client"/>
+
+	<script src="mechanic/s_mechanic_job.lua" type="server"/>
+	<script src="mechanic/s_mechanic_previews.lua" type="server"/>
+	<script src="mechanic/c_mechanic_job.lua" type="client"/>
+	
+	<script src="taxi/s_taxi_job.lua" type="server"/>
+	<script src="taxi/c_taxi_job.lua" type="client"/>
+
+	<script src="taximeter/g_taximeter.lua" type="server"/>
+	<script src="taximeter/g_taximeter.lua" type="client"/>
+	<script src="taximeter/s_taximeter.lua" type="server"/>
+	<script src="taximeter/c_taximeter.lua" type="client"/>	
+	<file src="taximeter/images/base_driver.png" />
+	<file src="taximeter/images/base_pax.png" />
+	<file src="taximeter/images/btn.png" />
+	<file src="taximeter/images/btn_on.png" />
+	<file src="taximeter/images/btn_active.png" />
+
+	<script src="bus/g_bus_routes.lua" type="client"/>
+	<script src="bus/g_bus_routes.lua" type="server"/>
+	<script src="bus/c_bus_job.lua" type="client"/>
+	<script src="bus/s_bus_job.lua" type="server"/>
+	
+	<script src="locksmith/s_locksmith_job.lua" type="server"/>
+	<script src="locksmith/c_locksmith_job.lua" type="client"/>
+	<export function="fetchJobInfoForOnePlayer" type="server"/>
+
+	<script src="jobs_g.lua" type="client"/>
+	<script src="jobs_g.lua" type="server"/>
+
+	<export function="getJobTitleFromID" type="server"/>
+	<export function="getJobTitleFromID" type="client"/>
+
+	<min_mta_version server="1.5.2-9.07903"/>
+</meta>

@@ -1,0 +1,30 @@
+<meta>
+	<info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="Resources required for other systems to run."/>
+
+	<file src="OGLogo.png"/>
+	<file src="BizNote.ttf"/>
+	<file src="inv_close.mp3"/>
+	<file src="inv_open.mp3"/>
+	<file src="inv_toggle.mp3"/>
+	<file src="item_drop.mp3"/>
+	<file src="hb_on.mp3"/>
+	<file src="hb_off.mp3"/>
+	<file src="nametags0.ttf"/>
+	<file src="nametags1.ttf"/>
+	<file src="nametags2.ttf"/>
+	<file src="segoeuil.ttf"/>
+	<file src="panel_tooltip.ttf"/>
+	<file src="toggle.mp3"/>
+	<file src="loading.jpg"/>
+	<file src="window_title.jpg"/>
+	<file src="window_body.jpg"/>
+	<file src="window_body.png"/>
+	<file src="window_title.png"/>
+	<file src="selectionScreenID24.jpg"/>
+	<file src="selectionScreenID25.jpg"/>
+	<file src="selectionScreenID26.jpg"/>
+	<file src="cartwheel.otf"/>
+  <file src="headlight_up.mp3"/>
+  <file src="headlight_down.mp3"/>
+	<file src="Anton.ttf"/>
+</meta>

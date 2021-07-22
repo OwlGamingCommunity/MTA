@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (Locust_hi) (1)" radius="18.055279" interior="0" model="769" lodModel="0" posX="2545.6719" posY="5.85156" posZ="25.20313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Elmsparse_hism) (1)" radius="13.58497" interior="0" model="780" lodModel="0" posX="2545.1406" posY="-4.40625" posZ="25.32813" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

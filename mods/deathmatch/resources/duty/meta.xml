@@ -1,0 +1,12 @@
+<meta>
+	<info author="UG MTA Scripting Team" type="script" description="Duty System"/>
+	
+	<script src="g_duty.lua" type="server"/>
+	<script src="g_duty.lua" type="client"/>
+	<export function="createDutyColShape" type="shared" />
+	<export function="destroyDutyColShape" type="shared"/>
+	<export function="getFactionPackages" type="client"/>
+	<script src="c_duty.lua" type="client"/>
+
+	<script src="s_duty.lua" type="server"/>
+</meta>

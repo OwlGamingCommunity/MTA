@@ -1,0 +1,6 @@
+<meta>
+	<info description="Shader - Tex names" version="0.0.2" type="script" />
+	<script src="c_key_auto_repeat.lua" type="client" />
+	<script src="c_tex_names.lua" type="client" />
+	<file src="tex_names.fx" type="client" />
+</meta>

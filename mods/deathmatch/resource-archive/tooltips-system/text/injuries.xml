@@ -1,0 +1,15 @@
+<content>
+    <pageLength>300</pageLength>
+	<title>Injuries</title>
+	<text>Injuries inflicted on your characte will have a varying effect on their abilities based on where the injury occurs.
+	
+	* Being shot in one leg you will not be able to run.
+	* Being shot in both legs you will not be able to walk at all.
+	* Damage taken with less than 20 HP or less than 40 HP for in a car will give you a 66% chance of fainting.
+	* Being shot in one arm you will be unable to aim their weapon accurately.
+	* Being shot in both arms you will be unable to fire your weapon.
+	
+	To treat an injury you must seek medical help by calling 911 from a cellphone or visiting All Saints General Hospital.
+	</text>
+
+</content>

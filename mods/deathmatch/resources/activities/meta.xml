@@ -1,0 +1,20 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" name="Activitites" description="Activities such as surfing, skateboarding, ice skating, ++" version="1.0" type="script"/>
+
+	<!-- Ferris Wheel -->
+	<file src="ferris/fcabin.col" />
+	<script src="ferris/ferris_s.lua" type="server" />
+	<script src="ferris/data_pos.lua" type="server" />
+	<script src="ferris/ferris_c.lua" type="client" />
+	
+	<!-- Surfboard
+	<script src="surfboard/c_surf.lua" type="client" />
+	<script src="surfboard/s_surf.lua" type="server" />
+		<export function="toggleSurfboard" type="server" />
+	-->
+
+	<!-- Snowball -->
+	<script src="snowball/s_snowball.lua" type="server" />
+	<script src="snowball/c_snowball.lua" type="client" />
+	<file src="snowball/snowballhit.wav" />
+</meta>

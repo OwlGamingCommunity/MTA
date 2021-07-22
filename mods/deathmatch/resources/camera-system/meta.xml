@@ -1,0 +1,9 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="Camera System"/>
+	
+	<script src="s_camera_detection.lua" type="server" />
+	<script src="s_camera_management.lua" type="server" />	
+	<script src="s_camera_pd_commands.lua" type="server" />	
+	<file src="beep-24.mp3" />
+	<script src="c_camera_system.lua" type="client" />
+</meta>

@@ -1,0 +1,173 @@
+<properties>
+    <property name="ActiveEditSelectionColour" description="Falagard property link definition - links a property on this window to another defined on a child window."/>
+    <property name="ActiveSelectionColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="AllowMultiplePopups" description="Property to get/set the state of the allow multiple popups setting for the menu.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Alpha" description="Property to get/set the alpha value of the Window.  Value is floating point number."/>
+    <property name="AlwaysOnTop" description="Property to get/set the 'always on top' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="AutoRepeatDelay" description="Property to get/set the autorepeat delay.  Value is a floating point number indicating the delay required in seconds."/>
+    <property name="AutoRepeatRate" description="Property to get/set the autorepeat rate.  Value is a floating point number indicating the rate required in seconds."/>
+    <property name="AutoResizeEnabled" description="Property to get/set the state of the auto resizing enabled setting for the ItemListBase.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="BackgroundColours" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="BackgroundEnabled" description="Property to get/set the state of the frame background setting for the FalagardStatic widget.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="BorderWidth" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="CaptionColour" description="Falagard property link definition - links a property on this window to another defined on a child window."/>
+    <property name="CaratIndex" description="Property to get/set the current carat index.  Value is &quot;[uint]&quot;."/>
+    <property name="ClickStepSize" description="Property to get/set the click-step size for the slider.  Value is a float."/>
+    <property name="Clickable" description="Property to get/set the click-able setting of the header segment.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ClippedByParent" description="Property to get/set the 'clipped by parent' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="CloseButtonEnabled" description="Property to get/set the setting for whether the window close button will be enabled (or displayed depending upon choice of final widget type).  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ColumnHeader" description="Property to set up a column (there is no getter for this property)"/>
+    <property name="ColumnsMovable" description="Property to get/set the setting for user moving of the column headers.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ColumnsSizable" description="Property to get/set the setting for user sizing of the column headers.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ContentArea" description="Property to get/set the current content area rectangle of the content pane.  Value is &quot;l:[float] t:[float] r:[float] b:[float]&quot; (where l is left, t is top, r is right, and b is bottom)."/>
+    <property name="ContentPaneAutoSized" description="Property to get/set the setting which controls whether the content pane will auto-size itself.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="CurrentProgress" description="Property to get/set the current progress of the progress bar.  Value is a float  value between 0.0 and 1.0 specifying the progress."/>
+    <property name="CurrentValue" description="Property to get/set the current value of the slider.  Value is a float."/>
+    <property name="CustomTooltipType" description="Property to get/set the custom tooltip for the window.  Value is the type name of the custom tooltip."/>
+    <property name="DestroyedByParent" description="Property to get/set the 'destroyed by parent' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Disabled" description="Property to get/set the 'disabled state' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="DisabledTextColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="DisplayTime" description="Property to get/set the display timeout value in seconds.  Value is a float."/>
+    <property name="DistributeCapturedInputs" description="Property to get/set whether captured inputs are passed to child windows.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="DocumentSize" description="Property to get/set the document size for the Scrollbar.  Value is a float."/>
+    <property name="DragMovingEnabled" description="Property to get/set the setting for whether the user may drag the window around by its title bar.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Dragable" description="Property to get/set the drag-able setting of the header segment.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="DraggingEnabled" description="Property to get/set the state of the dragging enabled setting for the Titlebar.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="EWSizingCursorImage" description="Property to get/set the E-W (left-right) sizing cursor image for the FramwWindow.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="EditSelectionLength" description="Property to get/set the length of the selection (as a count of the number of code points selected).  Value is &quot;[uint]&quot;."/>
+    <property name="EditSelectionStart" description="Property to get/set the zero based index of the selection start position within the text.  Value is &quot;[uint]&quot;."/>
+    <property name="EnableBottom" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="EnableTop" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="FadeInTime" description="Property to get/set the fade in time in seconds of the popup menu.  Value is a float."/>
+    <property name="FadeOutTime" description="Property to get/set the fade out time in seconds of the popup menu.  Value is a float."/>
+    <property name="FadeTime" description="Property to get/set duration of the fade effect in seconds.  Value is a float."/>
+    <property name="Font" description="Property to get/set the font for the Window.  Value is the name of the font to use (must be loaded already)."/>
+    <property name="ForceHorzScrollbar" description="Property to get/set the 'always show' setting for the horizontal scroll bar of the list box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ForceVertScrollbar" description="Property to get/set the 'always show' setting for the vertical scroll bar of the list box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="FrameColours" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="FrameEnabled" description="Property to get/set the setting for whether the window frame will be displayed.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="GroupID" description="Property to get/set the radio button group ID.  Value is an unsigned integer number."/>
+    <property name="HorizontalAlignment" description="Property to get/set the windows horizontal alignment.  Value is one of &quot;Left&quot;, &quot;Centre&quot; or &quot;Right&quot;."/>
+    <property name="HorzFormatting" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="HorzFree" description="Property to get/set the state the setting to free the thumb horizontally.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="HorzOverlapSize" description="Property to get/set the overlap size for the horizontal Scrollbar.  Value is a float."/>
+    <property name="HorzRange" description="Property to get/set the horizontal movement range for the thumb.  Value is &quot;min:[float] max:[float]&quot;."/>
+    <property name="HorzScrollPosition" description="Property to get/set the scroll position of the horizontal Scrollbar as a fraction.  Value is a float."/>
+    <property name="HorzScrollbar" description="Property to get/set the setting for the horizontal scroll bar.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="HorzStepSize" description="Property to get/set the step size for the horizontal Scrollbar.  Value is a float."/>
+    <property name="HotTracked" description="Property to get/set the state of the state of the 'hot-tracked' setting for the thumb.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="HoverColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="HoverImage" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="HoverTextColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="HoverTime" description="Property to get/set the hover timeout value in seconds.  Value is a float."/>
+    <property name="ID" description="Property to get/set the ID value of the Window.  Value is an unsigned integer number."/>
+    <property name="IconColours" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="IconImage" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="Image" description="Property to get/set the image for the FalagardStaticImage widget.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="ImageColours" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="InactiveEditSelectionColour" description="Falagard property link definition - links a property on this window to another defined on a child window."/>
+    <property name="InactiveSelectionColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="InheritsAlpha" description="Property to get/set the 'inherits alpha' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="InheritsTooltipText" description="Property to get/set whether the window inherits its parents tooltip text when it has none of its own.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ItemSpacing" description="Property to get/set the item spacing of the menu.  Value is a float."/>
+    <property name="ItemTooltips" description="Property to access the show item tooltips setting of the list box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="LookNFeel" description="Property to get/set the windows assigned look'n'feel.  Value is a string."/>
+    <property name="MaskCodepoint" description="Property to get/set the utf32 codepoint value used for masking text.  Value is &quot;[uint]&quot;."/>
+    <property name="MaskText" description="Property to get/set the mask text setting for the Editbox.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="MaxEditTextLength" description="Property to get/set the the maximum allowed text length (as a count of code points).  Value is &quot;[uint]&quot;."/>
+    <property name="MaxTextLength" description="Property to get/set the the maximum allowed text length (as a count of code points).  Value is &quot;[uint]&quot;."/>
+    <property name="MaximumValue" description="Property to get/set the maximum value of the slider.  Value is a float."/>
+    <property name="MinimumValue" description="Property to get/set the minimum value setting of the spinner.  Value is a float."/>
+    <property name="MouseButtonDownAutoRepeat" description="Property to get/set whether the window will receive autorepeat mouse button down events.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="MouseCursorImage" description="Property to get/set the mouse cursor image for the Window.  Value should be &quot;set:<imageset name> image:<image name>&quot;."/>
+    <property name="MousePassThroughEnabled" description="Property to get/set whether the window ignores mouse events and pass them through to any windows behind it. Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="MovingCursorImage" description="Property to get/set the moving cursor image for the List Header Segment.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="MultiSelect" description="Property to get/set the multi-select setting of the list box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="NESWSizingCursorImage" description="Property to get/set the NE-SW diagonal sizing cursor image for the FramwWindow.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="NSSizingCursorImage" description="Property to get/set the N-S (up-down) sizing cursor image for the FramwWindow.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="NWSESizingCursorImage" description="Property to get/set the NW-SE diagonal sizing cursor image for the FramwWindow.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="NominatedSelectionColumnID" description="Property to get/set the nominated selection column (via ID).  Value is an unsigned integer number."/>
+    <property name="NominatedSelectionRow" description="Property to get/set the nominated selection row.  Value is an unsigned integer number."/>
+    <property name="NormalEditTextColour" description="Falagard property link definition - links a property on this window to another defined on a child window."/>
+    <property name="NormalImage" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="NormalTextColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="OpenedColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="OverlapSize" description="Property to get/set the overlap size for the Scrollbar.  Value is a float."/>
+    <property name="PageSize" description="Property to get/set the page size for the Scrollbar.  Value is a float."/>
+    <property name="PushedColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="PushedImage" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="PushedOffColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="PushedTextColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="ReadOnly" description="Property to get/set the read-only setting for the Editbox.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ReadOnlyBGColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="RestoreOldCapture" description="Property to get/set the 'restore old capture' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ReversedDirection" description="Property to get/set whether the Slider operates in reversed direction.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ReversedProgress" description="Property to get/set whether the ProgressBar operates in reversed direction.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="RiseOnClick" description="Property to get/set whether the window will come tot he top of the z order hwn clicked.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="RollUpEnabled" description="Property to get/set the setting for whether the user is able to roll-up / shade the window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="RollUpState" description="Property to get/set the roll-up / shade state of the window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="RowCount" description="Property to access the number of rows in the list (read only)"/>
+    <property name="ScrollPosition" description="Property to get/set the scroll position of the Scrollbar.  Value is a float."/>
+    <property name="SegmentWidgetType" description="Property to get/set the widget type used when creating header segments.  Value should be &quot;[widgetTypeName]&quot;."/>
+    <property name="Selectable" description="Property to get/set the state of the selectable setting for the ItemEntry.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Selected" description="Property to get/set the selected state of the Checkbox.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="SelectedEditTextColour" description="Falagard property link definition - links a property on this window to another defined on a child window."/>
+    <property name="SelectedTextColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="SelectionBrush" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="SelectionBrushImage" description="Property to get/set the selection brush image for the editbox.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="SelectionColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="SelectionLength" description="Property to get/set the length of the selection (as a count of the number of code points selected).  Value is &quot;[uint]&quot;."/>
+    <property name="SelectionMode" description="Property to get/set the selection mode setting of the list.  Value is the text of one of the SelectionMode enumerated value names."/>
+    <property name="SelectionStart" description="Property to get/set the zero based index of the selection start position within the text.  Value is &quot;[uint]&quot;."/>
+    <property name="SingleClickMode" description="Property to get/set the 'single click mode' setting for the combo box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Sizable" description="Property to get/set the sizable setting of the header segment.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="SizingBorderThickness" description="Property to get/set the setting for the sizing border thickness.  Value is a float specifying the border thickness in pixels."/>
+    <property name="SizingCursorImage" description="Property to get/set the sizing cursor image for the List Header Segment.  Value should be &quot;set:[imageset name] image:[image name]&quot;."/>
+    <property name="SizingEnabled" description="Property to get/set the state of the sizable setting for the FrameWindow.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Sort" description="Property to get/set the sort setting of the list box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="SortColumnID" description="Property to get/set the current sort column (via ID code).  Value is an unsigned integer number."/>
+    <property name="SortDirection" description="Property to get/set the sort direction setting of the header.  Value is the text of one of the SortDirection enumerated value names."/>
+    <property name="SortEnabled" description="Property to get/set the state of the sorting enabled setting for the ItemListBase.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="SortList" description="Property to get/set the sort setting of the list box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="SortMode" description="Property to get/set the sorting mode for the ItemListBase.  Value is either &quot;Ascending&quot;, &quot;Descending&quot; or &quot;UserSort&quot;."/>
+    <property name="SortSettingEnabled" description="Property to get/set the setting for for user modification of the sort column & direction.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="StepSize" description="Property to get/set the step size for the Scrollbar.  Value is a float."/>
+    <property name="TabButtonType" description="Property to get/set the widget type used when creating tab buttons.  Value should be &quot;[widgetTypeName]&quot;."/>
+    <property name="TabHeight" description="Property to get/set the height of the tabs."/>
+    <property name="TabPanePosition" description="Property to get/set the position of the buttons pane."/>
+    <property name="TabTextPadding" description="Property to get/set the padding either side of the tab buttons."/>
+    <property name="Text" description="Property to get/set the text / caption for the Window.  Value is the text string to use."/>
+    <property name="TextColour" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="TextColours" description="Property to get/set the text colours for the FalagardStaticText widget.  Value is &quot;tl:[aarrggbb] tr:[aarrggbb] bl:[aarrggbb] br:[aarrggbb]&quot;."/>
+    <property name="TextInputMode" description="Property to get/set the TextInputMode setting for the spinner.  Value is &quot;FloatingPoint&quot;, &quot;Integer&quot;, &quot;Hexadecimal&quot;, or &quot;Octal&quot;."/>
+    <property name="TextPadding" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="TitlebarEnabled" description="Property to get/set the setting for whether the window title-bar will be enabled (or displayed depending upon choice of final widget type).  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="TitlebarFont" description="Falagard property link definition - links a property on this window to another defined on a child window."/>
+    <property name="Tooltip" description="Property to get/set the tooltip text for the window.  Value is the tooltip text for the window."/>
+    <property name="UnifiedAreaRect" description="Property to get/set the windows unified area rectangle.  Value is a &quot;URect&quot;."/>
+    <property name="UnifiedHeight" description="Property to get/set the windows unified height.  Value is a &quot;UDim&quot;."/>
+    <property name="UnifiedMaxSize" description="Property to get/set the windows unified maximum size.  Value is a &quot;UVector2&quot;."/>
+    <property name="UnifiedMinSize" description="Property to get/set the windows unified minimum size.  Value is a &quot;UVector2&quot;."/>
+    <property name="UnifiedPosition" description="Property to get/set the windows unified position.  Value is a &quot;UVector2&quot;."/>
+    <property name="UnifiedSize" description="Property to get/set the windows unified size.  Value is a &quot;UVector2&quot;."/>
+    <property name="UnifiedWidth" description="Property to get/set the windows unified width.  Value is a &quot;UDim&quot;."/>
+    <property name="UnifiedXPosition" description="Property to get/set the windows unified position x-coordinate.  Value is a &quot;UDim&quot;."/>
+    <property name="UnifiedYPosition" description="Property to get/set the windows unified position y-coordinate.  Value is a &quot;UDim&quot;."/>
+    <property name="ValidationString" description="Property to get/set the validation string Editbox.  Value is a text string."/>
+    <property name="VertFormatting" description="Falagard custom property definition - gets/sets a named user string."/>
+    <property name="VertFree" description="Property to get/set the state the setting to free the thumb vertically.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="VertOverlapSize" description="Property to get/set the overlap size for the vertical Scrollbar.  Value is a float."/>
+    <property name="VertRange" description="Property to get/set the vertical movement range for the thumb.  Value is &quot;min:[float] max:[float]&quot;."/>
+    <property name="VertScrollPosition" description="Property to get/set the scroll position of the vertical Scrollbar as a fraction.  Value is a float."/>
+    <property name="VertScrollbar" description="Property to get/set the setting for the vertical scroll bar.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="VertStepSize" description="Property to get/set the step size for the vertical Scrollbar.  Value is a float."/>
+    <property name="VerticalAlignment" description="Property to get/set the windows vertical alignment.  Value is one of &quot;Top&quot;, &quot;Centre&quot; or &quot;Bottom&quot;."/>
+    <property name="VerticalProgress" description="Property to get/set whether the ProgressBar operates in the vertical direction.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="VerticalScrollbar_2" description="Property to get/set whether the Scrollbar operates in the vertical direction.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="VerticalSlider" description="Property to get/set whether the Slider operates in the vertical direction.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="Visible" description="Property to get/set the 'visible state' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="WantsMultiClickEvents" description="Property to get/set whether the window will receive double-click and triple-click events.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="WindowRenderer" description="Property to get/set the windows assigned window renderer objects name.  Value is a string."/>
+    <property name="WordWrap" description="Property to get/set the word-wrap setting of the edit box.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+    <property name="ZOrderChangeEnabled" description="Property to get/set the 'z-order changing enabled' setting for the Window.  Value is either &quot;True&quot; or &quot;False&quot;."/>
+</properties>

@@ -1,0 +1,36 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Help System"/>
+	
+	<script src="s_infopoints.lua" type="server" />
+	
+	<script src="c_help.lua" type="client" />
+	<script src="c_blips.lua" type="client" />
+
+	<script src="url_sender/url_sender_s.lua" type="server" />
+	<script src="url_sender/url_sender_c.lua" type="client" />
+
+	<file src="info.png"/>
+	<file src="covers.ifp"/>
+
+	<config src="1.xml" type="client" />
+	<config src="2.xml" type="client" />
+	<config src="3.xml" type="client" />
+	<config src="4.xml" type="client" />
+	<config src="5.xml" type="client" />
+	<config src="6.xml" type="client" />
+	<config src="7.xml" type="client" />
+	<config src="8.xml" type="client" />
+	
+	<script src="commands/help_c.lua" type="client"/>
+	<script src="commands/help_s.lua" type="server"/>
+	
+	<config src="commands/whatisroleplaying.xml" type="client" />
+	<config src="commands/overview.xml" type="client" />
+	<config src="commands/rules.xml" type="client" />
+	
+	<!--
+	<script src="commands/commands_help_c.lua" type="client"/>
+	-->
+
+	<export function="startUrlSender" type="server" /> <!-- startUrlSender(theSender, cmd, reciever, url) -->
+</meta>

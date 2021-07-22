@@ -1,0 +1,5 @@
+<meta>
+	<info author="Exciter" type="script" description="Scripter tools to run DB queries" />
+	
+	<script src="s_dbrun.lua" type="server"/>
+</meta>

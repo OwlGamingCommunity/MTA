@@ -1,0 +1,10 @@
+<meta>
+<script src="c_blender.lua" type="client" />
+  <file src="cursor.png" />
+  <file src="h.png" />
+  <file src="sv.png" />
+  <file src="blank.png" />
+  <export function="openPicker" type="client" />  
+  <export function="closePicker" type="client" />  
+  <export function="isPickerOpened" type="client" />  
+</meta>

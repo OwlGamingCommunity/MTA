@@ -1,0 +1,9 @@
+<meta>
+	<info author='Mittell Buurman' name='health-addon' type='script' version="1.0" desc=' An injury system that affects the conditions of a player'/>
+	<script src='shared.lua'	type='server' />
+	<script src='shared.lua'	type='client' />
+	
+	<script src='client.lua'	type='client' />
+	<script src='server.lua'	type='server' />
+	<script src='ped.lua'		type='client' />
+</meta>

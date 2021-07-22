@@ -1,0 +1,9 @@
+<meta>
+	<info author="Exciter" type="misc" name="The Grid" description="A larger world consisting of 9,898 regions the size of SA" version="0.1" />
+
+	<script src="g_grid.lua" type="shared" />
+		<export function="isSimDimension" type="shared" />
+		<export function="getElementCurrentSim" type="shared" />
+		<export function="isSimCrossingRequiredForTeleport" type="shared" />
+		<export function="getSimName" type="shared" />
+</meta>

@@ -1,0 +1,28 @@
+<meta>
+    <info author="vG MTA Scripting Team" type="script" description="Tooltips System"/>
+
+    <script src="c_tooltips.lua" type="client" />
+	<script src="s_tooltips.lua" type="server" />
+	 
+	<file src="icon.png"/>
+	
+	<file src="text/chat.xml"/>
+	<file src="text/computers.xml"/>
+	<file src="text/death.xml"/>
+	<file src="text/factions.xml"/>
+	<file src="text/gas_stations.xml"/>
+	<file src="text/houses.xml"/>
+	<file src="text/injuries.xml"/>
+	<file src="text/interiors.xml"/>
+	<file src="text/inventory.xml"/>
+	<file src="text/jobs.xml"/>
+	<file src="text/languages.xml"/>
+	<file src="text/npcs.xml"/>
+	<file src="text/pay_check.xml"/>
+	<file src="text/shops.xml"/>
+	<file src="text/vehicle_buying.xml"/>
+	<file src="text/vehicles.xml"/>
+	<file src="text/weapons.xml"/>
+	<file src="text/welcome.xml"/>
+	
+</meta>

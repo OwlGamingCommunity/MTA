@@ -1,0 +1,18 @@
+<meta>
+    <info author="vG MTA Scripting Team" type="script" description="Animation System"/>
+	<min_mta_version client="1.5.6-9.14334.0" server="1.5.6-9.14334.0" />
+	
+	<script src="s_animation_system.lua" type="server"/>
+	<script src="c_animation_system.lua" type="client"/>
+
+	<config src="animations.xml" type="client" />
+	
+	<script src="s_list.lua" type="server" />
+	<script src="c_list.lua" type="client" />
+
+	<script src="sync_animations_server.lua" type="server" />
+	
+	<!-- Custom Animations -->
+	<file src="custom/owl.ifp" /> 
+
+</meta>

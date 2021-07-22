@@ -1,0 +1,95 @@
+<meta>
+    <info author="OWL MTA Scripting Team" type="script" description="PD System" />
+
+    <script src="s_wDistrict.lua" type="server" />
+    <script src="c_wDistrict.lua" type="client" />
+
+    <script src="s_headlights.lua" type="server" />
+    <script src="c_headlights.lua" type="client" />
+
+    <script src="snakecam/s_snake.lua" type="server" />
+    <script src="snakecam/c_snake.lua" type="client" />
+
+    <script src="c_radiocodes.lua" type="client" />
+    <script src="s_radiocodes.lua" type="server" />
+
+    <script src="c_dispatch.lua" type="client" />
+    <script src="s_dispatch.lua" type="server" />
+
+    <script src="s_ticket.lua" type="server" />
+    <script src="c_ticket.lua" type="client" />
+
+    <script src="s_sirens.lua" type="server" />
+    <script src="c_sirens.lua" type="client" />
+    <script src="g_sirens.lua" type="server" />
+    <file src="/sirens/1.wav" />
+    <file src="/sirens/2.wav" />
+    <file src="/sirens/3.wav" />
+    <file src="/sirens/4.wav" />
+    <file src="/sirens/5.wav" />
+	<file src="/sirens/6.wav" />
+    <file src="/sirens/7.wav" />
+    <file src="/sirens/8.wav" />
+
+    <script src="s_strobes.lua" type="server" />
+    <script src="c_strobes.lua" type="client" />
+
+    <script src="s_pdped.lua" type="server" />
+
+    <script src="s_policecommands.lua" type="server" />
+    <script src="s_apb.lua" type="server" />
+
+    <export function="timerPDUnjailPlayer" type="server" />
+    <export function="switchMode" type="client" />
+
+    <script src="s_policedeagle.lua" type="server" />
+    <script src="c_policedeagle.lua" type="client" />
+
+    <script src="s_policeshotgun.lua" type="server" />
+    <script src="c_policeshotgun.lua" type="client" />
+
+    <script src="c_policetazer.lua" type="client" />
+    <script src="s_policetazer.lua" type="server" />
+
+    <script src="c_shield.lua" type="client" />
+
+    <!--<script src="c_blips.lua" type="client"/>-->
+
+    <script src="c_backup.lua" type="client" />
+    <script src="s_backup.lua" type="server" />
+
+    <script src="s_police_garage.lua" type="server" />
+
+    <script src="fastrope/s_fastrope.lua" type="server" />
+    <script src="fastrope/c_fastrope.lua" type="client" />
+
+    <script src="c_lasers.lua" type="client" />
+    <script src="s_lasers.lua" type="server" />
+
+    <script src="helicopters/s_helicopters.lua" type="server" />
+
+    <script src="c_prisonnpcs.lua" type="server" />
+    <script src="s_speedcam.lua" type="server" />
+
+    <script src="k9dog/client.lua" type="client" />
+    <script src="k9dog/server.lua" type="server" />
+	
+	<script src="s_anpr.lua" type="server" />
+	<export function="hasVehicleANPR" type="server"/>
+
+    <script type="client" src="c_speedcam.lua"/>
+    <file src="speedcam/gps.png"/>
+    <file src="speedcam/digital-7.ttf"/>
+
+    <file src="silenced.dff" />
+    <file src="silenced.txd" />
+
+    <file src="riot_shield.dff" />
+    <file src="riot_shield.txd" />
+    <file src="riot_shield.col" />
+
+    <file src="pedvehicle.png" />
+    <file src="ped.png" />
+    <!--<file src="vehicle.png" />-->
+    <min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"></min_mta_version>
+</meta>

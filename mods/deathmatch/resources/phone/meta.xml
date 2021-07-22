@@ -1,0 +1,110 @@
+<meta>
+	<info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="Phone System , /debugres phone to show outoutDebugString"/>
+
+	<script src="s_public_phones.lua" type="server" />
+	<script src="s_hotlines.lua" type="server" />
+	<script src="s_gui_phone.lua" type="server" />
+	<!--<script src="s_ads.lua" type="server" />-->
+	
+	<script src="phone_core_s.lua" type="server" />
+	<script src="phone_core_c.lua" type="client" />
+
+	<script src="phone_dial_c.lua" type="client" />
+	<script src="phone_dial_s.lua" type="server" />
+
+	<script src="phone_contacts_c.lua" type="client" />
+
+	<script src="phone_contacts_new_s.lua" type="server" />
+	<script src="phone_contacts_new_c.lua" type="client" />
+
+	<script src="phone_contacts_details_s.lua" type="server" />
+	<script src="phone_contacts_details_c.lua" type="client" />
+
+	<script src="phone_history_s.lua" type="server" />
+	<script src="phone_history_c.lua" type="client" />
+
+	<script src="phone_logs_s.lua" type="server" />
+	<script src="phone_logs_c.lua" type="client" />
+
+	<script src="phone_hotlines_g.lua" type="server" />
+	<script src="phone_hotlines_g.lua" type="client" />
+	<script src="phone_hotlines_c.lua" type="client" />
+
+	<script src="phone_functions_g.lua" type="server" />
+	<script src="phone_functions_g.lua" type="client" />
+
+	<script src="phone_apps_s.lua" type="server" />
+	<script src="phone_apps_c.lua" type="client" />
+
+	<script src="phone_sms_s.lua" type="server" />
+	<script src="phone_sms_c.lua" type="client" />
+
+	<script src="phone_settings_s.lua" type="server" />
+	<script src="phone_settings_c.lua" type="client" />
+
+	<file src="sounds/dispatch.mp3" />
+	<file src="sounds/dialing_tone.mp3" />
+	<file src="sounds/hangup.mp3" />
+	<file src="sounds/busy_tone.mp3" />
+	<file src="sounds/invalid_tone.mp3" />
+	<file src="sounds/touch_tone.mp3" />
+
+	<file src="sounds/ringtones/viberate.mp3" />
+	<file src="sounds/ringtones/apple_ring.mp3" />
+	<file src="sounds/ringtones/google.mp3" />
+	<file src="sounds/ringtones/iphone_5s.mp3" />
+	<file src="sounds/ringtones/iphone_6.mp3" />
+	<file src="sounds/ringtones/minion_ring_ring.mp3" />
+	<file src="sounds/ringtones/perfect_ring_tone.mp3" />
+	<file src="sounds/ringtones/sending_you_an_sms.mp3" />
+	<file src="sounds/ringtones/sms.mp3" />
+	<file src="sounds/ringtones/sms_new.mp3" />
+	<file src="sounds/ringtones/sony_xperia_z3.mp3" />
+	<file src="sounds/ringtones/sweetest_tone_ever.mp3" />
+	<file src="sounds/ringtones/turn_down_for_what.mp3" />
+	<file src="sounds/ringtones/vertu_new_tone.mp3" />
+	<file src="sounds/ringtones/winggle_wiggle.mp3" />
+
+	<file src="sounds/beeps/0.mp3" />
+	<file src="sounds/beeps/1.mp3" />
+	<file src="sounds/beeps/2.mp3" />
+	<file src="sounds/beeps/3.mp3" />
+	<file src="sounds/beeps/4.mp3" />
+	<file src="sounds/beeps/5.mp3" />
+	<file src="sounds/beeps/6.mp3" />
+	<file src="sounds/beeps/7.mp3" />
+	<file src="sounds/beeps/8.mp3" />
+	<file src="sounds/beeps/9.mp3" />
+
+	<file src="images/iphone_front.png" />
+	<file src="images/history.png" />
+	<file src="images/contacts.png" />
+	<file src="images/messages.png" />
+	<file src="images/music.png" />
+	<file src="images/weather.png" />
+	<file src="images/settings.png" />
+	<file src="images/power_off.png" />
+	<file src="images/call.png" />
+	<file src="images/sms.png" />
+	<file src="images/save.png" />
+	<file src="images/arrow_right.png" />
+	<file src="images/arrow_left.png" />
+	<file src="images/arrow_right_white.png" />
+	<file src="images/arrow_left_white.png" />
+	<file src="images/appstore.png" />
+	<file src="images/hotlines.png" />
+	<file src="images/banking.png" />
+	<file src="images/browser.png" />
+	<file src="images/emails.png" />
+	<file src="images/otunes.png" />
+	<file src="images/sms_bubble_body.png" />
+	<file src="images/sms_bubble_head.png" />
+	<file src="images/sms_bubble_tail.png" />
+	<file src="images/sms_send.png" />
+
+	<!-- Backgrounds -->
+	<file src="images/backgrounds/Mountains.png" />
+
+	<export function="isPhoneGUICreated" type="client" />
+	<export function="drawPhoneHome" type="client" />
+</meta>

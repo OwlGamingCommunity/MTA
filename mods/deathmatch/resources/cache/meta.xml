@@ -1,0 +1,57 @@
+<meta>
+    <info author="Maxime - OwlGaming Scripting Team" type="script" description="Cache System"/>
+	<min_mta_version server="1.5.3-9.11270" />
+
+	<script src="usernames_s.lua" type="server"/>
+	<script src="usernames_c.lua" type="client"/>
+
+	<export function="getUsername" type="server"/>
+	<export function="getUsername" type="client"/>
+
+	<export function="getUsernameFromId" type="server"/>
+	<export function="getUsernameFromId" type="client"/>
+
+	<script src="characternames_s.lua" type="server"/>
+	<script src="characternames_c.lua" type="client"/>
+
+	<script src="businessnames_s.lua" type="server"/>
+	<script src="businessnames_c.lua" type="client"/>
+
+	<export function="getCharacterNameFromID" type="server"/>
+	<export function="getCharacterNameFromID" type="client"/>
+
+	<export function="getCharacterIDFromName" type="server"/>
+	<export function="getCharacterIDFromName" type="client"/>
+
+	<export function="getBusinessNameFromID" type="server"/>
+	<export function="getBusinessNameFromID" type="client"/>
+
+	<export function="checkUsernameExistance" type="server"/>
+	<export function="checkUsernameExistance" type="client"/>
+
+	<export function="getIdFromUsername" type="server"/>
+	<export function="getIdFromUsername" type="client"/>
+
+	<script src="factions_s.lua" type="server"/>
+	<script src="factions_c.lua" type="client"/>
+
+	<export function="getFactionNameFromId" type="server"/>
+	<export function="getFactionNameFromId" type="client"/>
+
+	<export function="removeFactionNameFromCache" type="server"/>
+
+	<script src="s_playernames.lua" type="server"/>
+	<export function="clearCharacterCache" type="server"/>
+	<export function="clearCharacterName" type="server"/>
+	<export function="getCharacterName" type="server"/>
+	<export function="stats" type="server"/>
+
+	<script src="images_s.lua" type="server"/>
+	<script src="images_c.lua" type="client"/>
+	<export function="addImage" type="shared"/>
+	<export function="removeImage" type="shared" http="true"/>
+	<export function="getImage" type="shared"/>
+	<file src="default.png"/>
+
+	<export function="getAccountFromCharacterId" type="server"/>
+</meta>

@@ -1,0 +1,21 @@
+ <map edf:definitions="editor_main">
+ <!--
+ <object id="object (meshfence1_LAn) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="4100" scale="1" dimension="0" posX="1556.59998" posY="-1617.5" posZ="14" rotX="0" rotY="0" rotZ="320.498"></object>
+ <removeWorldObject id="removeWorldObject (officedesk1l) (1)" radius="3.5289759635925" interior="0" model="1998" lodModel="0" posX="224.76563" posY="110.10156" posZ="1002.22656" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+  <removeWorldObject id="removeWorldObject (mp_sfpd_big) (1)" radius="38.23014831543" interior="0" model="14847" lodModel="0" posX="246.23438" posY="117.80469" posZ="1005.60938" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+  <removeWorldObject id="removeWorldObject (mp_sfpd_big) (2)" radius="38.23014831543" interior="0" model="14847" lodModel="0" posX="246.23438" posY="117.80469" posZ="1005.60938" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+  <object id="object (meshfence1_LAn) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="4100" scale="1" dimension="0" posX="1570.30005" posY="-1617.5" posZ="14" rotX="0" rotY="0" rotZ="320.243"></object>
+    <object id="object (bar_gatebar01) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="966" scale="1" dimension="0" posX="1588.69995" posY="-1617.5" posZ="12.4" rotX="0" rotY="0" rotZ="188.75"></object>
+    <object id="object (meshfence1_LAn) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="4100" scale="1" dimension="0" posX="1595.40002" posY="-1609.09998" posZ="14" rotX="0" rotY="0" rotZ="50.99"></object>
+    <object id="object (carspaces3_sfw) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="9697" scale="1" dimension="0" posX="1593.40002" posY="-1606.40002" posZ="12.4" rotX="359.75" rotY="0" rotZ="0"></object>
+    <object id="object (meshfence1_LAn) (5)" interior="0" collisions="true" alpha="255" doublesided="false" model="4100" scale="1" dimension="0" posX="1581.80005" posY="-1617.5" posZ="14" rotX="0" rotY="0" rotZ="320.232"></object>
+	-->
+	 <object id="object (elecfence_BAR) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="987" doublesided="false" scale="1" dimension="0" posX="1543.6" posY="-1632.8" posZ="10.4" rotX="0" rotY="0" rotZ="270.75"></object>
+    <object id="object (Vgs_guardhouse01) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="8168" doublesided="false" scale="1" dimension="0" posX="1547.1" posY="-1620.4" posZ="14.1" rotX="0" rotY="0" rotZ="16.75"></object>
+    <object id="object (DockBarr1_LA) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3578" doublesided="false" scale="1" dimension="0" posX="1543.8" posY="-1627.8" posZ="11.7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (DockBarr1_LA) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3578" doublesided="false" scale="1" dimension="0" posX="1539.2" posY="-1627.9" posZ="11.7" rotX="0" rotY="0" rotZ="270"></object>
+
+    <object id="object (vgElkup) (1)" breakable="true" interior="0" alpha="255" model="8947" doublesided="false" scale="1" dimension="0" posX="1552.1" posY="-1610.1" posZ="15.4" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (apbarriergate06_lvS) (1)" breakable="true" interior="0" alpha="255" model="8041" doublesided="false" scale="1" dimension="0" posX="1563" posY="-1611.1" posZ="14.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (nt_securecam1_01) (1)" breakable="true" interior="0" alpha="255" model="1616" doublesided="false" scale="1" dimension="0" posX="1564.8" posY="-1603.5" posZ="18.4" rotX="0" rotY="0" rotZ="180"></object>
+</map>

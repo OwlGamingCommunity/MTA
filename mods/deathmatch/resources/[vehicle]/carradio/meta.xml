@@ -1,0 +1,20 @@
+<meta>
+	<info author="OG MTA Scripting Team" type="script" version="2.0" />
+
+	<script src="radio_configs_g.lua" type="server"/>
+	<script src="radio_configs_g.lua" type="client"/>
+
+	<script src="stations_s.lua" type="server"/>
+	<script src="stations_c.lua" type="client"/>
+
+	<export function="getStreams" type="server"/>
+	<export function="getStreams" type="client"/>
+
+	<script src="c_radio.lua" type="client" protected="true" />
+	<script src="s_radio.lua" type="server"/>
+	
+	<script src="radio_manager_s.lua" type="server"/>
+	<script src="radio_manager_c.lua" type="client"/>
+	
+	<export function="showMP3GUI" type="client" />
+</meta>

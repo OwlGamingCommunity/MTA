@@ -1,0 +1,56 @@
+<meta>
+	<info name="Shader Dynamic Lighting" description="Dynamic per pixel lighting resource." author="Ren712" version="1.5.3" type="script" />
+	<script src="c_main.lua" type="client" />
+	<script src="c_helper_functions.lua" type="client" />
+	<script src="c_exported_functions.lua" type="client" />
+	<file src="shaders/light1.txt" type="client" />
+	<file src="shaders/light0.txt" type="client" />
+	<file src="shaders/common.txt" type="client" />
+	<export function="createPointLight" type="client" />
+	<export function="createSpotLight" type="client" />
+	<export function="destroyLight" type="client" />
+	<export function="setLightDirection" type="client" />
+	<export function="setLightPosition" type="client" />
+	<export function="setLightColor" type="client" />
+	<export function="setLightAttenuation" type="client" />
+	<export function="setLightNormalShading" type="client" />
+	<export function="setLightFalloff" type="client" />
+	<export function="setLightTheta" type="client" />
+	<export function="setLightPhi" type="client" />
+
+	<export function="getLightDirection" type="client" />
+	<export function="getLightPosition" type="client" />
+	<export function="getLightColor" type="client" />
+	<export function="getLightAttenuation" type="client" />
+	<export function="getLightNormalShading" type="client" />
+	<export function="getLightFalloff" type="client" />
+	<export function="getLightTheta" type="client" />
+	<export function="getLightPhi" type="client" />
+
+	<export function="setMaxLights" type="client" />
+	<export function="setShadersLayered" type="client" />
+	<export function="setWorldNormalShading" type="client" />
+	<export function="setNormalShading" type="client" />
+	<export function="setGenerateBumpNormals" type="client" />
+	<export function="setTextureBrightness" type="client" />
+	<export function="setLightsDistFade" type="client" />
+	<export function="setLightsEffectRange" type="client" />
+	<export function="setShaderForcedOn" type="client" />	
+	<export function="setShaderTimeOut" type="client" />
+	<export function="setShaderNightMod" type="client" />
+	<export function="setShaderDayTime" type="client" />
+	<export function="setShaderPedDiffuse" type="client" />
+	<export function="setDirLightEnable" type="client" />
+	<export function="setDirLightDirection" type="client" />
+	<export function="setDirLightColor" type="client" />
+	<export function="setDirLightRange" type="client" />
+	<export function="setDiffLightEnable" type="client" />
+	<export function="setDiffLightColor" type="client" />
+	<export function="setDiffLightRange" type="client" />
+	<export function="setNightSpotEnable" type="client" />
+	<export function="setNightSpotRadius" type="client" />
+	<export function="setNightSpotPosition" type="client" />
+	<export function="isInNightTime" type="client" />
+
+	<script src="debug_g.lua" type="shared" />
+</meta>

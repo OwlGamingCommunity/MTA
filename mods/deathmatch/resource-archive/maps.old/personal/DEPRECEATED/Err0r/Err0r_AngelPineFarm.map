@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (cw_haypile06) (1)" radius="10.517304" interior="0" model="17060" lodModel="0" posX="-1457.6875" posY="-1485.7578" posZ="100.63281" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cw_corrug01) (1)" radius="36.171432" interior="0" model="17056" lodModel="0" posX="-1462.0156" posY="-1532.5312" posZ="101.90625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cw_bigbarn02) (1)" radius="16.217196" interior="0" model="17052" lodModel="17352" posX="-1458.0937" posY="-1499.7812" posZ="100.63281" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (nt_windmill) (1)" radius="14.748411" interior="0" model="3425" lodModel="0" posX="-1439.7891" posY="-1520.9375" posZ="112.125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cw_bigbarn04) (1)" radius="16.216942" interior="0" model="17054" lodModel="17355" posX="-1440.8125" posY="-1460.1094" posZ="100.63281" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cw_fueldrum03) (1)" radius="7.0939093" interior="0" model="17055" lodModel="0" posX="-1439.2422" posY="-1446.6562" posZ="102.92969" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cw_haypile05) (1)" radius="10.517373" interior="0" model="17059" lodModel="0" posX="-1458.7656" posY="-1535.5703" posZ="100.75" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

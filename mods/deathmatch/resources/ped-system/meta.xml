@@ -1,0 +1,21 @@
+<meta>
+    <info author="Exciter" type="script" description="PED system"/>
+	
+	<script src="g_peds.lua" type="server"/>
+	<script src="g_peds.lua" type="client"/>
+	<export function="showPedNametag" type="server"/>
+	<export function="showPedNametag" type="client"/>
+	<export function="getPedName" type="server"/>
+	<export function="getPedName" type="client"/>
+	<export function="getRandomName" type="server"/>
+	<export function="getRandomName" type="client"/>
+	<export function="getRandomSkin" type="server"/>
+	<export function="getRandomSkin" type="client"/>
+	<export function="getSkinGender" type="server"/>
+	<export function="getSkinGender" type="client"/>
+
+	<script src="s_peds.lua" type="server"/>
+	<script src="c_peds.lua" type="client"/>	
+	<script src="c_peds_rightclick.lua" type="client"/>
+	
+</meta>

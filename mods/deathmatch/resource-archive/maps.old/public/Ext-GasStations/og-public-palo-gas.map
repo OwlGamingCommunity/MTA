@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (cw_tscanopy01) (2)" breakable="true" interior="0" alpha="255" model="18452" doublesided="false" scale="1" dimension="0" posX="2272" posY="24.9" posZ="28.3" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (mlamppost) (1)" radius="7.969655" interior="0" model="1294" lodModel="0" posX="2284.1748" posY="31.89375" posZ="26.31183" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (des_garagew) (2)" breakable="true" interior="0" alpha="255" model="11504" doublesided="false" scale="1" dimension="0" posX="2245.2" posY="24.2" posZ="25.4" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vegaslampost) (1)" breakable="true" interior="0" alpha="255" model="3460" doublesided="false" scale="1" dimension="0" posX="2234.3" posY="33.2" posZ="29.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegaslampost) (2)" breakable="true" interior="0" alpha="255" model="3460" doublesided="false" scale="1" dimension="0" posX="2256.8999" posY="29.6" posZ="29.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (1)" breakable="false" interior="0" alpha="255" model="3465" doublesided="false" scale="1" dimension="0" posX="2273.3999" posY="22.1" posZ="26.8" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vegspetrolpump) (2)" breakable="false" interior="0" alpha="255" model="3465" doublesided="false" scale="1" dimension="0" posX="2270.7" posY="27.8" posZ="26.8" rotX="0" rotY="0" rotZ="90"></object>
+</map>

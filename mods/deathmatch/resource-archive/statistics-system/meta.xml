@@ -1,0 +1,5 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="Statistics System"/>
+	
+	<script src="s_statistics.lua" type="server"/>
+</meta>

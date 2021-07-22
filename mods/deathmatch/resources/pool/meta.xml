@@ -1,0 +1,9 @@
+<meta>
+    <info author="OwlGaming MTA Scripting Team" type="script" description="Pooling Functions"/>
+    <script src="pool_g.lua" type="shared"/>
+	<script src="pool_s.lua" type="server"/>
+	<script src="pool_c.lua" type="client"/>
+	<export function="allocateElement" type="shared"/>
+	<export function="getPoolElementsByType" type="shared"/>
+	<export function="getElement" type="shared"/>
+</meta>

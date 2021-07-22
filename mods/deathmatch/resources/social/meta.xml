@@ -1,0 +1,32 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Social System"/>
+
+	<script src="s_notif.lua" type="server" />
+  	<script src="c_notif.lua" type="client" />
+
+	<script src="s_old_friends.lua" type="server" />
+	<script src="c_old_friends.lua" type="client" />
+	
+	<script src="g_friends.lua" type="server" />
+	<script src="g_friends.lua" type="client" />
+	<script src="s_friends.lua" type="server" />
+	<script src="c_friends.lua" type="client" />
+	
+	<script src="s_player_rightclick.lua" type="server"/>
+	<script src="c_player_rightclick.lua" type="client"/>
+
+	<export function="toggleCursor" type="client"/>
+	<export function="showCursor" type="client"/>
+	<export function="isFriendOf" type="server"/>
+	<export function="notifyFriendsOf" type="server"/>
+  	<export function="formatTimeInterval" type="client"/>
+
+	<script src="g_look.lua" type="server"/>
+	<script src="g_look.lua" type="client"/>
+	<script src="s_look.lua" type="server"/>
+	<script src="c_look.lua" type="client"/>
+	
+	<export function="getFriends" type="client" />
+	<file src="status.mp3"/>
+	
+</meta>

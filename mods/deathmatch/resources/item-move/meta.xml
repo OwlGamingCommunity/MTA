@@ -1,0 +1,11 @@
+<meta>
+  <info author="mabako" description="some fancy shmancy world editor perhaps. not really."/>
+  <min_mta_version server="1.3.3" client="1.3.3"/>
+
+  <script src="client/editor.lua" type="client"/>
+
+  <script src="client/keys.lua" type="client"/>
+  <script src="client/lines.lua" type="client"/>
+
+  <script src="shared/functions.lua" type="client"/>
+</meta>

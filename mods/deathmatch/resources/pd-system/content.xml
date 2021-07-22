@@ -1,0 +1,115 @@
+<content>
+             RESPONSE CODES
+
+CODE 1 ............ At Your Convenience (silent response)
+CODE 2 ............ Urgent Response (lights, sirens when moving through traffic)
+CODE 3 ............ Emergency Response (lights and sirens)
+CODE 4 ............ No Further Assistance
+CODE 5 ............ Surveillance
+CODE 6 ............ Contacting Suspect
+CODE 7 ............ Mealtime
+CODE 9 ............ No Units Available
+CODE 10 .......... Bomb Threat
+CODE 33 .......... Emergency Traffic Only (emergency radio usage only)
+
+TEN CODES
+
+10-1 .................. Receiving Poorly
+10-2 .................. Receiving Clearly
+10-3 .................. Changing Channels
+10-4 .................. Message Received
+10-6 .................. Unit Unavailable
+10-7 .................. Out Of Service
+10-8 .................. In Service
+10-9 .................. Repeat Transmission
+10-10 ................ Off Duty
+10-11 ................ Cover Unit Requested
+10-12 ................ Suspects or Others Listening
+10-15 ................ Suspect(s) in Custody
+10-16 ................ Transporting/Pickup
+10-19 ................ On Route To Station
+10-20 ................ Location
+10-21 ................ Telephone Call
+10-22 ................ Cancel
+10-23 ................ Standby
+10-26 ................ Clear Wants/Warrants
+10-27 ................ License Status Check
+10-28 ................ Vehicle Registration
+10-29 ................ Warrant/Want Status
+10-33 ................ Audible Alarm
+10-33 ................ Robbery Alarm
+10-33 ................ Silent Alarm
+10-36 ................ Misdemeanor Want
+10-36 ................ Felony Want
+10-49 ................ En Route
+10-50 ................ Report
+10-51 ................ Drunk
+10-55 ................ Deceased Subject
+10-56 ................ Suicide
+10-56 ................ Suicide Attempt
+10-59 ................ Security Check
+10-62 ................ Meet The Citizen
+10-63 ................ Prepare To Copy
+10-66 ................ Suspicious Subject
+10-70 ................ Prowler Seen
+10-70 ................ Prowler Heard
+10-97 ................ On Scene
+10-98 ................ Finished Detail
+11-24 ................ Abandoned/Parked Vehicle
+11-79 ................ Injury Accident Ambulance Sent
+11-80 ................ Major Injury Accident
+11-81 ................ Minor Injury Accident
+11-82 ................ PDO Accident
+11-83 ................ Accident No Details
+11-85 ................ Tow Truck Requested
+11-94 ................ Pedestrian Enforcement Stop
+11-95 ................ Traffic Stop
+11-96 ................ Suspicious Vehicle
+11-96 ................ Occupied Suspicious Vehicle
+11-98 ................ Meet Officer
+11-99 ................ Officer In Need of Emergency Assistance
+
+EXAMPLES
+
+10 Lincoln 07 to Dispatch, 11-99! Requesting an immediate code 3 response from nearby units.
+
+3 Adam 01 to Dispatch, 11-95 on a blue Towtruck, Idlewood Gas Station, code 4.
+
+2 Sam 01 to Dispatch, requesting a 10-59 on John Citizen.
+
+1 Frank 03 to Dispatch, requesting a 10-27 on Tom Thomas.
+
+10 = Commissioned - High Command. (CMDR --> CoP)
+3 = Commissioned - Command. (LT --> CPT)
+2 = Non-commissioned - Supervisor. (SLO --> SGT II)
+1 = Non-commissioned - Officer. (PO I --> PO III)
+
+Adam = Two officers in a cruiser
+Lincoln = Single officer in a cruiser
+David = SWAT
+Edward = CTU
+FrankBoy = Foot patrol
+Frank = Special duties, aka, HSU
+Mary = Motorcycle
+Air = ASU
+Ida = IAG
+King = DB
+Sam = Supervisor (Supervisory duties, aka. dispatch, office work).
+
+Example: 3 Adam 07
+
+3 Adam 07 would be a two-man patrol unit manned by Command members in the cruiser LSPD 607.
+3 = Division
+Adam = Two man patrol
+07 = LSPD 607 (You take the last 2 numbers)
+
+Example: 10 Lincoln 11
+
+10 Sam 11 would be a single man patrol unit manned by a High Command member in the cruiser LSPD 611.
+10 = Division.
+Lincoln = Single man patrol.
+11 = LSPD 611
+.
+
+
+</content>

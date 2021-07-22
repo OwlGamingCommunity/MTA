@@ -1,0 +1,5 @@
+<meta>
+	<info author="OWL MTA Scripting Team" type="script" description="Release notes"/>
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+</meta>

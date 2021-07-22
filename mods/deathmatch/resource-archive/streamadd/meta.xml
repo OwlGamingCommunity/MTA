@@ -1,0 +1,6 @@
+<meta>
+    <info author="Jevi and Exciter" type="script" description="Streaming for events"/>
+    
+	<script src="streamAdd.lua" type="client"/>
+	<script src="s_addStream.lua" type="server"/>
+</meta>

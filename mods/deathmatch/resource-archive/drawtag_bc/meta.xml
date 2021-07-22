@@ -1,0 +1,9 @@
+<meta>
+	<info author="CrystalMV" version="1.1" name="DrawTag Basic Control" description="Basic access to all DrawTag functionality" type="script" />
+	<include resource="drawtag" />
+	<script src="drawtag_bc_s.lua" />
+	<script src="drawtag_bc_c.lua" type="client" />
+	<script src="save_tags.lua" />
+	<script src="nearest_tag.lua" type="client" />
+</meta>
+

@@ -1,0 +1,30 @@
+<content>
+    <pageLength>550</pageLength>
+	<title>Inventory</title>
+	<text>Items are bought and collected throughout your time in the server. There are in the region of 100 different types of items in the server, all performing a function of some kind. Food items increase HP, keys lock vehicles, houses and businesses and clothes allow you to change skin.
+
+	Buying Items
+
+	Items can be bought from the various types of stores in the city. Below is a list of just some of the store types.
+
+	* General Stores
+	* Guns and Ammunition Stores
+	* Food Stores
+	* Sex Stores
+	* Clothes Stores
+	
+	The Inventory
+	The inventory is a list which displays all the items your character is currently carrying. To view your inventory press the I key on your keyboard. Along the top of the inventory you will find tabs separating the different item types; items, keys and weapons. At the bottom of the inventory menu are the actions you can perform with an item. To perform any of the actions, select the item in the list and press the desired button.
+	
+	Dropping & Picking Up Items
+
+	When you press the 'Drop Item' button in the inventory the selected item is dropped on the floor in front of your character. The item is then available for anyone else to come and pick up. To pick up an item press the M key to enable cursor mode and click on the item in the game world and click the option to pick the item up. The item will then be added to your inventory.
+	
+	Destroying Items
+	If you wish to remove an item completely select the item in your inventory and click the 'Destroy Item' button.
+
+	Warning: Destorying an item cannot be undone.
+
+	</text>
+
+</content>

@@ -1,0 +1,24 @@
+<meta>
+	<script src="s_items.lua" type="server"/>
+	<script src="g_permissions.lua" type="server"/>
+	<script src="g_permissions.lua" type="client" protected="true"/>
+
+	<script src="s_load_items.lua" type="server"/>
+
+	<script src="c_permissions.lua" type="client" protected="true"/>
+	<script src="s_permissions.lua" type="server"/>
+
+	<export function="createItem" type="server"/>
+	<export function="updateItemValue" type="server"/>
+	<export function="setData" type="server"/>
+	<export function="getData" type="server"/>
+	<export function="setPermissions" type="server"/>
+	<export function="getPermissions" type="server"/>
+	<export function="getPermissions" type="client"/>
+	<export function="can" type="server"/>
+	<export function="can" type="client"/>
+	<export function="canEditItemProperties" type="server"/>
+	<export function="canEditItemProperties" type="client"/>
+	<export function="deleteOne" type="server" />
+	<export function="deleteAll" type="server" />
+</meta>

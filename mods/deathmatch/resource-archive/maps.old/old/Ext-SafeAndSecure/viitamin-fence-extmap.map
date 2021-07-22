@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (vegasNnewfence2b) (1)" breakable="true" interior="0" alpha="255" model="7191" doublesided="false" scale="1" dimension="0" posX="1971.8" posY="-1898.6" posZ="14" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bar_barriergate1) (1)" breakable="true" interior="0" alpha="255" model="991" doublesided="false" scale="1" dimension="0" posX="2009.4" posY="-1917.9" posZ="13.8" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (bar_barriergate1) (2)" breakable="true" interior="0" alpha="255" model="991" doublesided="false" scale="1" dimension="0" posX="1999.5" posY="-1921.2" posZ="13.8" rotX="0" rotY="0" rotZ="180"></object>
+    <!--<object id="object (bar_barriergate1) (3)" breakable="true" interior="0" alpha="255" model="991" doublesided="false" scale="1" dimension="0" posX="2006.1" posY="-1921.2" posZ="13.8" rotX="0" rotY="0" rotZ="179.995"></object>-->
+</map>

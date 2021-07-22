@@ -1,0 +1,120 @@
+<meta>
+	<info author="oG MTA Scripting Team" type="script" description="Serverwide Mods System"/>
+
+	<script src="c_mods_system.lua" type="client"/>
+	<script src="c_show_fps.lua" type="client"/>
+
+	<!-- Interior 24 fix / Adams -->
+	<file src="mods/fixes/interior24.col"/>
+
+	<!-- Disabled Icon -->
+	<file src="mods/icons.txd"/>
+	<file src="mods/disabledicon.dff"/>
+
+	<file src="ls/bustopm.txd"/>
+
+	<file src="ls/barrio1_lae.txd"/>
+	<file src="ls/idlewood6_detail.txd"/>
+
+	<!-- Seb Skin / Adams
+	<file src="mods/skins/seb.txd"/>
+	<file src="mods/skins/seb.dff"/>
+	-->
+
+	<!-- HSU Mod / Adams -->
+	<file src="mods/hsu.txd"/>
+	<file src="mods/hsu.dff"/>
+
+	<file src="mods/levi.dff"/>
+	<file src="mods/levi.txd"/>
+
+	<file src="mods/raindanc.txd"/>
+	<file src="mods/raindanc.dff"/>
+
+
+	<file src="mods/factory.dff"/>
+	<file src="mods/factory.col"/>
+
+	<file src="mods/vehicles/patriot.txd"/>
+	<file src="mods/vehicles/patriot.dff"/>
+
+	<file src="mods/vehicles/trailer.dff"/>
+	<file src="mods/vehicles/trailer.txd"/>
+
+	<file src="mods/vehicles/dft30.dff"/>
+	<file src="mods/vehicles/dft30.txd"/>
+
+	<file src="mods/vehicles/fbitruck.dff"/>
+	<file src="mods/vehicles/fbitruck.txd"/>
+
+	<file src="mods/vehicles/ambulance.dff"/>
+	<file src="mods/vehicles/ambulance.txd"/>
+
+	<!-- Not to be confused with the ladder firetruck mod in realism system for moving the ladder -->
+	<file src="mods/vehicles/firetruck.dff"/>
+	<file src="mods/vehicles/firetruck.txd"/>
+
+	<file src="mods/vehicles/hotdog.dff" />
+	<file src="mods/vehicles/hotdog.txd" />
+	<file src="mods/vehicles/mrwhoop.dff" />
+	<file src="mods/vehicles/mrwhoop.txd" />
+
+	<!-- Removal requested by PD
+	<file src="mods/weapons/sniper.txd"/>
+	<file src="mods/weapons/sniper.dff"/>
+	-->
+
+	<file src="mods/items/cellphone.txd"/>
+	<file src="mods/items/cellphone.dff"/>
+
+	<file src="mods/cols/frame_4.col"/>
+	<!--
+	<file src="mods/skins/admin.txd"/>
+	<file src="mods/skins/admin.dff"/>
+	-->
+	<!--
+	<file src="mods/maps/lsmall_shops.txd"/>
+	<file src="mods/maps/lsmall_shop01.dff"/>
+	<file src="mods/maps/lsmall_window01.dff"/>
+	<file src="mods/maps/mallb_laW02.dff"/>
+	-->
+
+	<!-- Items -->
+	<file src="items/cola.txd"/>
+	<file src="items/cola.dff"/>
+	<file src="items/parapakx.txd"/>
+	<file src="items/para_pack.dff"/>
+	<file src="items/safe.dff"/>
+	<file src="items/SantaHats.dff"/>
+	<file src="items/SantaHats.txd"/>
+	<file src="items/flashlight.dff"/>
+	<file src="items/flashlight.txd"/>
+
+	<!-- Verona Mall -->
+	<file src="verona/lsmall_shops.txd"/>
+	<file src="verona/lsmall_shop01.dff"/>
+	<file src="verona/lsmall_shop01.col"/>
+	<file src="verona/mall_law.txd"/>
+	<file src="verona/mallb_laW02.dff"/>
+	<file src="verona/mallb_laW02.col"/>
+	<script src="s_mall.lua" type="server"/>
+
+	<!-- Christmas (Exciter) -->
+	<file src="xmas/artict1.txd"/>
+	<file src="xmas/artict1.dff"/>
+	<file src="xmas/rdtrain.txd"/>
+	<file src="xmas/rdtrain.dff"/>
+	<file src="xmas/santa.txd"/>
+	<file src="xmas/santa.dff"/>
+	
+	<!-- Objects -->
+	<file src="mods/objects/wall017.col"/>
+	<file src="mods/objects/wall017.dff"/>
+	<file src="mods/objects/wall045.col"/>
+	<file src="mods/objects/wall045.dff"/>
+	<file src="mods/objects/wall063.col"/>
+	<file src="mods/objects/wall063.dff"/>
+	<file src="mods/objects/wall101.col"/>
+	<file src="mods/objects/wall101.dff"/>	
+	<file src="mods/objects/all_walls.txd"/>
+</meta>

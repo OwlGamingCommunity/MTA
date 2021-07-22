@@ -1,0 +1,75 @@
+<meta>
+    <info author="Maxime - OWL MTA Scripting Team" type="script" description="Official Interiors List for Interior System" />
+
+    <script src="s_interior_map.lua" type="server" />
+    <script src="c_interior_map.lua" type="client" />
+
+    <export function="getInteriorsList" type="server" />
+
+    <!-- Additional interiors -->
+    <script src="additionalInteriors/createObject.lua" type="client" />
+    <script src="additionalInteriors/trailer.lua" type="client" />
+    <script src="additionalInteriors/smallwarehouse.lua" type="client" />
+    <script src="additionalInteriors/smallwarehouse_2.lua" type="client" />
+    <script src="additionalInteriors/restroom.lua" type="client" />
+    <script src="additionalInteriors/church.lua" type="client" />
+    <script src="additionalInteriors/garage.lua" type="client" />
+    <script src="additionalInteriors/garage2.lua" type="client" />
+    <script src="additionalInteriors/library.lua" type="client" />
+    <script src="additionalInteriors/huts.lua" type="client" />
+    <script src="additionalInteriors/office.lua" type="client" />
+    <script src="additionalInteriors/warehouse.lua" type="client" />
+    <script src="additionalInteriors/warehouse2.lua" type="client" />
+    <script src="additionalInteriors/house.lua" type="client" />
+    <script src="additionalInteriors/pawnshop.lua" type="client" />
+    <script src="additionalInteriors/pub.lua" type="client" />
+    <script src="additionalInteriors/bar.lua" type="client" />
+    <script src="additionalInteriors/gym.lua" type="client" />
+    <script src="additionalInteriors/workout.lua" type="client" />
+    <script src="additionalInteriors/house2.lua" type="client" />
+    <script src="additionalInteriors/lspdinterior.lua" type="client" />
+    <script src="additionalInteriors/undergroundparkinggarage.lua" type="client" />
+    <script src="additionalInteriors/lspddbinterior.lua" type="client" />
+    <script src="additionalInteriors/sohoshamal.lua" type="client" />
+    <script src="additionalInteriors/forrestsgarage.lua" type="client" />
+    <file src="colfixes/1.col"></file>
+    <file src="colfixes/2.col"></file>
+    <script src="additionalInteriors/ID151-Conference-ID152-HighCommandOffice-ID153-Hallway-ID154-Staircase.lua" type="client" />
+    <script src="additionalInteriors/ID155-OpenOffices-ID156-DarkUndergroundParkingLot-ID157-MediumSizedUndergroundParkingLot.lua" type="client" />
+    <script src="additionalInteriors/ID4-LuxuriousLobby.lua" type="client" />
+    <script src="additionalInteriors/ID7-LuxuriousHallway.lua" type="client" />
+    <script src="additionalInteriors/ID117-flatInterior.lua" type="client" />
+    <script src="additionalInteriors/ID135-Staircase.lua" type="client" />
+    <script src="additionalInteriors/ID141-Studio.lua" type="client" />
+    <script src="additionalInteriors/ID142-Garage.lua" type="client" />
+    <script src="additionalInteriors/ID24-BusinessGarage/ID24-BusinessGarage.lua" type="client" />
+    <file src="additionalInteriors/ID24-BusinessGarage/shader.fx"></file>
+    <file src="additionalInteriors/ID24-BusinessGarage/transparentTex.png"></file>
+    <script src="additionalInteriors/ID70-SmallGarage.lua" type="client" />
+    <script src="additionalInteriors/ID111-SmallGarage.lua" type="client" />
+    <script src="additionalInteriors/ID105-MarcoBistroRestaurant.lua" type="client" />
+    <script src="additionalInteriors/ID5-StripclubVIPArea.lua" type="client" />
+    <script src="additionalInteriors/ID47-Welcome-Pump.lua" type="client" />
+    <script src="additionalInteriors/ID145-SmallBarOfficeRoomBasement.lua" type="client" />
+    <script src="additionalInteriors/ID143-Medium-Sized-Offices-with-hallway.lua" type="client" />
+    <script src="additionalInteriors/ID146-Middle-class-apartment.lua" type="client" />
+    <script src="additionalInteriors/ID148-bakkery.lua" type="client" />
+    <script src="additionalInteriors/ID158-RSHaul-Warehouse.lua" type="client" />
+    <script src="additionalInteriors/ID159-Auto-Showroom.lua" type="client" />
+    <script src="additionalInteriors/ID160-SmallCasinoAndBackroom.lua" type="client" />
+    <script src="additionalInteriors/ID161-SmallTuningGrage.lua" type="client" />
+    <script src="additionalInteriors/ID162-House+Garage.lua" type="client" />
+    <script src="additionalInteriors/ID163-SmallGarageFits2Cars.lua" type="client" />
+    <script src="additionalInteriors/ID164-IllegalCasino.lua" type="client" />
+    <script src="additionalInteriors/ID165-AsianStyledOffice.lua" type="client" />
+    <script src="additionalInteriors/ID166-GeneralStore.lua" type="client" />
+    <script src="additionalInteriors/ID167-MamieeCasino.lua" type="client" />
+    <script src="additionalInteriors/ID168-enforcer.lua" type="client" />
+    <script src="additionalInteriors/ID169-MamieeLowClassApartmentLobby.lua" type="client" />
+    <script src="additionalInteriors/ID170-backroom/ID170-backroom.lua" type="client" />
+	  <script src="additionalInteriors/ID171-LSFD.lua" type="client" />
+	  <script src="additionalInteriors/ID172-FitnessGym.lua" type="client" />
+    <script src="additionalInteriors/ID173-jetbridge.lua" type="client" />
+    <script src="additionalInteriors/ID174-Tent.lua" type="client" />
+    <min_mta_version server="1.3.0-9.03739"></min_mta_version>
+</meta>

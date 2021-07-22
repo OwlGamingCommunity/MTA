@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (Airport_14_SFSe) (1)" breakable="true" interior="0" alpha="255" model="10769" doublesided="false" scale="1" dimension="0" posX="2205.6" posY="-2720" posZ="1.6" rotX="0" rotY="0" rotZ="225"></object>
+    <removeWorldObject id="removeWorldObject (rdwarhusmed) (1)" radius="56.6269" interior="0" model="3707" lodModel="3708" posX="2184.352" posY="-2681.734" posZ="20.49219" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (bigshed_SFSe01) (1)" breakable="true" interior="0" alpha="255" model="10843" doublesided="false" scale="1" dimension="0" posX="2200.3" posY="-2692.6" posZ="20.6" rotX="0" rotY="0" rotZ="90"></object>
+    <removeWorldObject id="removeWorldObject (nt_aircon1dbl) (1)" radius="4.953772" interior="0" model="1635" lodModel="0" posX="2215.914" posY="-2664.281" posZ="14.92969" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (gen_whouse03_SFSe01) (1)" breakable="true" interior="0" alpha="255" model="10847" doublesided="false" scale="1" dimension="0" posX="2196.1" posY="-2845" posZ="18.65" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (ContainerCrane_04) (1)" breakable="true" interior="0" alpha="255" model="1378" doublesided="false" scale="1" dimension="0" posX="2218.5" posY="-2777.8" posZ="36.7" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (cxref_woodstair) (1)" breakable="true" interior="0" alpha="255" model="3361" doublesided="false" scale="1" dimension="0" posX="2267" posY="-2710" posZ="10.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (cxref_woodstair) (2)" breakable="true" interior="0" alpha="255" model="3361" doublesided="false" scale="1" dimension="0" posX="2267" posY="-2716" posZ="6.4" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (cxref_woodjetty) (1)" breakable="true" interior="0" alpha="255" model="3406" doublesided="false" scale="1" dimension="0" posX="2258.4" posY="-2770.1" posZ="-0.58" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (drydock2_SFSe) (1)" breakable="true" interior="0" alpha="255" model="10830" doublesided="false" scale="1" dimension="0" posX="2247.6" posY="-2723.9" posZ="20.5" rotX="0" rotY="0" rotZ="45"></object>
+    <object id="object (laxrf_scrapbox) (1)" breakable="true" interior="0" alpha="255" model="3722" doublesided="false" scale="1" dimension="0" posX="2211" posY="-2760.2" posZ="16.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (laxrf_scrapbox) (2)" breakable="true" interior="0" alpha="255" model="3722" doublesided="false" scale="1" dimension="0" posX="2271.5" posY="-2686.7" posZ="17" rotX="0" rotY="0" rotZ="0"></object>
+</map>

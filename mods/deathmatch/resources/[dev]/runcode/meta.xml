@@ -1,0 +1,8 @@
+<meta>
+	<info author='xXMADEXx' name='GUI Runcode' type='script' version='1.1' />
+	<script src='run_client.lua' type='client' />
+	<script src='run_server.lua' type='server' />
+	
+	<export function='runString' type='server' />
+	<export function='runString' type='client' />
+</meta>

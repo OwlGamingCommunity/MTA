@@ -1,0 +1,11 @@
+<help>
+This is a resource allowing you to jump, grab and hang onto parts of helicopters
+
+The button/command to do this may be different on each server
+The defaults are:
+/grab or pressing your jump key to grab
+/drop or pressing your backspace key to drop
+
+If the server you are on is using commands you can bind these to keys yourself with:
+/bind key state command (eg: "/bind lshift down grab")
+</help>

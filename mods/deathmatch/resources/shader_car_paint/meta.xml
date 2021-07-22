@@ -1,0 +1,8 @@
+<meta>
+	<info description="Shader - Car Paint" version="0.0.6" type="script" />
+	<script src="c_car_paint.lua" type="client" />
+	<file src="car_paint.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+	<file src="images/smallnoise3d.dds" type="client" />
+	<file src="images/cube_env256.dds" type="client" />
+</meta>

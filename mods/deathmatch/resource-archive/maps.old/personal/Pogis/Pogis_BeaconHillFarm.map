@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (cw_combbarn) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="17324" doublesided="false" scale="1" dimension="0" posX="-296.29999" posY="-907.09998" posZ="43.2" rotX="349" rotY="9" rotZ="312"></object>
+    <object id="object (CE_CATshack) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="12937" doublesided="true" scale="1" dimension="0" posX="-329.79999" posY="-935.40002" posZ="55" rotX="6" rotY="8.6" rotZ="44"></object>
+    <object id="object (CE_CATshackdoor) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="13360" doublesided="true" scale="1" dimension="0" posX="-329.60001" posY="-939.29999" posZ="54.1" rotX="6" rotY="8.6" rotZ="44"></object>
+    <object id="object (cxreffencesld) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3276" doublesided="true" scale="1" dimension="0" posX="-319.29999" posY="-940.40002" posZ="50.8" rotX="6" rotY="10" rotZ="46"></object>
+    <object id="object (cxreffencesld) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="3276" doublesided="true" scale="1" dimension="0" posX="-304" posY="-924.2998" posZ="46.7" rotX="5.999" rotY="12.997" rotZ="43.995"></object>
+    <object id="object (cxreffencesld) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="3276" doublesided="true" scale="1" dimension="0" posX="-311.7002" posY="-932.40039" posZ="49" rotX="5.999" rotY="9.998" rotZ="46"></object>
+</map>

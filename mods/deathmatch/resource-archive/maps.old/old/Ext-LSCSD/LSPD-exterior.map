@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgElkup) (1)" breakable="true" interior="0" alpha="255" model="8947" doublesided="false" scale="1" dimension="0" posX="627.40002" posY="-621.70001" posZ="18.6" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (xref_garagedoor) (1)" breakable="true" interior="0" alpha="255" model="2885" doublesided="false" scale="1" dimension="0" posX="639.09998" posY="-622.09998" posZ="20" rotX="0" rotY="0" rotZ="90"></object>
+</map>

@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+    <object id="object (toll_SFW) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="9623" doublesided="false" scale="1" dimension="0" posX="-1079.5" posY="-2857.2" posZ="69.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (BIG_COCK_SIGN) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3334" doublesided="false" scale="1" dimension="0" posX="-1069.7" posY="-2857.8" posZ="71.1" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (w7bark) (1)" radius="31.765993" interior="0" model="18229" lodModel="18559" posX="-1175.4297" posY="-2643.9141" posZ="0.07031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (w7bark01) (1)" radius="36.163979" interior="0" model="18256" lodModel="18558" posX="-1215.4766" posY="-2348.1094" posZ="9.35156" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="-1075.6" posY="-2868.1001" posZ="67.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="-1075.7" posY="-2847.1001" posZ="67.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (desn2_stripsigs1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="16442" doublesided="false" scale="1" dimension="0" posX="-1070.6" posY="-2857.7" posZ="69.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Streetlamp1) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="-1070.9" posY="-2866.3" posZ="70.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Streetlamp1) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="-1070.6" posY="-2848.2" posZ="70.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Streetlamp1) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="-1088.6" posY="-2848.3" posZ="70.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Streetlamp1) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="1232" doublesided="false" scale="1" dimension="0" posX="-1088.6" posY="-2866.3999" posZ="70.2" rotX="0" rotY="0" rotZ="0"></object>
+</map>

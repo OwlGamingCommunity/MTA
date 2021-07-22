@@ -1,0 +1,12 @@
+<meta>
+    <info author="OwlGaming MTA Scripting Team" type="script" description="Weather System"/>
+
+	<script src="s_weather_system.lua" type="server" />
+    <script src="c_weather_system.lua" type="client" />
+	
+    <file src="clear.png"/> 
+	<file src="cloudy.png"/> 
+	<file src="hot.png"/> 
+	<file src="rain.png"/> 
+	<file src="foggy.png"/> 
+</meta>

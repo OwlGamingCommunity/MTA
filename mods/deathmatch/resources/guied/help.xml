@@ -1,0 +1,13 @@
+<help>
+GUI Editor is a tool designed for creation and manipulation of in-game GUI elements. It allows you to create a GUI and output the generated code, ready to be copied into your resources.
+
+To start editing type /guied or press lctrl/lshift + g.
+
+Right clicking will open up a menu with options relating to the thing you right clicked on.
+The parent of the element you are creating will be the element you right clicked on.
+For example: right clicking a window and selecting "Create Button" will create a button within the window.
+	
+To generate the output code select 'Output' from the main right click menu. From here you can then either copy it directly or save it to a file in the GUIEditor resource directory
+
+For further information see the in-game help ("Help" in the right click menu) or the in-game tutorial ("Tutorial" in the right click menu)
+</help>

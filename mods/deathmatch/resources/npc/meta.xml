@@ -1,0 +1,66 @@
+<!--
+ * ***********************************************************************************************************************
+ * Copyright (c) 2015 OwlGaming Community - All Rights Reserved
+ * All rights reserved. This program and the accompanying materials are private property belongs to OwlGaming Community
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * ***********************************************************************************************************************
+ -->
+
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="NPC/Shop System"/>
+	
+	<script src="s_migrations.lua" type="server"/>
+
+	<script src="functions_s.lua" type="server"/>
+	<script src="functions_c.lua" type="client"/>
+	<script src="functions_g.lua" type="shared"/>
+
+	<script src="g_upgrades.lua" type="server"/>
+	<script src="g_upgrades.lua" type="client"/>
+
+	<script src="g_shopinfo.lua" type="server"/>
+	<script src="g_shopinfo.lua" type="client"/>
+	
+	<script src="s_generalshop_system.lua" type="server"/>
+	<script src="c_generalshop_system.lua" type="client"/>
+	
+	<script src="c_ped_click.lua" type="client"/>
+	
+	<script src="c_custom_shop.lua" type="client"/>
+	<script src="s_custom_shop.lua" type="server"/>
+
+	<script src="s_anti-cheat.lua" type="server"/>
+	
+	<script src="g_faction_drop_npc.lua" type="server"/>
+	<script src="g_faction_drop_npc.lua" type="client"/>
+	
+	<script src="faction_drop_s.lua" type="server"/>
+	<script src="faction_drop_c.lua" type="client"/>
+	
+	<file src="playCollectMoneySound.mp3" /> 
+	<file src="playPayWageSound.mp3" /> 
+	<file src="playBuySound.mp3" /> 
+	<file src="seguisb.ttf" /> 
+	<settings> 
+		<setting name="*warningDebtAmount" value="[5000]"/>  <!--The shop will send SMS to owners when debt reaches this amount-->
+		<setting name="*limitDebtAmount" value="[6000]"/>  <!--The shop will quitjob (delete itself) when debt reaches this amount-->
+		<setting name="*wageRate" value="[2]"/> <!--Number of items the hold can hold per $1 of shop wage.-->
+		<setting name="*oneSupply" value="[14]"/> <!--How much 1 kg of supplies costs bizowner, effect supplies prices in trucker job system, /ordersupplies and business system.-->
+		<setting name="*profitRate" value="[30]"/> <!-- Profit biz owner get from selling goods in percentage ranging from 0 to 30% per item-->
+	</settings>
+	
+	<export function="getFittingSkins" type="shared"/>
+	<export function="getRestrictedSkins" type="shared"/>
+	
+	<export function="updateShopSalary" type="server"/>
+	<export function="getDisabledUpgrades" type="shared"/>
+
+	<export function="getSuppliesFromPrice" type="server"/>
+	<export function="takeSupplies" type="server"/>
+	<export function="hasSupplies" type="server"/>
+	<export function="giveProfit" type="server"/>
+	<export function="getDiscount" type="shared"/>
+	<export function="isActiveBusiness" type="shared"/>
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

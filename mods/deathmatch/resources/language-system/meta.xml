@@ -1,0 +1,22 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="Language System"/>
+	
+	<script src="g_language_system.lua" type="server" />
+	<script src="g_language_system.lua" type="client" />
+
+	<script src="s_language_system.lua" type="server" />
+	<script src="c_language_system.lua" type="client" />
+	
+	<export function="increaseLanguageSkill" type="server"/>
+	<export function="doesPlayerHaveLanguage" type="server"/>
+	<export function="getSkillFromLanguage" type="server"/>
+	<export function="applyLanguage" type="server"/>
+	<export function="getLanguageName" type="server"/>
+	<export function="getLanguageName" type="client"/>
+	<export function="getLanguageCount" type="client"/>
+	<export function="getLanguageCount" type="server"/>
+	<export function="getLanguageList" type="client"/>
+	<export function="getLanguageList" type="server"/>
+	<export function="learnLanguage" type="server"/>
+	<export function="removeLanguage" type="server"/>
+</meta>

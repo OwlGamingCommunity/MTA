@@ -1,0 +1,9 @@
+<meta>
+	<info author="Exciter" type="script" description="Roadblock System"/>
+
+	<script src="g_roadblocks.lua" type="server"/>
+	<script src="g_roadblocks.lua" type="client"/>
+	
+	<script src="c_roadblocks.lua" type="client"/>
+	<script src="s_roadblocks.lua" type="server"/>
+</meta>

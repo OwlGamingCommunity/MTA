@@ -1,0 +1,27 @@
+<meta>
+    <info author="OwlGaming MTA Scripting Team" type="script" description="Report System"/>
+
+	<script src="s_reports.lua"/>
+    <script src="c_reports.lua" type="client" />
+	
+	<script src="s_external_report_box.lua" type="server"/>
+    <script src="c_external_report_box.lua" type="client" />
+	
+	<script src="s_top_right_box.lua" type="server"/>
+	<script src="c_top_right_box.lua" type="client"/>
+	
+	<script src="g_reports.lua" type="shared"/>
+	
+	<export function="showToAdminPanel" type="server" />
+	<export function="reportLazyFix" type="server"/>
+	<export function="updateStaffReportCount" type="server"/>
+
+	<export function="getReportTypes" type="shared"/>
+	<export function="grabReporter" type="server"/>
+
+	<script src="stats_s.lua" type="server"/>
+	<script src="stats_c.lua" type="client"/>
+
+	<file src="audio/beep-07.mp3"/>
+	<file src="audio/beep-09.mp3"/>
+</meta>

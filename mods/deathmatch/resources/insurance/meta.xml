@@ -1,0 +1,22 @@
+<meta>
+	<info author="Anumaz" type="script" description="Insurance System" />
+
+	<script src="s_main.lua" type="server" />
+	<script src="c_main.lua" type="client" />
+	<export function="analyzeInsurance" type="server" />
+		<!--Return values for the above function / MAXIME
+		1. totalFee : Total insurance fees on all vehicles of the player
+		2. totalFeePerVehicles : A list of vehicles from a player
+		- index : vehicle id
+		- values : A list with 2 elements
+		 	.ifaction : insurance faction id the vehicle registered to
+		 	.fee : fee for the vehicle
+		3. totalFeePerFactions : A list of insurance factions
+		- index : faction id
+		- values : A list of 2 elements
+			. fee : total fee the faction gets from all vehicles of the player
+			. vehs : a list of veh ids that the insurance faction takes fees from
+		-->
+	<export function="getVehicleInsuranceData" type="server" />
+	<export function="cancelPolicy" type="server" />
+</meta>

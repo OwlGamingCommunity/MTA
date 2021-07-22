@@ -1,0 +1,94 @@
+<meta>
+	<info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="Donation Management System"/>
+
+	<script src="g_donation_perks.lua" type="server"/>
+	<script src="g_donation_perks.lua" type="client"/>
+
+	<script src="g_donation_data.lua" type="client"/>
+	<script src="g_donation_data.lua" type="server"/>
+
+	<script src="s_donations.lua" type="server"/>
+	<script src="c_donations.lua" type="client"/>
+
+	<export function="loadAllPerks" type="server"/>
+
+	<export function="hasPlayerPerk" type="server"/>
+	<export function="hasPlayerPerk" type="client"/>
+
+	<export function="updatePerkValue" type="server"/>
+	<export function="updatePerkValue" type="client"/>
+
+	<export function="givePlayerPerk" type="server"/>
+
+	<export function="giveAccountGC" type="server"/>
+
+	<script src="s_donation_gui.lua" type="server"/>
+	<script src="c_donation_gui.lua" type="client"/>
+
+	<export function="takeGC" type="server"/>
+	<export function="addPurchaseHistory" type="server"/>
+	<export function="checkValidNumber" type="shared"/>
+	<export function="getPerks" type="shared"/>
+
+	<file src="gamecoin.png"/>
+
+	<file src="typing_icons/Albania.png"/>
+	<file src="typing_icons/Brazil.png"/>
+	<file src="typing_icons/Bulgaria.png"/>
+	<file src="typing_icons/Canada.png"/>
+	<file src="typing_icons/Denmark.png"/>
+	<file src="typing_icons/United_Kingdom.png"/>
+	<file src="typing_icons/Estonia.png"/>
+	<file src="typing_icons/Finland.png"/>
+	<file src="typing_icons/France.png"/>
+	<file src="typing_icons/India.png"/>
+	<file src="typing_icons/Ireland.png"/>
+	<file src="typing_icons/Lithuania.png"/>
+	<file src="typing_icons/Khalistan.png"/>
+	<file src="typing_icons/Montenegro.png"/>
+	<file src="typing_icons/Netherlands.png"/>
+	<file src="typing_icons/Norway.png"/>
+	<file src="typing_icons/Portugal.png"/>
+	<file src="typing_icons/Russia.png"/>
+	<file src="typing_icons/Scotland.png"/>
+	<file src="typing_icons/Serbia.png"/>
+	<file src="typing_icons/Spain.png"/>
+	<file src="typing_icons/Sweden.png"/>
+	<file src="typing_icons/Turkey.png"/>
+	<file src="typing_icons/United_States.png"/>
+	<file src="typing_icons/Wales.png"/>
+	<file src="typing_icons/Slovenia.png"/>
+	<file src="typing_icons/Lebanon.png"/>
+	<file src="typing_icons/Palestine.png"/>
+	<file src="typing_icons/Australia.png"/>
+	<file src="typing_icons/Romania.png"/>
+	<file src="typing_icons/Israel.png"/>
+	<file src="typing_icons/Lybia.png"/>
+	<file src="typing_icons/Hercegovina.png"/>
+	<file src="typing_icons/Morocco.png"/>
+	<file src="typing_icons/Iraq.png"/>
+	<file src="typing_icons/Ukraine.png"/>
+	<file src="typing_icons/Puerto_Rico.png"/>
+	<file src="typing_icons/Latvia.png"/>
+	<file src="typing_icons/Mexico.png"/>
+	<file src="typing_icons/Poland.png"/>
+	<file src="typing_icons/Belgium.png"/>
+	<file src="typing_icons/Flanders_(Belgian_Province).png"/>
+	<file src="typing_icons/Jamaica.png"/>
+	<file src="typing_icons/Japan.png"/>
+	<file src="typing_icons/Slovakia.png"/>
+	<file src="typing_icons/Switzerland.png"/>
+	<file src="typing_icons/United_Arab_Emirates.png"/>
+	<file src="typing_icons/Wallonia_(Belgian_Province).png"/>
+	<file src="typing_icons/Egypt.png"/>
+	<file src="typing_icons/Croatia.png"/>
+	<file src="typing_icons/Kazakhstan.png"/>
+	<file src="typing_icons/Greece.png"/>
+	<file src="typing_icons/Republic_Of_Congo.png"/>
+	<file src="typing_icons/North_Korea.png"/>
+	<file src="typing_icons/Pakistan.png"/>
+	<file src="typing_icons/Saudi_Arabia.png"/>
+
+	<export function="getFlagURL" type="client"/>
+	<export function="isVisible" type="client"/>
+</meta>

@@ -1,0 +1,28 @@
+<meta>
+	<info author="OWL MTA Scripting Team" type="script" description="Vehicle Management"/>
+	<script src="functions_g.lua" type="shared" />
+	<export function="canAccessVehicleManager" type="shared"/>
+
+	<script src="s_vehicle_manager.lua" type="server" />
+	<script src="s_vehicle_commands.lua" type="server" /> 
+	<script src="c_vehicle_manager.lua" type="client" />
+	<script src="s_vehicle_logs.lua" type="server" /> 
+	
+	<script src="vehicle-library/s_vehicle_library.lua" type="server" />
+	<script src="vehicle-library/c_vehicle_library.lua" type="client" />
+	
+	<script src="vehicle-handling-editor/c_handling_system.lua" type="client" />
+    <script src="vehicle-handling-editor/s_handling_system.lua" type="server" />
+	
+	<script src="vehicle-handling-editor/g_handling_values.lua" type="server" />
+	<script src="vehicle-handling-editor/g_handling_values.lua" type="client" />
+	
+	<script src="vehicle-handling-editor/s_custom_handling.lua" type="server" />
+	<script src="vehicle-handling-editor/c_custom_handling.lua" type="client" />
+	
+	<export function="addVehicleLogs" type="server"/>
+	<export function="loadCustomVehProperties" type="server"/>
+	<export function="getInfoFromVehShopID" type="server"/>
+	<export function="systemDeleteVehicle" type="server"/>
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

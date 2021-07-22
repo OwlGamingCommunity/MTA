@@ -1,0 +1,71 @@
+<meta>
+    <info author="OWL MTA Scripting Team" type="script" description="Interior System" />
+    
+    <script src="function_s.lua" type="server" />
+
+    <script src="s_interior_admin.lua" type="server" />
+    <script src="s_interior_system.lua" type="server" />
+    
+    <export function="addSafeAtPosition" type="server" />
+    <export function="publicSellProperty" type="server" />
+    <export function="cleanupProperty" type="server" />
+    <export function="findProperty" type="server" />
+    <export function="findParent" type="server" />
+    <export function="lockUnlockHouseEvent" type="server" />
+    <export function="reloadInterior" type="server" />
+    <export function="realReloadInterior" type="server" http="true" />
+	
+    <script src="c_interior_system.lua" type="client" />
+    <script src="s_interior_shout.lua" type="server" />
+    <script src="c_pickups.lua" type="client" />
+    <script src="g_shared.lua" type="client" />
+    <script src="g_shared.lua" type="server" />
+    
+    <script src="blips_c.lua" type="client" />
+    
+    <export function="findProperty" type="client" />
+    <export function="findParent" type="client" />
+    <export function="canEnterInterior" type="client" />
+    <export function="setPlayerInsideInterior" type="server" />
+    <export function="setPlayerInsideInterior3" type="server" />
+    
+    <export function="canPlayerKnowInteriorOwner" type="client" />
+    <export function="canPlayerSeeInteriorID" type="client" />
+    
+    <script src="activity_g.lua" type="server" />
+    <script src="activity_g.lua" type="client" />
+    
+    <export function="isActive" type="client" />
+    <export function="isActive" type="server" />
+    
+    <export function="isProtected" type="client" />
+    <export function="isProtected" type="server" />
+
+    <script src="s_interior_sounds.lua" type="server" />
+    <script src="c_interior_sounds.lua" type="client" />
+
+    <script src="s_settings.lua" type="server" />
+        <export function="getInteriorSetting" type="server" />
+    <script src="c_settings.lua" type="client" />
+
+    <file src="knocking.mp3" />
+    <file src="doorUnlockSound.mp3" />
+    <file src="doorLockSound.mp3" />
+    <file src="doorGoThru.mp3" />
+    
+    <file src="intNameFont.ttf" />
+    <file src="icon.png" />
+    
+    <export function="unownProperty" type="server" />
+    <!-- unownProperty(intid) --This function is meant to be used by the system or to be triggered from UCP remotely. Works similarly to the publicSellProperty however, it's simplier. / MAXIME / 2015.1.11-->
+    
+    <script src="safe_s.lua" type="server" />
+    <export function="clearSafe" type="server" />
+    <export function="getSafe" type="server" />
+    <export function="addSafe" type="server" />
+    <export function="editSafe" type="server" />
+
+    <export function="tempFix" type="shared" />
+
+    <min_mta_version server="1.3.4-0.00000"></min_mta_version>
+</meta>

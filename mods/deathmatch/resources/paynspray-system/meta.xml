@@ -1,0 +1,6 @@
+<meta>
+	<info author="OwlGaming Scripting Team" type="script" description="Pay n Spray System"/>
+	<script src="c_paynspray_system.lua" type="client" />
+	<script src="g_paynspray_system.lua" type="shared" />
+	<script src="s_paynspray_system.lua" type="server" />
+</meta>

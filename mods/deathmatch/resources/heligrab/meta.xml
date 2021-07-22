@@ -1,0 +1,31 @@
+<meta>
+	<info name="Helicopter Grabbing" author="Remp" type="misc" version="1.2.0"/>
+
+	<script src="c_heli.lua" type="client"/>
+	<script src="s_heli.lua"/>
+
+	<!-- 
+	ToggleHangingWeightLimit(true/false) - returns nothing
+	SetPlayerGrabbedHeli(player, true/false, [ heli , side = "right", line_percent = 0.5]) - returns nothing
+	IsPlayerHangingFromHeli(player) - returns true if they are, false if they arent. nil if player is invalid
+	GetPlayerHangingData(player) - returns heli,side,line_percent,legs_up if they are hanging, nil if they arent or an invalid player is passed
+	GetPlayersHangingFromHeli(heli, [side, line]) - returns a table of all players hanging on the heli, nil if there are no players or the heli is invalid
+	-->
+	<export function="ToggleHangingWeightLimit" type="server" />
+	<export function="SetPlayerGrabbedHeli" type="server"/>
+	<export function="IsPlayerHangingFromHeli" type="server"/>
+	<export function="GetPlayerHangingData" type="server"/>
+	<export function="GetPlayersHangingFromHeli" type="server"/>
+	
+	<config src="help.xml" type="client"/>
+	
+	<settings>
+		<!-- these can be either control names or key names -->
+		<setting name="hang_binds" value="[[ 'jump' ]]"/>
+		<!-- command names -->
+		<setting name="hang_commands" value="[[ 'grab','heligrab' ]]"/>
+		
+		<setting name="drop_binds" value="[[ 'backspace' ]]"/>
+		<setting name="drop_commands" value="[[ 'drop','helidrop' ]]"/>
+	</settings>
+</meta>

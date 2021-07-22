@@ -1,0 +1,6 @@
+<meta>
+	<info author="Exciter" type="script" description="Weather System" version="0.1"/>
+
+	<script src="g_temp.lua" type="shared" />
+		<export function="getSnowLevel" type="shared" />
+</meta>

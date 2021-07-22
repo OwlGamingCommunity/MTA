@@ -1,0 +1,119 @@
+<meta>
+    <info author="OwlGaming MTA Scripting Team" type="script" description="HUD System" />
+
+    <script src="c_hud.lua" type="client" />
+    <script src="c_nametags.lua" type="client" />
+    <script src="c_achievement.lua" type="client" />
+
+    <script src="c_overlay_top_right.lua" type="client" />
+    <script src="c_overlay_bottom_center.lua" type="client" />
+    <script src="s_overlay_basic_info.lua" type="server" />
+    <script src="s_overlay_show_admins.lua" type="server" />
+
+    <script src="c_overlay_functions.lua" type="client" />
+    <script src="s_overlay_functions.lua" type="server" />
+
+    <script src="c_interface.luac" type="client" />
+
+    <script src="loading_preview_c.lua" type="client" />
+    <file src="images/loading.png" />
+
+    <export function="sendBottomNotification" type="client" />
+    <export function="sendBottomNotification" type="server" />
+
+    <export function="sendTopRightNotification" type="client" />
+    <export function="sendTopRightNotification" type="server" />
+
+    <export function="isActive" type="client" />
+
+    <file src="images/hud/speed112.png" />
+    <file src="images/hud/speed80.png" />
+    <file src="images/hud/speed48.png" />
+
+    <file src="images/hud/speed48mph.png" />
+    <file src="images/hud/speed80mph.png" />
+    <file src="images/hud/speed112mph.png" />
+
+    <file src="images/hud/highway.png" />
+    <file src="images/hud/fuel.png" />
+    <file src="images/hud/fuel2.png" />
+    <file src="images/hud/accident.png" />
+
+    <file src="images/hud/seatbelt.png" />
+    <file src="images/hud/window.png" />
+    <file src="images/hud/window2.png" />
+    <file src="images/hud/helmet.png" />
+    <file src="images/hud/bikerhelmet.png" />
+    <file src="images/hud/fullfacehelmet.png" />
+    <file src="images/hud/mask.png" />
+    <file src="images/hud/gasmask.png" />
+    <file src="images/hud/scuba.png" />
+    <file src="images/hud/bandana.png" />
+    <file src="images/hud/badge1.png" />
+    <file src="images/hud/badge2.png" />
+    <file src="images/hud/cigarette.png" />
+    <file src="images/hud/armour.png" />
+    <file src="images/hud/armour2.png" />
+    <file src="images/hud/bleeding.png" />
+    <file src="images/hud/lowhp.png" />
+
+    <file src="images/hud/dglock.png" />
+    <file src="images/hud/dradar.png" />
+    <file src="images/hud/dtazer.png" />
+    <file src="images/hud/semiauto.png" />
+    <file src="images/hud/auto.png" />
+    <file src="images/hud/handcuffs.png" />
+	<file src="images/hud/gloves.png" />
+    <file src="images/hud/blindfold.png" />
+
+    <file src="images/hud/gm.png" />
+
+    <file src="images/hud/adm_on.png" />
+    <file src="images/hud/uat_on.png" />
+    <file src="images/hud/scr_on.png" />
+    <file src="images/hud/donor.png" />
+    <file src="images/hud/reportpanel_on.png" />
+    <file src="images/hud/health2.png" />
+    <file src="images/hud/tagmode.png" />
+    <file src="images/hud/autopark.png" />
+    <file src="images/hud/walkingstyle.png" />
+    <file src="images/hud/head_turning.png" />
+    <file src="images/hud/togad.png" />
+    <file src="images/hud/togpm.png" />
+    <file src="images/hud/togdon.png" />
+    <file src="images/hud/phone.png" />
+
+    <file src="images/hud/hidden_scoreboard.png" />
+    <file src="images/hud/hide_username.png" />
+    <file src="images/hud/speedo.png" />
+    <file src="images/hud/cc.png" />
+    <file src="images/hud/engine.png" />
+    <file src="images/hud/handbrake.png" />
+    <file src="images/hud/headlights_1.png" />
+    <file src="images/hud/headlights_2.png" />
+    <file src="images/hud/carlock.png" />
+    <file src="images/hud/boathandbrake.png" />
+    <file src="images/hud/opm.png" />
+    <file src="images/hud/ads.png" />
+
+    <file src="images/pin.png" />
+    <file src="images/pinned.png" />
+    <file src="images/radio.png" />
+    <file src="images/hud/mdc.png" />
+
+    <file src="images/hud/christmashat.png" />
+    <file src="images/hud/afk.png" />
+
+    <!--
+	<file src="images/hud/reportpanel_off.png"/>
+	<file src="images/hud/adm_off.png"/>
+	-->
+    <file src="images/achievement/achievement.png" />
+    <file src="nametags0.ttf" />
+    <file src="old_school_united_stencil.ttf" />
+
+    <script src="blur/blur_c.lua" type="client" />
+    <file src="blur/blurshader.fx" type="client" />
+
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

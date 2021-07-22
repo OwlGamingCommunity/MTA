@@ -1,0 +1,115 @@
+<meta>
+    <script src="weapons_s.lua" type="server" />
+    <script src="weapons_c.lua" type="client" cache="false"/>
+
+    <script src="weapons_selector_c.lua" type="client" cache="false"/>
+
+    <!-- Bone Attach through /togattach (isomorphism) -->
+    <script src="attach/s_attach.lua" type="server" />
+    <script src="attach/c_attach.lua" type="client" />
+    <script src="attach/g_models.lua" type="shared" cache="false" />
+
+    <script src="reload_s.lua" type="server" />
+    <script src="reload_c.lua" type="client" cache="false"/>
+
+    <export function="updateLocalGuns" type="server" />
+    <export function="removeWeapon" type="client" />
+    <export function="canPlayerShoot" type="client" />
+
+    <script src="C_Sounds.lua" type="client" />
+    <script src="S_stats.lua" type="server" />
+    <script src="c_fd_extinguisher.lua" type="client" />
+    <script src="s_fd_extinguisher.lua" type="server" />
+    
+    <script src="firing_mode_s.lua" type="server" />
+    <script src="firing_mode_c.lua" type="client" />
+
+    <script src="functions_s.lua" type="server" />
+    <script src="functions_c.lua" type="client" cache="false"/>
+    <script src="functions_g.lua" type="shared" cache="false"/>
+
+    <script src="editor_s.lua" type="server" />
+    <script src="editor_c.lua" type="client" cache="false"/>
+
+    <file src="sounds/weap/AK-47.wav" />
+    <file src="sounds/weap/Colt45.wav" />
+    <file src="sounds/weap/Deagle.wav" />
+    <file src="sounds/weap/Silenced.wav" />
+    <file src="sounds/weap/Shotgun.wav" />
+    <file src="sounds/weap/Sawed-Off.wav" />
+    <file src="sounds/weap/Combat Shotgun.wav" />
+    <file src="sounds/weap/UZI.wav" />
+    <file src="sounds/weap/tec9.wav" />
+    <file src="sounds/weap/MP5.wav" />
+    <file src="sounds/weap/M4.wav" />
+    <file src="sounds/weap/Rifle.wav" />
+    <file src="sounds/weap/Sniper.wav" />
+	<file src="sounds/weap/Tazer.wav" />
+	<file src="sounds/weap/beanbag.wav" />
+
+    <file src="sounds/no_ammo.mp3" />
+    <file src="sounds/reload_1.mp3" />
+    <file src="sounds/reload_2.mp3" />
+    <file src="sounds/reload_3.mp3" />
+    <file src="sounds/firingmode.mp3" />
+    
+    <settings>
+        <setting name="*fist" value="0" />  
+        <setting name="*brassknuckle" value="2" />  
+        <setting name="*golfclub" value="0" />  
+        <setting name="*nightstick" value="0" />  
+        <setting name="*knife" value="0" />  
+        <setting name="*bat" value="0" />  
+        <setting name="*shovel" value="0" />  
+        <setting name="*poolstick" value="0" />  
+        <setting name="*katana" value="2" />  
+        <setting name="*chainsaw" value="0" />  
+        <setting name="*dildo" value="2" />  
+        <setting name="*dildo2" value="2" />  
+        <setting name="*vibrator" value="2" />  
+        <setting name="*vibrator2" value="2" />  
+        <setting name="*flower" value="2" />  
+        <setting name="*cane" value="0" />  
+        <setting name="*grenade" value="2" />  
+        <setting name="*teargas" value="2" />  
+        <setting name="*molotov" value="2" />  
+        <setting name="*colt45" value="17" />  
+        <setting name="*silenced" value="17" />  
+        <setting name="*deagle" value="7" />  
+        <setting name="*shotgun" value="10" />  
+        <setting name="*sawed-off" value="2" />  
+        <setting name="*combatshotgun" value="8" />  
+        <setting name="*uzi" value="30" />  
+        <setting name="*mp5" value="30" />  
+        <setting name="*ak-47" value="30" />  
+        <setting name="*m4" value="50" />  
+        <setting name="*tec-9" value="30" />        
+        <setting name="*rifle" value="3" />  
+        <setting name="*sniper" value="1" />  
+        <setting name="*rocketlauncher" value="1" />  
+        <setting name="*spraycan" value="999999" /> <!--Spraycan fix-->
+        <setting name="*fireextinguisher" value="999999" /> <!--Fire Extinguisher fix-->
+        <setting name="*flamethrower" value="999999" /> <!--Flamethrowers fix-->
+        <setting name="*satchel" value="999999" />
+        <setting name="*satcheldetonator" value="999999" />
+        <setting name="*camera" value="0" />  
+        <setting name="*nightvision" value="0" />  
+        <setting name="*infrared" value="0" /> 
+    </settings>
+
+    <export function="getAmmoPerClip" type="server"/>
+
+    <script src="ammo_g.lua" type="shared" cache="false"/>
+    <script src="ammo_s.lua" type="server" />
+    <export function="getAmmoForWeapon" type="shared"/>
+    <export function="isWeapAmmoless" type="shared"/>
+    <export function="getAmmo" type="shared"/>
+    <export function="formatWeaponNames" type="shared"/>
+    <export function="getFactionNpcItems" type="shared"/>
+    <export function="givePlayerAmmo" type="server"/>
+    <export function="canRetrieve" type="shared"/>
+    <export function="modifyWeaponValue" type="shared"/>
+    <export function="isWeaponCCWP" type="shared"/>
+    
+    <min_mta_version client="1.3.0-9.04134"></min_mta_version>
+</meta>

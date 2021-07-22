@@ -1,0 +1,23 @@
+<meta>
+	<info author="Daniel" description="Business System for legal organizations." />
+	
+	<script src="business.lua" />
+	
+	<export function="getPlayerBusinesses" />
+	<export function="isPlayerInBusiness" />
+	<export function="getBusinessName" />
+
+	<script src="panel/panel.lua" />
+	<script src="panel/panel_c.lua" type="client" />
+	
+	<script src="panel/gui/add_account.lua" type="client" />
+	<script src="panel/gui/edit_account.lua" type="client" />
+	<script src="panel/gui/fire_employee.lua" type="client" />
+	<script src="panel/gui/hire_employee.lua" type="client" />
+	<script src="panel/gui/manage_employee.lua" type="client" />
+	<script src="panel/gui/remove_account.lua" type="client" />
+	<script src="panel/gui/set_property_rental.lua" type="client" />
+	<script src="panel/gui/set_vehicle_rental.lua" type="client" />
+	<script src="panel/gui/transfer_property.lua" type="client" />
+	<script src="panel/gui/transfer_vehicle.lua" type="client" />
+</meta>

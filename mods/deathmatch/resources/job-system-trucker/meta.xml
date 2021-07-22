@@ -1,0 +1,46 @@
+<!--
+ * ***********************************************************************************************************************
+ * Copyright (c) 2015 OwlGaming Community - All Rights Reserved
+ * All rights reserved. This program and the accompanying materials are private property belongs to OwlGaming Community
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * ***********************************************************************************************************************
+ -->
+<meta>
+    <info author="OwlGaming MTA Scripting Team" type="script" description="Trucker Job System" />
+    
+    <script src="configs_g.lua" type="shared" />
+    <script src="s_trucker_job.lua" type="server" />
+    <script src="s_trucker_job_admin_cmds.lua" type="server" />
+    <script src="s_business_order_supply.lua" type="server" />
+    <script src="c_trucker_job.lua" type="client" />
+    <script src="c_overlay.lua" type="client" />
+    
+    <script src="soundFX/s_sounds_FX.lua" type="server" />
+    <script src="soundFX/c_sounds_FX.lua" type="client" />
+    <file src="soundFX/1.mp3" />
+    <file src="soundFX/2.mp3" />
+    <file src="soundFX/3.mp3" />
+    <file src="soundFX/4.mp3" />
+    <file src="soundFX/5.mp3" />
+    <file src="soundFX/6.mp3" />
+    
+    <script src="s_truckroutes_manager.lua" type="server" />
+    <script src="c_truckroutes_manager.lua" type="client" />
+    
+    <export function="getTruckCapacity" type="server" />
+    <export function="remoteOrderSupplies" type="server" />
+    <export function="displayTruckerJob" type="client" />
+    <export function="resetTruckerJob" type="client" />
+
+    <export function="addOrder" type="server" />
+    <export function="notifyTruckers" type="server"/>
+    
+    <!--Maps required for trucker job -->
+    <map src="/RSHaulMap/RSHaulNew.map" dimension="0"></map>
+    <map src="/RSHaulMap/ParkingLot.map" dimension="0"></map>
+    <script src="/RSHaulMap/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="/RSHaulMap/mapEditorScriptingExtension_c.lua" type="client"></script>
+    
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

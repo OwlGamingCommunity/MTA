@@ -1,0 +1,13 @@
+	<meta>
+	<info author="OwlGaming" type="script" description="Site communications"/>
+	<script src="s_main.lua" type="server"/>
+	<export function='reloadUserPerks' http='true' />
+	<export function='isPlayerOnline' http='true' />
+	<export function='statTransfer' http='true' />
+	<export function='deleteItem' http='true' />
+	<export function='retrieveWeaponDetails' http='true' />
+	<export function='sendMessageToAdmins' http='true' />
+	<export function='getServerStats' http='true' />
+	<export function='kickPlayerByUserId' http='true' />
+	<export function='getPerks' http='true' />
+</meta>

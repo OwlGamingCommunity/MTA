@@ -1,0 +1,18 @@
+<content>
+PROCEDURE
+--------------------
+
+----- EXAMPLES -----
+Going on duty: Chief 100, status 2, forming 1-ALPHA-1, code 4 from central.
+
+Switching unit: 1-ALPHA-1, 10-27 to 2-ADAM-3.
+
+Responding: 1-ALPHA-4, responding code 3 to the last 911.
+
+Traffic stop: 3-FOXTROT-1, 10-55 on a black Premier, CJS 8850, location is City Hall, one IC2 occupant, 10-98.
+
+Felony stop: 4-DAVID-2, 10-66 on a black Intruder, LKZ 8842, location is DGS, three IC1 occupants, 10-70 code 3 two units.
+
+Requesting backup: 5-KING-1, 10-70 code 3, DGS, fight in progress.
+
+</content>

@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (helipad01) (10)" breakable="true" interior="0" alpha="255" model="3934" doublesided="false" scale="1" dimension="0" posX="1556.6" posY="-1228.3" posZ="276.89999" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sf_jump) (2)" breakable="true" interior="0" alpha="255" model="3852" doublesided="false" scale="1" dimension="0" posX="1594.7" posY="-1226.2" posZ="278.70001" rotX="0" rotY="0" rotZ="180.088"></object>
+    <object id="object (helipad01) (11)" breakable="true" interior="0" alpha="255" model="3934" doublesided="false" scale="1" dimension="0" posX="1574" posY="-1227.6" posZ="276.89999" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (helipad01) (12)" breakable="true" interior="0" alpha="255" model="3934" doublesided="false" scale="1" dimension="0" posX="1574.8" posY="-1255.5" posZ="276.89999" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (helipad01) (13)" breakable="true" interior="0" alpha="255" model="3934" doublesided="false" scale="1" dimension="0" posX="1589.5" posY="-1255.4" posZ="276.89999" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (helipad01) (14)" breakable="true" interior="0" alpha="255" model="3934" doublesided="false" scale="1" dimension="0" posX="1558.8" posY="-1252.6" posZ="276.89999" rotX="0" rotY="0" rotZ="90"></object>
+</map>

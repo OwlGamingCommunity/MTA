@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main">
+    <object id="object (CJ_BARB_2) (1)" breakable="true" interior="0" alpha="255" model="18027" doublesided="false" scale="1" dimension="0" posX="2279.3999" posY="-1715.3" posZ="14.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorEXT11) (2)" breakable="true" interior="0" alpha="255" model="1532" doublesided="false" scale="1" dimension="0" posX="2278.6399" posY="-1718.9" posZ="12.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (wglasssmash) (4)" breakable="true" interior="0" alpha="255" model="1649" doublesided="false" scale="1" dimension="0" posX="2281.1001" posY="-1720.4" posZ="14.2" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (wglasssmash) (5)" breakable="true" interior="0" alpha="255" model="1649" doublesided="false" scale="1" dimension="0" posX="2277.8" posY="-1720.4" posZ="14.2" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (CJ_BARB_CHAIR_2) (1)" breakable="true" interior="0" alpha="255" model="2343" doublesided="false" scale="1" dimension="0" posX="2281.7" posY="-1718.4" posZ="12.86" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_BARB_CHAIR_2) (2)" breakable="true" interior="0" alpha="255" model="2343" doublesided="false" scale="1" dimension="0" posX="2281.6001" posY="-1716.3" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_BARB_CHAIR_2) (3)" breakable="true" interior="0" alpha="255" model="2343" doublesided="false" scale="1" dimension="0" posX="2281.6001" posY="-1714.2" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kb_couch04) (1)" breakable="true" interior="0" alpha="255" model="1713" doublesided="false" scale="1" dimension="0" posX="2275.8999" posY="-1716.9" posZ="12.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (DYN_TABLE_1) (1)" breakable="true" interior="0" alpha="255" model="1433" doublesided="false" scale="1" dimension="0" posX="2276" posY="-1714.2" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Int_tat_tools01) (1)" breakable="true" interior="0" alpha="255" model="14679" doublesided="false" scale="1" dimension="0" posX="2281.3999" posY="-1719.4" posZ="12.7" rotX="0" rotY="0" rotZ="230"></object>
+    <object id="object (CJ_STEAL_TV) (1)" breakable="true" interior="0" alpha="255" model="2648" doublesided="false" scale="3" dimension="0" posX="2284.1001" posY="-1718.2" posZ="13.6" rotX="0" rotY="0" rotZ="271"></object>
+    <object id="object (CJ_STEAL_TV) (2)" breakable="true" interior="0" alpha="255" model="2648" doublesided="false" scale="3" dimension="0" posX="2284.1001" posY="-1716.1" posZ="13.6" rotX="0" rotY="0" rotZ="271"></object>
+    <object id="object (CJ_STEAL_TV) (3)" breakable="true" interior="0" alpha="255" model="2648" doublesided="false" scale="3" dimension="0" posX="2284.1001" posY="-1714.2" posZ="13.6" rotX="0" rotY="0" rotZ="271"></object>
+    <object id="object (gb_bedmags01) (2)" breakable="true" interior="0" alpha="255" model="2816" doublesided="false" scale="1" dimension="0" posX="2276.1001" posY="-1714.5" posZ="13" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_BARSTOOL_2) (1)" breakable="true" interior="0" alpha="255" model="2350" doublesided="false" scale="1" dimension="0" posX="2282.3" posY="-1719.7" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorEXT11) (3)" breakable="true" interior="0" alpha="255" model="1532" doublesided="false" scale="1" dimension="0" posX="2278.7" posY="-1721.6" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+</map>

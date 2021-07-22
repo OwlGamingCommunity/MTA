@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (dockbarrier1_SFSe) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="10889" doublesided="true" scale="1" dimension="0" posX="2433.84814" posY="-2145.2019" posZ="13.14641" rotX="2.5" rotY="0" rotZ="270"></object>
+    <object id="object (DYN_ROADBARRIER_5) (1)" breakable="false" interior="0" collisions="true" alpha="255" model="1422" doublesided="false" scale="1" dimension="0" posX="2410.33691" posY="-2140.81079" posZ="12.69502" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_ROADBARRIER_5) (2)" breakable="false" interior="0" collisions="true" alpha="255" model="1422" doublesided="false" scale="1" dimension="0" posX="2413.69653" posY="-2140.81079" posZ="12.69502" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_ROADBARRIER_5) (3)" breakable="false" interior="0" collisions="true" alpha="255" model="1422" doublesided="false" scale="1" dimension="0" posX="2417.15747" posY="-2140.81079" posZ="12.69502" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (DYN_MESH_2) (1)" radius="18" interior="0" model="1412" posX="2405.10132" posY="-2146.13892" posZ="13.82084" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

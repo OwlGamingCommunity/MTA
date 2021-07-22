@@ -1,0 +1,22 @@
+<meta>
+	<info author="Exciter" type="misc" name="The Grid" description="" version="1.0" />
+
+	<script src="c_loadgui.lua" type="client" />
+	<script src="c_mapping.lua" type="client" />
+
+	<script src="s_crossing.lua" type="server" />
+	<script src="c_crossing.lua" type="client" />
+
+	<file src="images/trans.png" />
+	<file src="images/0.png" />
+	<file src="images/loadcircle1.png" />
+	<file src="images/loadcircle2.png" />
+	<file src="images/loadcircle3.png" />
+	<file src="images/loadcircle4.png" />
+	<file src="images/icon_earth.png" />
+
+	<!-- Oceana -->
+		<file src="maps/5048/OceanaIslandParadise.map" download="false" />
+	<!-- San Tortuguilla -->
+		<file src="maps/5150/tortuguilla.map" download="false" />
+</meta>

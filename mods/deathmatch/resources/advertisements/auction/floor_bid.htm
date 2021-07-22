@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="http://mta/global/web/css/bootstrap.darkly.css">
+        <link rel="stylesheet" href="http://mta/global/web/css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="http://mta/global/web/css/animate.css">
+        <link rel="stylesheet" href="http://mta/local/advertisements.css">
+        <script src="http://mta/global/web/js/jquery.min.js"></script>
+        <script src="http://mta/global/web/js/bootstrap.min.js"></script>
+        <script src="http://mta/global/web/js/vue.min.js"></script>
+    </head>
+    <body style="background: none; overflow: none;">
+        <div id="app">
+            <div class="row justify-content-center" style="margin-top: 200px">
+                <div class="col-sm-3">
+                    <div class="card card-primary">
+                        <div class="card-header bg-primary">
+                            Bid On {{ fullVehicleName }}
+
+                            <button type="button" class="close pull-right" @click="close()">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <p v-show="error" class="text-danger">
+                                {{ error }}
+                            </p>
+
+                            <p v-show="auctionData.current_bidder_id === false">
+                                There is no bids yet. You can start the bidding off by placing the starting bid.
+                            </p>
+
+                            <p v-show="auctionData.current_bidder_id !== false">
+                                The current bid is ${{ auctionData.current_bid }}.
+                                You must bid at least ${{ minimumBid }} to lead the auction.
+                            </p>
+
+                            <form class="form-inline mb-3" @submit.prevent="">
+                                <div class="form-group mr-3">
+                                    <input type="text" v-model="bid" class="form-control">
+                                </div>
+
+                                <button class="btn btn-primary" @click="placeBid()">Place Bid</button>
+                            </form>
+
+
+                            <p>
+                                Alternatively, you can buyout the auction for ${{ auctionData.buyout }}.
+                            </p>
+                            <button class="btn btn-info" @click="buyout()">Buyout Auction for ${{ auctionData.buyout }}.</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var vm = new Vue({
+                el: '#app',
+                data: {
+                    bid: null,
+                    minimumBid: null,
+                    auctionData: {},
+                    error: null,
+                },
+                computed: {
+                    fullVehicleName: function () {
+                        return this.auctionData.year + ' ' + this.auctionData.brand + ' ' + this.auctionData.model;
+                    }
+                },
+                methods: {
+                    init: function (data) {
+                        this.auctionData = JSON.parse(atob(data));
+
+                        this.bid = parseInt(this.auctionData.current_bid);
+
+                        if (this.auctionData.current_bidder_id !== false) {
+                            this.bid += parseInt(this.auctionData.minimum_increase);
+                        }
+                        this.minimumBid = this.bid;
+                    },
+                    placeBid: function () {
+                        if (parseInt(this.bid) < parseInt(this.minimumBid)) {
+                            this.error = "Bid must exceed the minimum bid of $" + this.minimumBid + ".";
+                            return;
+                        }
+
+                        if (parseInt(this.bid) > parseInt(this.auctionData.buyout)) {
+                            this.error = "You cannot bid higher than the buyout, click the buyout button instead!";
+                            return;
+                        }
+
+                        mta.triggerEvent("floor-bid:submit", '[' + JSON.stringify({bid: this.bid}) + ']');
+                    },
+                    buyout: function () {
+                        mta.triggerEvent("floor-bid:buyout");
+                    },
+                    close: function () {
+                        mta.triggerEvent("floor-bid:cancel");
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

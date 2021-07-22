@@ -1,0 +1,32 @@
+<meta>
+	<info author="OWL MTA Scripting Team" type="script" description="Chat System"/>
+
+	<script src="s_chat_system.lua" type="server"/>
+	<script src="c_chat_system.lua" type="client"/>
+
+	<script src="c_chatbubbles.lua" type="client"/>
+	<script src="s_chatbubbles.lua" type="server"/>
+
+	<script src="c_chat_icon.lua" type="client"/>
+	<script src="s_chat_icon.lua" type="server"/>
+	<file src="chat.png"/>
+
+	<script src="restrictedfrequency/s_restrict.lua" type="server" />
+	<script src="restrictedfrequency/c_restrict.lua" type="client" />
+
+	<script src="functions_g.lua" type="shared"/>
+
+	<export function="trunklateText" type="server"/>
+	<export function="localIC" type="server"/>
+	<export function="districtIC" type="server"/>
+	<export function="localShout" type="server"/>
+	<export function="departmentradio" type="server"/>
+	<export function="getCurrentLanguage" type="server"/>
+	<export function="radio" type="server"/>
+
+	<file src="sound/pmSoundFX.mp3" />
+	<file src="sound/pa.mp3"/>
+	<file src="sound/atc.mp3"/>
+
+	<min_mta_version server="1.3.0-9.04570"></min_mta_version>
+</meta>

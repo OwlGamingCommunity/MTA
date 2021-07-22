@@ -1,0 +1,19 @@
+<map edf:definitions="editor_main">
+    <object id="object (des_garagew) (1)" breakable="true" interior="0" alpha="255" model="11504" doublesided="false" scale="1" dimension="0" posX="1010.5" posY="-1368" posZ="12.3" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (cw_tscanopy01) (1)" breakable="true" interior="0" alpha="255" model="18452" doublesided="false" scale="1" dimension="0" posX="1003.3" posY="-1348" posZ="15.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1003.4" posY="-1351.5" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1003.4" posY="-1350.1" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (3)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1003.3" posY="-1345.9" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (4)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1003.3" posY="-1344.5" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (1)" breakable="true" interior="0" alpha="255" model="1676" doublesided="false" scale="1" dimension="0" posX="1004.4" posY="-1350.9" posZ="14.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (2)" breakable="true" interior="0" alpha="255" model="1676" doublesided="false" scale="1" dimension="0" posX="1002.3" posY="-1345.2" posZ="14.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_bevhiltreepv) (1)" breakable="true" interior="0" alpha="255" model="717" doublesided="false" scale="1" dimension="0" posX="1020.4" posY="-1359.6" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_bevhiltreepv) (2)" breakable="true" interior="0" alpha="255" model="717" doublesided="false" scale="1" dimension="0" posX="1020.4" posY="-1353.1" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_bevhiltreepv) (3)" breakable="true" interior="0" alpha="255" model="717" doublesided="false" scale="1" dimension="0" posX="1020.4" posY="-1347" posZ="12.59" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_bevhiltreepv) (4)" breakable="true" interior="0" alpha="255" model="717" doublesided="false" scale="1" dimension="0" posX="1020.4" posY="-1340.2" posZ="12.59" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgegassgn03_lvs) (1)" breakable="true" interior="0" alpha="255" model="9193" doublesided="false" scale="1" dimension="0" posX="1003.4" posY="-1337.5" posZ="17.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (5)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="1003.3" posY="-1339" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (int_rest_veg03) (1)" breakable="true" interior="0" alpha="255" model="18014" doublesided="false" scale="1" dimension="0" posX="1005" posY="-1336.7" posZ="12.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (int_rest_veg03) (2)" breakable="true" interior="0" alpha="255" model="18014" doublesided="false" scale="1" dimension="0" posX="1001.7" posY="-1336.7" posZ="12.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (int_rest_veg03) (3)" breakable="true" interior="0" alpha="255" model="18014" doublesided="false" scale="1" dimension="0" posX="1017.1" posY="-1363.5" posZ="12.8" rotX="0" rotY="0" rotZ="90"></object>
+</map>

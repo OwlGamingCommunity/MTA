@@ -1,0 +1,11 @@
+<meta>
+	<info author="UG MTA Scripting Team" type="script" description="Realtime System"/>
+
+	<script src="s_realtime_system.lua" type="server" />
+	<!--<script src="c_clock.lua" type="client" />-->
+	<script src="c_update_client_time.lua" type="client" />
+	<settings>
+		<setting name="*offset" value="[0]"/>
+	</settings>
+	<export function="refreshClientTime" type="server" />
+</meta>

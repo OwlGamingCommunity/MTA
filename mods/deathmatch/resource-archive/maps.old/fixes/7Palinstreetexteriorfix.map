@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (nwlaw2husjm4_Law2) (1)" breakable="true" interior="0" alpha="255" model="3619" doublesided="false" scale="1" dimension="0" posX="1100.8" posY="-654.79999" posZ="115.6" rotX="0" rotY="0.5" rotZ="359.775"></object>
+    <removeWorldObject id="removeWorldObject (nwlaw2husjm4_Law2) (1)" radius="20.490728" interior="0" model="3619" lodModel="3738" posX="1094.9609" posY="-654.5" posZ="116.21094" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (bevmangar_LAW2) (1)" breakable="true" interior="0" alpha="255" model="3604" doublesided="false" scale="1" dimension="0" posX="1078.5" posY="-637.29999" posZ="115" rotX="0" rotY="0" rotZ="92.373"></object>
+    <removeWorldObject id="removeWorldObject (bevmangar_LAW2) (1)" radius="11.981899" interior="0" model="3604" lodModel="3737" posX="1079.9688" posY="-638.24219" posZ="115.01563" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

@@ -1,0 +1,16 @@
+<map edf:definitions="editor_main">
+    <object id="object (CJ_WS_DOOR) (1)" breakable="true" interior="0" alpha="255" model="1566" doublesided="false" scale="1" dimension="0" posX="906.7" posY="-917.6" posZ="43.1" rotX="0" rotY="0" rotZ="4"></object>
+    <object id="object (CJ_WS_DOOR) (2)" breakable="true" interior="0" alpha="255" model="1566" doublesided="false" scale="1" dimension="0" posX="909.8" posY="-917.3" posZ="43.1" rotX="0" rotY="359.75" rotZ="186.75"></object>
+    <object id="object (luxorpillar04_lvs) (1)" breakable="true" interior="0" alpha="255" model="3494" doublesided="true" scale="1" dimension="0" posX="965.9" posY="-941.5" posZ="43.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (nt_securecam2_01) (1)" breakable="true" interior="0" alpha="255" model="1622" doublesided="false" scale="1" dimension="0" posX="964.7" posY="-941.5" posZ="47.2" rotX="1" rotY="299.985" rotZ="329.732"></object>
+    <object id="object (nt_securecam2_01) (2)" breakable="true" interior="0" alpha="255" model="1622" doublesided="false" scale="1" dimension="0" posX="948.5" posY="-919.5" posZ="47.8" rotX="0" rotY="330" rotZ="210"></object>
+    <object id="object (nt_securecam2_01) (3)" breakable="true" interior="0" alpha="255" model="1622" doublesided="false" scale="1" dimension="0" posX="901.5" posY="-916" posZ="59.5" rotX="0" rotY="330" rotZ="0"></object>
+    <object id="object (arrows01_lvs) (1)" breakable="true" interior="0" alpha="255" model="8843" doublesided="false" scale="1" dimension="0" posX="877.3" posY="-936.5" posZ="40.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (arrows01_lvs) (2)" breakable="true" interior="0" alpha="255" model="8843" doublesided="false" scale="1" dimension="0" posX="873" posY="-937.2" posZ="41.6" rotX="0" rotY="0" rotZ="178"></object>
+    <object id="object (DYN_TABLE_2) (1)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="942.7" posY="-939.8" posZ="56.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (2)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="933.6" posY="-933.8" posZ="56.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (3)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="935.6" posY="-936.4" posZ="56.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (4)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="937.1" posY="-924.6" posZ="56.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (helipad) (1)" breakable="true" interior="0" alpha="255" model="3928" doublesided="false" scale="1" dimension="0" posX="969.5" posY="-919.8" posZ="44.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorSHOP3) (1)" breakable="true" interior="0" alpha="255" model="1522" doublesided="false" scale="1" dimension="0" posX="939.2" posY="-929.4" posZ="56.7" rotX="0" rotY="0" rotZ="272"></object>
+</map>

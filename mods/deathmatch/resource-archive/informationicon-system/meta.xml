@@ -1,0 +1,5 @@
+<meta>
+    <info author="UG MTA Scripting Team" type="script" description="Information Icons System"/>	
+	<script src="s_informationicons.lua" type="server"/>
+	<script src="c_informationicons.lua" type="client"/>
+</meta>

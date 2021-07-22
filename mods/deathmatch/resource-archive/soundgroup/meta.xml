@@ -1,0 +1,25 @@
+<meta>
+	<info name="soundgroup@socialz" description="Only to be used by SoundGroup, on OwlGaming. Unauthorized use = blacklisted server on MTA:SA :)" author="Socialz" version="3.0" />
+	
+	<script src="utility/mapEditorScriptingExtension_c.lua" type="client" cache="false" />
+	<script src="utility/mapEditorScriptingExtension_s.lua" />
+	
+	<script src="client/soundgroup.lua" type="client" cache="false" />
+	<!--<script src="client/streamer.lua" type="client" cache="false" />
+	<script src="client/visualizer.lua" type="client" cache="false" />-->
+	
+	<script src="server/soundgroup.lua" />
+	<!--<script src="server/streamer.lua" />-->
+	
+	<!--
+	<map src="maps/dupont-fashion-show.map" />
+	<map src="maps/dupont-fashion-show-collisions.map" />
+	-->
+	<map src="maps/soundgroup-stadium.map" />
+	
+	<!--<file src="assets/warning.png" />
+	<file src="assets/dupont-fashion-logo@397x174.png" />
+	<file src="assets/soundgroup-logo@1920x1920.png" />
+	<file src="assets/warning_white.png" />
+	<file src="shaders/visualizer.fx" />-->
+</meta>

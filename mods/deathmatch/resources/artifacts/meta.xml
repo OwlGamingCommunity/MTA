@@ -1,0 +1,43 @@
+<meta>
+	<info author="Exciter" type="script" description="Artifacts System: Handles artifacts (things players can wear that are not clothes)"/>
+
+	<script src="c_replace.lua" type="client"/>
+	<script src="c_artifacts.lua" type="client"/>
+	<script src="s_artifacts.lua" type="server"/>
+	<script src="g_artifacts.lua" type="client"/>
+	<script src="g_artifacts.lua" type="server"/>
+	<file src="texreplace.fx"></file>
+
+	<export function="getArtifacts" type="server" />
+	<export function="getArtifacts" type="client" />
+	<export function="countPlayerArtifacts" type="server" />
+	<export function="getPlayerArtifacts" type="server" />
+	<export function="isPlayerWearingArtifact" type="server" />
+	<export function="setPlayerArtifactProperty" type="server" />
+	
+	<!-- Credit for models goes to.. Immersion Gaming Scripting Team. Used with permission (ref. RPP contract) -->	
+	<!-- Fishing Rod -->
+	<file src="models/rod.txd"/>
+	<file src="models/rod.dff"/>
+	<!-- Motocross Helmet -->
+	<file src="models/pro.dff"/>
+	<file src="models/pro.txd"/>
+	<file src="models/helmet.col"/>
+	<!-- Biker Helmet -->
+	<file src="models/bikerhelmet.dff"/>
+	<file src="models/bikerhelmet.txd"/>
+	<!-- Full Face Helmet -->
+	<file src="models/fullfacehelmet.dff"/>
+	<file src="models/fullfacehelmet.txd"/>
+	<!-- Gas Mask -->
+	<file src="models/gasmask.dff"/>
+	<file src="models/gasmask.txd"/>
+	<!-- Dufflebag -->
+	<file src="models/dufflebag.dff"/>
+	<file src="models/dufflebag.txd"/>
+	<!-- Kevlar -->
+	<file src="models/kevlar.dff"/>
+	<file src="models/kevlar.txd"/>
+
+	<file src="textures/medicbag.png"/>
+</meta>

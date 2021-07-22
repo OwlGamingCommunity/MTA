@@ -1,0 +1,17 @@
+<meta>
+    <info type="script" description="Vehicle Lifts" version="1.0" name=""></info>
+	
+	<script src="c_ramp.lua" type="client"></script>
+    <script src="s_ramp.lua"></script>
+	
+	<file src="liftposts.dff"></file>
+	<file src="liftposts.col"></file>
+	<file src="ramps.col"></file>
+	<file src="ramps.dff"></file>
+	<file src="lifts.txd"></file>
+	
+	
+	<file src="stand.txd"></file>
+	<file src="stand.dff"></file>
+	<file src="stand.col"></file>
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+	<info author="anumaz" />
+	<script src="fd_bellmission.lua" type="client" />
+	<script src="server_bellmission.lua" type="server" />
+	<file src="alarm/firealarm.mp3" />
+	<file src="alarm/firealarmsecond.mp3" />
+	<file src="fire.dff" />
+	 
+	<script src="beeperFD/c_alarm.lua" type="client" />
+	<script src="beeperFD/s_alarm.lua" type="server" />
+	<file src="beeperFD/pager.mp3" />
+	<file src="beeperFD/alarm.mp3" />
+
+	<min_mta_version server="1.3.0-9.04570"></min_mta_version>
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+	<script src="s_dancers.lua"/>
+	<script src="c_dancers.lua" type="client"/>
+</meta>

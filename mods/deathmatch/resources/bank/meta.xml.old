@@ -1,0 +1,24 @@
+<meta>
+	<!--ATM CARD BY MAXIME -->
+	<info author="UG MTA Scripting Team" type="script" description="Bank System"/>
+	
+	<script src="s_bank_system.lua" type="server" />
+	<script src="c_bank_system.lua" type="client" />
+	<script src="c_bank_ped.lua" type="client" />
+	<script src="s_atm_management.lua" type="server" />
+	
+	<script src="s_atm_system.lua" type="server" />
+	<script src="c_atm_system.lua" type="client" />
+	
+	<script src="g_atm_functions.lua" type="server" />
+	<script src="g_atm_functions.lua" type="client" />
+	
+	<script src="soundFX/s_soundFX.lua" type="server" />
+	<script src="soundFX/c_soundFX.lua" type="client" />
+	<file src="soundFX/atm_insert.mp3" /> 
+	<file src="soundFX/atm_error.mp3" /> 
+	
+	<export function="playAtmInsert" type="server" />
+	<export function="getCardInfo" type="server" />
+	
+</meta>

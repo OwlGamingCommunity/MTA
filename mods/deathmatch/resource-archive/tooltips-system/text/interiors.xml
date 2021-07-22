@@ -1,0 +1,16 @@
+<content>
+    <pageLength>300</pageLength>
+	<title>Interiors</title>
+	<text>Interiors
+Interiors fall into three catagories: houses, businesses and unobtainable. When you enter an interior's marker the property's name/address, owner and value are displayed at the bottom of your screen.
+
+Houses
+Houses are marked with a green house icon when they are available to be bought or rented by a player. Once they have been purchased the green house icon is replaced with a white arrow.
+
+Businesses
+Businesses are similar to houses but are not intended to be places of residence. They are marked with blue house icons and once they have been purchased the house icon is replaced with a white arrow. Most business properties will have a particular shop or business type scripted inside.
+
+Unobtainable/Government
+Some interiors in the server have been placed to aid role play and for general public use. These interiors are marked with a white arrow. When you enter the marker there will be no owner name displayed and no price.</text>
+
+</content>

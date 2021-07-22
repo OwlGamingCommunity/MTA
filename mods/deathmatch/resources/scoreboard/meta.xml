@@ -1,0 +1,9 @@
+<meta>
+	<info author="Alberto 'ryden' Alonso" type="script" version="1.0" />
+	
+	<script src="c_tab.lua" type="client" />
+	<script src="s_tab.lua" type="server" />
+	
+	<export function="isVisible" type="client" />
+	
+</meta>

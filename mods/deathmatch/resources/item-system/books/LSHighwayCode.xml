@@ -1,0 +1,77 @@
+<content>
+	<numPages>4</numPages>
+
+	<page>Page SPEED LIMITS
+You must not exceed the maximum speed limit for the road and for your vehicle. The speed limit within Los Santos city limits is 60kmph or 40mph except for when driving on the Julius Thruway or Harry Gold Parkway.
+
+
+LANE DISCIPLINE
+
+You must drive in the right hand lane on all roads. In the case of two lanes of traffic heading in the same direction you should drive in the furthest right hand land except when overtaking.
+
+In the event of an emergency vehicle approaching you should pull over to the right side of the road and stop to allow the vehicle through. Once the vehicle has passed you should rejoin traffic when it is safe to do so.
+
+When travelling behind a large truck you should be aware of the limited visibility the truck's driver has of you. The blind spots where trucks will not be able to see you are directly behind it and directly to the left.
+
+When approaching a sharp curve in the road slow down to allow yourself time to spot any sudden hazaards such as vehicle stopped in the road.</page>
+	<page>BAD WEATHER
+
+In bad weather, you should make your car easier for others to see by Turning on your headlights. Bad weather will affect the control of your vehicle and the time it takes to bring the vehicle to a stop after braking.
+
+INTERSECTONS
+
+At an intersection with a four-way stop you should give way to the vehicle travelling from the right. In the event of traffic signals you must wait for your light to turn green before checking it is safe to proceed along your route. Drivers must always yield to pedestrians at an intersection where the pedestrial light is showing.
+
+
+PARKING
+When parking your vehicle ensure you are not impeeding any access roads or other road users. You may not park within 15ft of a fire hydrent.</page>
+	<page>((BINDING INDICATORS
+To use the scripted turn signals on vehicles enter the following commands:
+
+/bind [the key you wish to bind it to] indicator_left
+/bind [the key you wish to bind it to] indicator_right
+
+Now you will be able to toggle the turn signals on and off by pressing the key you bound them to.))</page>
+
+	<page>ROAD RELATED LAWS
+Nitrous Possession: Possessing Nitrous Oxide in your vehicle.
+Fine: 500 - 4500
+
+Failure to stop after an accident
+Fine 1000 - 10000
+
+Reckless endangerment / Reckless Driving: A serious moving traffic violation, driving any vehicle carelessly and heedlessly in wilful or wanton disregard for the rights or safety of persons or property.
+Fine: 1000 - 8000 possible to take license
+
+Illigally tinting your vehicle's windows: Having your vehicles windows tinted above the legal limit. (WIndshield: 0%, Frontside windows: 35%, Backside windows: 100%, Rearwindow: 100%)
+Fine 5000 - 10000
+
+Illegal Parking/Blocking Road: Parking a vehicle in an area where such parking is prohibited.
+Fine: 100 - 2000
+
+Illegal Racing: Unsanctioned and illegal auto racing which takes place on public roads.
+Ticket: 5000 - 15000 (Take license)
+
+Vehicular Misdemeanors:
+Driving While Intoxicated: Driving while under the influence of alcohol.
+Fine: 2000 - 8000 (Take license if they do it repeatedly)
+
+Reckless Driving: A serious moving traffic violation, driving any vehicle carelessly and heedlessly in wilful or wanton disregard for the rights or safety of persons or property.
+Fine: 1000 - 8000 possible to take license
+
+Misuse of a road vehicle/aircraft: Use of a vehicle that could cause havoc, disruption, danger or panic.
+Fine: 10000 - 15000 possible to take license
+
+Driving a non-street legal vehicle on the road: Driving a vehicle like go carts on the streets.
+Fine: 2000 - 6000
+
+Failure to yield for an emergency vehicle: Failing to let an emergency vehicle past when said vehicle has ordered you to clear a path via use of megaphone or siren.
+Fine: 500 - 1500
+
+Failure to pay Misdemeanor ticket: Not paying a ticket given out for misdemeanor.
+Fine: 500 - 5000
+
+Reckless Endangerment: Reckless conduct that is likely to produce death or grievous bodily harm to another person.
+Fine: 5000 - 10000
+</page>
+</content>

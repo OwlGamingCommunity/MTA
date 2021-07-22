@@ -1,0 +1,20 @@
+<meta>
+	<info author="OWL MTA Scripting Team" type="vehicle script" description="Car Shop System"/>
+
+	<script src="s_crusher.lua" type="server" />
+	<script src="c_crusher.lua" type="client" />
+	<export function="getVehiclePrice" type="server" http="true" />
+	<export function="getPriceFromModel" type="server" http="true" />
+	<export function="getVehiclePriceFromTable" type="server" http="true" />
+
+	<script src="s_shop.lua" type="server" />
+	<script src="g_shops.lua" type="server" />
+	<script src="g_shops.lua" type="client" />
+	<script src="c_shop.lua" type="client" />
+	<script src="c_blip.lua" type="client" />
+
+	<export function="isForSale" type="server" http="true" />
+	<export function="getCarShops" type="client" />
+	<export function="getCarShops" type="server" />
+	<map src="belgica-boatcrusher/belgica-boatcrusher.map" dimension="0"></map>
+</meta>

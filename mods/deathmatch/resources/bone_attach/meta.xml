@@ -1,0 +1,22 @@
+<meta>
+	<info author="CrystalMV" version="1.3.0" name="Bone attachments" description="Attach elements to bones of peds and players" type="script" />
+	<script src="bone_attach.lua" />
+	<script src="bone_attach_c.lua" type="client" />
+	<script src="attach_func.lua" />
+	<script src="attach_func.lua" type="client" />
+	<script src="bone_pos_rot.lua" type="client" />
+
+	<export function="attachElementToBone" type="server" />
+	<export function="attachElementToBone" type="client" />
+	<export function="detachElementFromBone" type="server" />
+	<export function="detachElementFromBone" type="client" />
+	<export function="isElementAttachedToBone" type="server" />
+	<export function="isElementAttachedToBone" type="client" />
+	<export function="getElementBoneAttachmentDetails" type="server" />
+	<export function="getElementBoneAttachmentDetails" type="client" />
+	<export function="setElementBonePositionOffset" type="server" />
+	<export function="setElementBonePositionOffset" type="client" />
+	<export function="setElementBoneRotationOffset" type="server" />
+	<export function="setElementBoneRotationOffset" type="client" />
+	<export function="getBonePositionAndRotation" type="client" />
+</meta>

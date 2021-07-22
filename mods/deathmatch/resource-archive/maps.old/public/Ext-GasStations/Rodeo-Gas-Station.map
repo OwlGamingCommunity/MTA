@@ -1,0 +1,15 @@
+<map edf:definitions="editor_main">
+    <object id="object (des_garagew) (1)" breakable="true" interior="0" alpha="255" model="11504" doublesided="false" scale="1" dimension="0" posX="604.90002" posY="-1519.6" posZ="14" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (desn_tscanopy) (1)" breakable="true" interior="0" alpha="255" model="11547" doublesided="false" scale="1" dimension="0" posX="612.20001" posY="-1507.7" posZ="16.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgegassgn03_lvs) (1)" breakable="true" interior="0" alpha="255" model="9193" doublesided="false" scale="1" dimension="0" posX="616.79999" posY="-1495.9" posZ="18.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="612.29999" posY="-1504.3" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="612.29999" posY="-1505.6" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (3)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="612.20001" posY="-1500.1" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (4)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="612.20001" posY="-1498.8" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fencesmallb) (5)" breakable="true" interior="0" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="612.20001" posY="-1509.7" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (1)" breakable="true" interior="0" alpha="255" model="3465" doublesided="false" scale="1" dimension="0" posX="611.40002" posY="-1504.9" posZ="15.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vegspetrolpump) (2)" breakable="true" interior="0" alpha="255" model="3465" doublesided="false" scale="1" dimension="0" posX="613.09998" posY="-1499.5" posZ="15.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_BLOCKER_BENCH) (1)" breakable="true" interior="0" alpha="255" model="1368" doublesided="false" scale="1" dimension="0" posX="616.79999" posY="-1517" posZ="14.7" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_BIN1) (1)" breakable="true" interior="0" alpha="255" model="1359" doublesided="false" scale="1" dimension="0" posX="617.20001" posY="-1519.2" posZ="14.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kb_planter_bush2) (1)" breakable="true" interior="0" alpha="255" model="640" doublesided="true" scale="1" dimension="0" posX="616.29999" posY="-1521.2" posZ="14.8" rotX="0" rotY="0" rotZ="0"></object>
+</map>

@@ -1,0 +1,5 @@
+<meta>
+	<info author="vG Scripting Team" name="glue-system"  version="1.0" type="script"/>
+	<script src="c_glue.lua" type="client" />
+	<script src="s_glue.lua" type="server" />
+</meta>

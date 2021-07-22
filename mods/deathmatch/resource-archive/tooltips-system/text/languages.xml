@@ -1,0 +1,14 @@
+<content>
+    <pageLength>300</pageLength>
+	<title>Languages</title>
+	<text>The language system attempts to approximate the language barrier. Even when speaking in a foreign scripted language you must type in English and allow the script to jumble the message according to the lanaguage skill of the characters around you.
+	
+When creating your character, you are able to choose your character's native language. When you speak a language, if a recipient's character doesmnt know that language, the letters will appear scrambled on their screen.
+	
+You can learn upto three languages at a time. To learn a new language visit the book store and buy a dictionary for whatever language you would like to learn. Once you have purchased and used the book, you can start learning the language by being around other people who speak it.
+
+Language Commands
+F6 - Opens the language menu.
+/[1-3] [text] - Shortcut commands to speak any of the three languages your player knows. Example, "/2 Hi. How are you?" to speak in your second language.</text>
+
+</content>

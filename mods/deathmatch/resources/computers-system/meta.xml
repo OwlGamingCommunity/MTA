@@ -1,0 +1,45 @@
+<meta>
+	<info author="vG scripting Team" type="script" name="Computers" showInResourceBrowser="true" version="0.0.1" />
+	
+	<script src="g_domains.lua" type="shared"/>
+	<script src="c_computers.lua" type="client"/>
+	<script src="c_browser.lua" type="client"/>
+
+	<script src="c_mail.lua" type="client"/>
+	<script src="s_mail.lua" type="server"/>
+
+	<script src="s_internetcafe.lua" type="server"/>
+	<script src="c_internetcafe.lua" type="client"/>
+	
+	<file src="wallpaper.jpg" />
+	<file src="icons/chromium.png" />
+	<file src="icons/mail.png" />
+	<file src="icons/shutdown.png" />
+
+	<!-- Images -->
+	<file src="websites/images/bank_ad1.png" />
+	<file src="websites/images/bank_ad2.png" />
+	<file src="websites/images/ccbosa-logo.png" />
+	<file src="websites/images/dinosaur.png" />
+	<file src="websites/images/lspd-logo.png" />
+	<file src="websites/images/faa.png" />
+	
+	<!-- Websites -->
+	<script src="websites/error.lua" type="client"/>
+	<script src="websites/mdc.lua" type="client"/>
+	<script src="websites/ippc.lua" type="client"/>
+	<script src="websites/ippc_s.lua" type="server"/>
+
+	<script src="websites/banking.lua" type="server"/>
+
+	<!-- Colours -->
+	<file src="websites/colours/1.png" />
+	<file src="websites/colours/13.png" />
+	<file src="websites/colours/14.png" />
+	<file src="websites/colours/36.png" />
+	<file src="websites/colours/116.png" />
+
+	<!-- Exports -->
+	<export function="openBrowser" type="client" />
+	<export function="closeBrowser" type="client" />
+</meta>

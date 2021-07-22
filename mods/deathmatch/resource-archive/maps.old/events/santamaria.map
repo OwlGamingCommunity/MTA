@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (parkbench1) (1)" radius="3.6262574" interior="0" model="1280" lodModel="0" posX="150.50783" posY="-1785.5811" posZ="3.65626" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (parkbench1) (2)" radius="3.6262574" interior="0" model="1280" lodModel="0" posX="159.10629" posY="-1793.4989" posZ="3.56432" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (parkbench1) (3)" radius="3.6262574" interior="0" model="1280" lodModel="0" posX="150.64552" posY="-1808.001" posZ="3.33068" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_LIFE_P) (1)" radius="2.8928671" interior="0" model="1461" lodModel="0" posX="161.7115" posY="-1813.5299" posZ="3.97395" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (parkbench1) (4)" radius="3.6262574" interior="0" model="1280" lodModel="0" posX="159.14111" posY="-1841.2418" posZ="3.35628" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (parkbench1) (5)" radius="3.6262574" interior="0" model="1280" lodModel="0" posX="150.53934" posY="-1834.527" posZ="3.1294" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

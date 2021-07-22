@@ -1,0 +1,5 @@
+<meta>
+	<info author="Chuevo" type="script" description="Ticket System"/>
+
+	<script src="s_vehticket.lua" type="server" />
+</meta>

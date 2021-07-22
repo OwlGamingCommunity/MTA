@@ -1,0 +1,9 @@
+<meta>
+	<info author="oG MTA Scripting Team" type="script" />
+
+	<script src="c_sapt_system.lua" type="client" />
+	<script src="c_sapt_leader.lua" type="client" />
+
+	<script src="s_sapt_leader.lua" type="server" />
+	<script src="s_sapt_system.lua" type="server" />
+</meta>

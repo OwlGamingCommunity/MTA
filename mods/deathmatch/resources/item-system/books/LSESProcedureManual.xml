@@ -1,0 +1,356 @@
+<content>
+	<numPages>10</numPages>
+
+<page>VEHICLE CODES:
+Fire Department -;
+East -> West ;
+Ladder 1 (L1),
+Squad 1 (S1),
+Squad 2 (S2),
+Engine 1 (E1),
+Engine 2 (E2),
+Engine 3 (E3).
+In the FD Garage ;
+Heavy Duty Vehicle (HDV)
+On the FD Roof ;
+Air Rescue 1 (AR1 , near the door, floating one.)
+Air Rescue 2 (AR2 , Furthest from door.)
+
+Medical -;
+Outside ;
+Rescue 1 (R1)
+On ASH Roof ;
+Life Star 1 (LS1)
+In ASH Garage ;
+Left to right after standing at the enterence;
+Medical 1 (M1)
+Rescue 2 (R2)
+Rescue 3 (R3)
+Medical 2 (M2)
+
+Airport -;
+Los Santos Fire Department 1337 (LSES1337, the BEagle)
+
+	</page>	
+
+<page>RADIO PROTOCOL:
+10-1 Responding
+10-2 Arriving at scene
+10-3 Negative
+10-4 Affirmative
+10-5 Repeat last transmission
+10-6 Stand-By
+10-7 Report to (Location)
+10-10 Activity update (Give 10-20 and Status)
+10-12 Requesting backup
+10-15 Requesting Ambulance
+10-16 Requesting Firetruck
+10-17 Description
+10-20 Location
+10-22 Disregard last statement
+10-30 Returning to Patrol
+10-31 Returning to All Saints Hospital
+10-32 Returning to Fire Department
+10-99 Assignment complete (State condition: Patient treated,
+Scene Cleared, etc.)
+
+STATUS 1 ON DUTY
+
+STATUS 2 OFF DUTY
+
+STATUS 3 INACTIVE - Fueling, Repairing, etc.
+
+Example of going on duty and responding to a call;
+Brenkly, Status 1, going 10-1 loud to the previous call in R1.
+
+	</page>	
+
+	<page>ROUTINE CALL:
+
+1. Make sure the scene is safe for you and the patient.
+
+2. Check patient’s ABCs:
+- A = Airways
+- B = Breathing
+- C = Circulation
+
+3. Check patient’s AVPU.
+- A = Alert and Conscious
+- V = Verbal
+- P = Responsive to Pain.
+- U = Unconscious.
+
+4. Survey.
+- Patients: Sex, age, approx. weight.
+- Main problem.
+- Participating factors.
+- Allergies
+
+5. Apply appropriate protocol
+
+6. Transport.
+	</page>
+	<page>PROTOCOLS: A
+
+1. Abdominal Trauma.
+
+a) Check ABCs
+b) Manage the blood loss
+c) Give oxygen
+d) Set an IV of Ringers Lactate
+e) Transport
+
+2. Alcohol Emergency.
+
+a) Check ABCs
+b) Give oxygen
+c) If pupils constricted give 1-2 mg of Naloxone.
+d) If patient is vomiting give 5-10mg of Compazine.
+e) Transport.
+
+3. Altered Mental Status.
+
+a) Check ABCs if possible.
+b) Give oxygen.
+c) If psychotic give 1-5mg of Haldol (Vitamin H)
+d) Transport
+
+4. Anaphylaxis.
+
+a) Check ABCs
+b) Give oxygen
+c) Give epinephrine 0.3mg
+
+5. Asthma
+
+a) Check ABCs
+b) Give oxygen
+c) If hypo-ventilating use BVM.
+d) If wheezing give 0.5ml of Albuterol via NRB.
+e) Consider use of 0.3mg of Epinephrine.
+	</page>
+	<page>PROTOCOLS: B
+
+1. Burns
+
+a) Extinguish any flames
+b) Remove from harmful environment
+c) Check ABCs
+d) Flush the burns with cold water or saline.
+e) Give oxygen
+d) Set an IV with Ringer’s.
+e) Consider 3-5mg of Morphine.
+f) Transport
+
+PROTOCOLS: C
+
+1. Chest Pain
+
+a) Check ABC
+b) Give oxygen
+c) Administer one nitroglycerine tablet sublingually
+d) Give 325mg (one tablet) of Aspirin orally.
+e) Consider 2mg of Morphine
+f) Transport
+
+2. Chest Trauma.
+
+a) Check ABCs
+b) Give oxygen
+c) If sucking chest wound (pneumothorax) Place occlusive
+dressing.
+d) Set IV
+e) If unconscious intubate, ventilating with BVM.
+f) If tension pneumothorax perform needle decompression of the
+chest.
+g) Impaled objects should be left in place.
+h) Transport
+
+3. CVA (Cerebrovascular accident)/ Stroke
+
+a) Check ABCs
+b) Give oxygen
+c) Set IV
+d) Elevate head if possible
+e) if sizing give 5-10mg of Valium
+f) Transport</page>
+	<page>PROCEDURES: D
+
+1. Diabetic Emergency
+
+a) Check ABCs
+b) Give oxygen
+c) Draw blood and check sugar levels.
+d) If hypoglycemia give 1mg of Glucagon.
+e) If hyperglycemia set the IV and give 10-25 units of insulin via
+the IV.
+
+2. Dysrhythmias – Asystole
+
+a) Check ABCs
+b) Initiate CPR
+c) Intubate
+d) Set IV
+e) Give 1mg of Epinephrine via IV.
+f) Administer 1mg of Atropine via IV.
+g) Transport
+
+2. Dysrhythmias – Bradycardia
+
+a) Check ABCs
+b) Give oxygen
+c) Set IV
+d) Give 4mg of Atropine via IV.
+e) Transport
+
+3. Dysrhythmias – Tachycardia
+
+a) Check ABCs
+b) Give oxygen
+c) Set IV
+d) Administer 1-1.5mg of Lidocaine via IV.
+e) Consider 2microgram/kg/min of Dopamine via IV.
+
+4. Dysrhythmias – Ventricular Fibrillation
+
+a) Check ABCs
+b) Perform CPR till defibrillator is prepared.
+c) Defibrillate 3 times at: 200, 300 and 360 Joules.
+d) If no effect Intubate
+d) Set an IV
+e) Administer 1mg of Epinephrine
+f) If patient is stabile transport, or transport during the
+procedures.</page>
+	<page>PROCEDURES: E
+
+1. Eye injury.
+
+a) Check ABCs
+b) instill 2 drops of Tetracaine ophtalmic drops.
+c) If chemical injury flush with normal saline all the time.
+d) Get the name of the chemical.
+e) Transport.
+
+PROCEDURES: F
+
+1. Fracture.
+
+a) Check ABCs
+b) Consider 2-4mg of Morphine IM (intramuscularly)
+c) Immobilize fracture
+d) Transport</page>
+
+	<page>MEDICATIONS:
+
+A
+
+Aspirin - Platelet inhibitor/anti-inflammatory
+Dose: 150-325 Chewed.
+
+Atropine - Increases heart rate
+Dose: Bradycardia: 0.5 mg every 5 minutes to maximum of 0.04
+mg/kg.
+Asystole: 1 mg. Via IV.
+
+Activated Charcoal – Absorbes toxins in gastric tract.
+Dose: 50-75g mixed with water to form a slurry.
+
+D
+
+Dextrose – Elevates sugar levels
+Dosage: 25mg
+
+Diazepam (Valium) – Tranquilizer
+Dosage: 2-5mg IM or IV.
+
+Dopamine – Increases the heart rate.
+Dosage: 800 mg should be placed in 500 ml of D5W IV only.
+
+E
+
+Epinephrine – Increases heart rate, blood pressure and dilates
+the bronchi’s.
+Dosage: 0.3-0.4mg subcutaneous or IV
+For cardiac arrest 0.5-1mg via IV.
+
+H
+
+Haldol (Vitamin H) – Major Tranquilizer used for Psychosis
+Dosage: 2-5mg IM
+
+I
+
+Insuline – Hormone
+Dosage: 15-25 units via IV.
+
+L
+
+Lasix – Lowers the Blood Pressure.
+Dosage: 40-80mg.
+
+M
+
+Morphine – Analgesic
+Dosage: 2-5mg
+
+N
+
+Naloxone – Narcotic Antagonist
+Dosage: 1-2mg</page>
+	<page>GLOSSARY
+
+ABC- Airways, Breathing, Circulation
+
+Anaphylactic Shock – Extreme allergic reaction that involves
+difficulty breathing and/or heart failure.
+
+Arrhythmia – When the heart does not beat in its normal rhythm.
+
+Asystole – A condition where the heart stops to beat.
+
+Blood Pressure – Measure how good the blood circulates in the
+body. Normal BP is around 120/80
+
+Bradycardia – State where the heart beat goes below 50 beats
+per minute.
+
+BVM – Squeezable bag attached to a mask. Used in regulation
+of patients breath rate.
+
+C-spine – Cervical, neck part of the spine.
+
+CPR – Cardiopulmonary Resuscitation.
+
+D5W – 5% glucose in saline solution.
+
+Diastolic – Blood Pressure when the heart relaxes.
+
+DOA – Dead On Arrival.
+
+ECG – Electrocardiogram, measures heart activity.
+
+GSW – Gun Shot Wound
+
+Hyperglycemia – High levels of glucose in blood.
+
+Hypoglycemia – Low levels of glucose in blood.
+
+Hypovolemia – Sudden decrees of blood volume in the body.
+(Bleeding out)
+
+IM – Intramuscular. (Into the muscle)
+
+IV – Intravenous (Into Vein)
+
+OD – Overdose
+
+Tachycardia – High pulse over 100 beats per minute.
+
+Vitamin H – Haldol</page>
+	<page>"Special thanks to:
+
+- John Brenkly
+- Tom Stewart
+- Marcus Black
+- Harry Throne</page>
+</content>

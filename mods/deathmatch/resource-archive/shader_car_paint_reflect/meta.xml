@@ -1,0 +1,8 @@
+<meta>
+	<info description="Shader - Car Paint reflect" version="0.2.0" type="script" />
+	<script src="c_car_reflect.lua" type="client" />
+	<file src="car_refgrun.fx" type="client" />
+	<file src="car_refgene.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+	<file src="images/smallnoise3d.dds" type="client" />
+</meta>

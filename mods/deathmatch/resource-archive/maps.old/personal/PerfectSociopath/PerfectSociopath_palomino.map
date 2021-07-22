@@ -1,0 +1,16 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (Cedar1_hi) (1)" radius="12.831414" interior="0" model="766" lodModel="0" posX="2279.875" posY="155.17188" posZ="25.47656" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (fenceshit3) (1)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2285.301" posY="151.69701" posZ="26.149" rotX="0" rotY="0" rotZ="269.656"></object>
+    <removeWorldObject id="removeWorldObject (DYN_F_WOOD_2) (1)" radius="4.7931862" interior="0" model="1408" lodModel="0" posX="2296.3323" posY="157.20801" posZ="26.945" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_F_WOOD_2) (2)" radius="4.7931862" interior="0" model="1408" lodModel="0" posX="2286.7327" posY="151.90559" posZ="25.84388" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_F_WOOD_2) (3)" radius="4.7931862" interior="0" model="1408" lodModel="0" posX="2281.2083" posY="151.90559" posZ="25.76721" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_F_WOOD_2) (4)" radius="4.7931862" interior="0" model="1408" lodModel="0" posX="2276.1423" posY="151.90559" posZ="26.13119" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Elmsparse_hism) (1)" radius="13.58497" interior="0" model="780" lodModel="0" posX="2289.6797" posY="176.0625" posZ="26.3125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (fenceshit3) (2)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2278.9231" posY="151.73199" posZ="26.149" rotX="0" rotY="0" rotZ="269.654"></object>
+    <object id="object (fenceshit3) (3)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2274.1169" posY="151.763" posZ="26.149" rotX="0" rotY="0" rotZ="269.654"></object>
+    <object id="object (fenceshit3) (4)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2292.1841" posY="154.782" posZ="26.555" rotX="351.92" rotY="0" rotZ="180.684"></object>
+    <object id="object (fenceshit3) (5)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2296.304" posY="154.882" posZ="26.555" rotX="351.92" rotY="0" rotZ="180.681"></object>
+    <object id="object (fenceshit3) (9)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2296.2119" posY="161.185" posZ="27.445" rotX="351.92" rotY="0" rotZ="180.681"></object>
+    <object id="object (fenceshit3) (7)" breakable="true" interior="0" alpha="255" model="983" doublesided="false" scale="1" dimension="0" posX="2288.46" posY="154.88901" posZ="26.511" rotX="351.92" rotY="0" rotZ="180.681"></object>
+    <object id="object (sm_veg_tree5) (1)" breakable="true" interior="0" alpha="255" model="672" doublesided="true" scale="1" dimension="0" posX="2273.979" posY="154.254" posZ="26.006" rotX="0" rotY="0" rotZ="134"></object>
+</map>

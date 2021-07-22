@@ -1,0 +1,13 @@
+<meta>
+	<info description="Tinted Windows" version="1.0" author="Daniels" type="script"/>
+	
+	<script src="c_tinted_windows.lua" type="client"/>
+	<script src="s_tinted_windows.lua" type="server"/>
+	<file src="tinted_windows.fx" type="client"/>
+	<file src="mta-helper.fx" type="client"/>
+	<file src="texreplace.fx"></file>
+	
+	<!-- TEXTURES -->
+	<file src="textures/elegy3.png" type="client"></file>
+	<file src="textures/sasd.png" type="client"></file>
+</meta>

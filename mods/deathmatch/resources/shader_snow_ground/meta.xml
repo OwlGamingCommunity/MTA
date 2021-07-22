@@ -1,0 +1,13 @@
+<meta>
+	<info name="Shader snow ground" author="ccw" version="0.0.3" type="script" />
+	<min_mta_version client="1.1.0" server="1.1.0" />
+
+	<script src="c_snow_ground.lua" type="client" />
+	<script src="s_snow_ground.lua" type="server" />
+
+	<file src="smallnoise3d.dds" type="client" />
+	<file src="snow_ground.fx" type="client" />
+	<file src="snow_trees.fx" type="client" />
+	<file src="snow_naughty_trees.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+</meta>

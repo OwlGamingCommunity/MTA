@@ -1,0 +1,41 @@
+# MTA Generated
+/dumps
+/dumps/*
+*Thumbs.db
+*.log
+*.tex
+*.db
+*.db-journal
+/mta-server64
+/mta
+/x64
+MTA Server.exe
+core.dll
+libcurl.dll
+mods/deathmatch/dbconmy.dll
+mods/deathmatch/deathmatch.dll
+mods/deathmatch/libmysql.dll
+mods/deathmatch/lua5.1.dll
+mods/deathmatch/pcre3.dll
+net.dll
+pthread.dll
+xmll.dll
+mods/deathmatch/server-id.keys
+LICENSE
+NOTICE
+README
+mods/deathmatch/dumps/
+local.conf
+banlist.xml
+
+
+
+
+# Owl Configuration
+/mods/deathmatch/resource-cache/
+/mods/deathmatch/resources/guieditor/
+/mods/deathmatch/settings.xml
+/mods/deathmatch/mtaserver.conf
+
+# Personal
+.vscode

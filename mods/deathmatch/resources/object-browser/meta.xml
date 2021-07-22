@@ -1,0 +1,5 @@
+<meta>
+    <info author="eXo|Mr.Hankey" name="Object Browser" version="0.9.1" type="misc"/>
+    <script src="ob.lua" type="client" />
+    <config src="obj.xml" type="client"/>
+</meta>

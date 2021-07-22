@@ -1,0 +1,2 @@
+PAY_BY_CARD = 1
+PAY_BY_CASH = 0

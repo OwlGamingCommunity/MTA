@@ -1,0 +1,17 @@
+<meta>
+    <info author="Exciter" type="script" description="Object interaction system"/>
+	
+	<!--<script src="g_objects.lua" type="server"/>
+	<script src="g_objects.lua" type="client"/>-->
+	
+	<!--<script src="s_objects.lua" type="server"/>-->
+	
+	<script src="c_objects.lua" type="client"/>
+	
+	<script src="c_objects_rightclick.lua" type="client"/>
+
+	<export function="clickObject" type="client"/>
+
+	<export function="areYouSure" type="client"/>
+	
+</meta>

@@ -1,0 +1,13 @@
+<meta>
+	<info author="Owlgaming MTA Scripting Team" type="script" description="Payday System"/>
+	
+	<script src="s_taxes.lua" type="server" />
+	<script src="s_payday.lua" type="server" />
+	<file src="mission_accomplished.mp3" />
+	<script src="c_payday.lua" type="client" />	
+
+	<script src="taxes_g.lua" type="client" />	
+	<script src="taxes_g.lua" type="server" />	
+	<export function="getPropertyTaxRate" type="server"/>
+	<export function="getPropertyTaxRate" type="client"/>
+</meta>

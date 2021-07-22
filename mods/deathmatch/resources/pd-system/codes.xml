@@ -1,0 +1,49 @@
+<content>
+----- TEN CODES -----
+10-1 -- Roll Call
+10-2 -- Arriving At Scene
+10-3 -- Negative
+10-4 -- Affirmative
+10-5 -- Repeat 
+10-6 -- Stand By
+10-7 -- Report TO [LOCATION]
+10-8 -- Suspect Lost
+10-9 -- Suspect Arrested
+10-10 -- Activity Update (Status Update + 10-20 + 10-11 )
+10-11 -- Police Operation
+10-12 -- Requesting Backup
+10-13 -- Officer Down
+10-17 -- Description
+10-18 -- MDC Check
+10-20 -- Location
+10-21 -- Be on Lookout ( Description ) 
+10-22 -- Disregard Last Statement 
+10-27 -- Suspicious Activity ( Gang Violence / Weapon / Drug Deal )
+10-28 -- Radio Silence 
+10-29 -- Radio Silence Lifted 
+10-30 -- Returning to Patrol ( City Wide )
+10-31 -- Returning to the Police Station 
+10-32 -- No need for Further Assistance
+10-50 -- Car Crash
+10-55 -- Traffic Stop
+10-57 Victor -- Vehicle Pursuit 
+10-57 Foxtrot -- Foot Pursuit
+10-99 -- Assignment Completed ( State Condition : Arrested, Ticketed etc )
+
+----- RESPONSE/JOB CODES -----
+Code 1 -- Routine Call (No lights or sirens)
+Code 2 -- Priority Call (No Lights or sirens)
+Code 3 -- Emergency Call (Lights and sirens)
+
+----- STATUS CODES -----
+Status 1 -- On Duty
+Status 2 -- Off Duty
+Status 3 -- Inactive - Meal break , vehicle fill up etc
+
+----- IDENTITY CODES -----
+IC1 – White person, northern European type
+IC2 – Mediterranean European/Hispanic
+IC3 – African/Afro-Caribbean person
+IC4 – Indian, Pakistani, Nepalese, Maldivian, Sri Lankan, Bangladeshi, or any other (South) Asian person
+IC5 – Chinese, Japanese, or South-East Asian person
+</content>

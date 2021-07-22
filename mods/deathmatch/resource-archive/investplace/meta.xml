@@ -1,0 +1,6 @@
+<meta>
+
+	<script src="s_invest.lua" type="server" />
+	<script src="c_invest.lua" type="client" />
+
+</meta>

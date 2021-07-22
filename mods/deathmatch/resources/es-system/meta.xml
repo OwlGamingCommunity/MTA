@@ -1,0 +1,27 @@
+<meta>
+	<info author="oG MTA Scripting Team" type="script" description="ES System"/>
+
+	<script src="s_drag.lua" type="server"/>
+	
+	<script src="s_es_system.lua" type="server"/>
+	<script src="c_es_system.lua" type="client"/>
+	
+	<!--<script src="s_bleedout.lua" type="server"/>
+	<script src="c_bleedout.lua" type="client"/>-->
+	
+	<script src="s_counterped.lua" type="server"/>
+	<script src="c_counterped.lua" type="client"/>
+
+	<script src="s_injuries.lua" type="server"/>
+	<script src="c_injuries.lua" type="client"/>
+	
+	<!--assist beacon-->
+	<script src="s_assist.lua" type="server"/>
+	<script src="c_assist.lua" type="client"/>	
+	
+	<!--stretcher system-->
+	<script src="s_stretcher.lua" type="server"/>
+	<script src="c_stretcher.lua" type="client"/>
+
+	<file src="ash.png"/>
+</meta>

@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (fencesmallb) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="-2699.3999" posY="1272.9" posZ="55.4" rotX="0" rotY="0" rotZ="281"></object>
+    <object id="object (fencesmallb) (2)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="false" scale="1" dimension="0" posX="-2699.3" posY="1264.7" posZ="55.4" rotX="0" rotY="0" rotZ="261.998"></object>
+    <object id="object (fencesmallb) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="-2699" posY="1268.7998" posZ="55.4" rotX="0" rotY="0" rotZ="269.995"></object>
+    <object id="object (fencesmallb) (6)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="-2663.5996" posY="1276.7002" posZ="55.4" rotX="0" rotY="0" rotZ="280.992"></object>
+    <object id="object (fencesmallb) (7)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="-2663.5996" posY="1284.9004" posZ="55.4" rotX="0" rotY="0" rotZ="258.992"></object>
+    <object id="object (fencesmallb) (8)" breakable="true" interior="0" collisions="true" alpha="255" model="970" doublesided="true" scale="1" dimension="0" posX="-2664" posY="1280.7998" posZ="55.4" rotX="0" rotY="0" rotZ="269.995"></object>
+</map>

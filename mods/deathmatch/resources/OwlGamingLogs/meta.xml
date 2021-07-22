@@ -1,0 +1,6 @@
+<meta>
+	<script src="c_log.lua" type="client" />
+	<export function="writeCellphoneLog" type="client" /> <!--writeCellphoneLog(charName, fromPhone, subfolder, toPhone, message )-->
+	<export function="drawInfoBox" type="client" />
+	<export function="closeInfoBox" type="client" />
+</meta>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="http://mta/global/web/css/bootstrap.darkly.css">
+        <link rel="stylesheet" href="http://mta/global/web/css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="http://mta/global/web/css/animate.css">
+        <link rel="stylesheet" href="http://mta/local/advertisements.css">
+        <script src="http://mta/global/web/js/jquery.min.js"></script>
+        <script src="http://mta/global/web/js/bootstrap.min.js"></script>
+        <script src="http://mta/global/web/js/vue.min.js"></script>
+    </head>
+    <body style="background: none; overflow: none;">
+
+        <div id="app" style="margin-top: 100px">
+            <div class="row justify-content-center">
+                <div 
+                    :class="{
+                        'col-sm-6': (screen.width >= 1720), 
+                        'col-sm-8': (screen.width < 1720 && screen.width >= 960), 
+                        'col-sm-12': (screen.width < 960),
+                    }"
+                >
+                    <div class="card card-primary" style="opacity: 0.94; border: 0;">
+                        <div class="card-header bg-primary">
+                            {{ title }}
+
+                            <button type="button" class="close pull-right" @click="close()">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="card-body" :style="{'overflow-y': 'auto', 'overflow-x': 'none', 'max-height': (screen.height - 250) + 'px'}">
+
+                            <!-- 
+                            -- HOME PAGE
+                            -->
+                            <div class="row animated fadeIn" v-show="page == 'HOME' || page == 'SECTION'">
+                                <div v-show="page == 'SECTION'" class="col-sm-12 animated fadeIn">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item text-success"><a @click="viewSection(null)">Home</a></li>
+                                        <li class="breadcrumb-item">{{ currentSection }}</li>
+                                    </ol>
+                                </div>
+
+                                <div class="col-sm-9">
+                                    <h5>{{ page == 'SECTION' ? currentSection : 'Latest Advertisements' }}</h5>
+
+                                    <div v-show="deletePending" class="alert alert-info">
+                                        Successfully deleted advertisement {{ deletePending }}
+                                    </div>
+
+                                    <div v-if="loading" class="row h-100 w-100 justify-content-center align-items-center">
+                                        <div class="col-12" style="margin-left: 450px;">
+                                            <div class="lds-css ng-scope"><div class="lds-spin"><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div></div>
+                                        </div>
+                                    </div>
+
+                                    <h6 v-else class="animated fadeIn" v-for="advertisement in advertisements">
+                                        <a @click="fetchAdvertisement(advertisement.id)" class="text-info">{{ advertisement.advertisement }}</a><br>
+                                        <small class="text-muted">
+                                            <span v-show="advertisement.phone.length > 0 && advertisement.phone != ' '">Ph: #{{ advertisement.phone}} | </span>
+                                            Created: {{ timeSince(advertisement.start) }} ago
+                                        </small>
+                                    </h6>
+
+                                    <div class="mt-3" v-show="pagination.totalPages > 1">
+                                        <button class="btn btn-primary btn-sm" @click="setPage(pagination.page-1)" :disabled="(pagination.page <= 1)">Previous</button>
+                                        <small>Page {{ pagination.page }}</small>
+                                        <button class="btn btn-primary btn-sm" @click="setPage(pagination.page+1)" :disabled="(pagination.page >= pagination.totalPages)">Next</button>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3 animated fadeIn">
+                                    <h5>Browse Categories</h5>
+                                    <div class="list-group">
+                                        <a class="list-group-item list-group-item-action d-flex" v-for="section in sections" @click="viewSection(section)">
+                                            <span class="mr-auto">{{ section }}</span>
+                                            <span class="text-muted small">
+                                                <span class="oi oi-caret-right pull-right"></span>
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                    <button class="btn btn-primary w-100 mt-3" @click="openPostAdvertisement()">Post Advertisement &nbsp;&nbsp;&nbsp; <span class="oi oi-bullhorn"></span></button>
+                                </div>
+                            </div>
+
+                            <!--
+                            -- VIEW ADVERTISEMENT PAGE
+                            -->
+                            <div class="row animated fadeIn" v-show="page == 'VIEW_ADVERTISEMENT'">
+                                <div class="col-sm-12">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item text-success"><a @click="viewSection(null)">Home</a></li>
+                                        <li class="breadcrumb-item text-success"><a @click="viewSection(sections[currentAdvertisement.section - 1])">{{ sections[currentAdvertisement.section - 1] }}</a></li>
+                                        <li class="breadcrumb-item">View Advertisement</li>
+                                    </ol>
+                                </div>
+
+                                <div class="col-sm-9">
+
+                                    <div class="alert alert-success" v-show="createPending">You have successfully created this advertisement.</div>
+
+                                    <div class="alert alert-success" v-show="editPending">Your advertisement has been edited.</div>
+
+                                    <div class="alert alert-danger" v-show="pushInsufficientFunds == 1">You do not have sufficient funds to push this advertisement.</div>
+
+                                    <div class="alert alert-danger" v-show="pushInsufficientFunds == 2">Your faction does not have sufficient funds to push this advertisement.</div>
+
+                                    <div class="alert alert-danger" v-show="pushReceivedCooldown == true">You can only push an advertisement once every five minutes!</div>
+
+                                    <h5>{{ currentAdvertisement.advertisement }}</h5>
+
+                                    <b>Name:</b> {{ currentAdvertisement.name }}<br>
+
+                                    <div v-show="currentAdvertisement.address && currentAdvertisement.address.length > 1">
+                                        <b>Address:</b> {{ currentAdvertisement.address }}<br>
+                                    </div>
+                                    <div v-show="currentAdvertisement.phone && currentAdvertisement.phone.length > 1">
+                                        <b>Phone:</b> #{{ currentAdvertisement.phone }}<br>
+                                    </div>
+
+                                    <div v-show="isAdmin" class="text-warning">
+                                        <br>
+                                        <h5 class="mb-0" style="border-bottom: 1px solid;">Admin Information</h5>
+                                        <b>Created By: </b> {{ currentCharacterName }}<br>
+                                        <span v-show="currentAdvertisement.faction_name !== false"><b>Faction: </b> {{ currentAdvertisement.faction_name }}</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <h5>Browse Categories</h5>
+                                    <div class="list-group">
+                                        <a class="list-group-item list-group-item-action d-flex" v-for="section in sections" @click="viewSection(section)">
+                                            <span class="mr-auto">{{ section }}</span>
+                                            <span class="text-muted small">
+                                                <span class="oi oi-caret-right pull-right"></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-sm-9 mt-3">
+                                            <div v-show="factions[currentAdvertisement.faction] != undefined || isAdmin || currentAdvertisement.created_by == characterId">
+                                                <a class="btn btn-primary" @click="openEditAdvertisement()">Edit &nbsp;&nbsp;&nbsp; <span class="oi oi-pencil"></span></a>
+                                                <a class="btn btn-primary" @click="pushAdvertisement()">Push ($100)</a>
+                                                <a class="btn btn-danger" @click="deleteAdvertisement()">Delete &nbsp;&nbsp;&nbsp;<span class="oi oi-trash"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 float-right">
+                                            <button class="btn btn-primary w-100 mt-3" @click="openPostAdvertisement()">Post Advertisement &nbsp;&nbsp;&nbsp; <span class="oi oi-bullhorn"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--
+                            -- NEW ADVERTISEMENT PAGE
+                            -->
+                            <div class="row animated fadeIn" v-show="page == 'NEW_ADVERTISEMENT'">
+                                <div class="col-sm-12">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item text-success"><a @click="viewSection(null)">Home</a></li>
+                                        <li class="breadcrumb-item">{{ form.id ? 'Edit Advertisement' : 'Post Advertisement' }}</li>
+                                    </ol>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <h5>{{ form.id ? 'Edit Advertisement' : 'Post Advertisement' }}</h5>
+
+                                    <form id="new-ad-form" :class="{'was-validated': validated}" @submit.prevent="">
+                                        <div class="row">
+                                            <div class="form-group col-sm-6">
+                                                <label for="section">Section</label>
+                                                <select id="section" v-model="form.section" class="form-control error" required>
+                                                    <option v-for="section in sections" :value="section">{{ section }}</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    Please choose a section for the advertisement.
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                                <label for="expiry">Expiry</label>
+                                                <select v-model="form.expiry" class="form-control" required>
+                                                    <option v-for="(expiry, expiryHours) in expiries" :value="expiryHours">{{ expiry }}</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    Please choose when the advertisement should expire.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-sm-6">
+                                                <label for="name">Your Name</label>
+                                                <input type="text" v-model="form.name" class="form-control" required minlength="3" maxlength="50">
+                                                <div class="invalid-feedback">
+                                                    Name is required to be at least five characters.
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group col-sm-6">
+                                                <label for="phone">Phone Number</label>
+                                                <input type="text" v-model="form.phone" class="form-control" maxlength="10">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-sm-12">
+                                                <label for="address">Address</label>
+                                                <input type="text" v-model="form.address" class="form-control" maxlength="100">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-sm-12">
+                                                <label for="Advertisement">Advertisement</label>
+                                                <textarea v-model="form.advertisement" class="form-control" required minlength="10" maxlength="120"></textarea>
+                                                <div class="invalid-feedback">
+                                                    The advertisement is required to be at least ten characters.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" v-show="Object.keys(factions).length > 0">
+                                            <div class="form-group col-sm-12">
+                                                <label for="faction">Faction</label>
+                                                <select v-model="form.faction" class="form-control">
+                                                    <option v-for="(faction, factionId) in factions" :value="factionId">{{ faction }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12 text-right">
+                                                <button class="btn btn-link" @click="viewSection(null)">Cancel</button>
+                                                <button class="btn btn-primary" @click="postAdvertisement()">Post Advertisement</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var vm = new Vue({
+                el: '#app',
+                data: {
+                    title: 'Advertisements',
+                    page: 'HOME',
+                    pages: ['HOME', 'SECTION', 'NEW_ADVERTISEMENT'],
+                    currentSection: null,
+                    loading: true,
+                    sections: ['Services', 'Vehicles', 'Real Estate', 'Community', 'Jobs', 'Classifieds'],
+                    expiries: {1: 'One Hour', 2:'Two Hours', 6: 'Six Hours', 24: 'One Day'},
+                    advertisements: [],
+                    currentAdvertisement: {},
+                    pagination: {
+                        page: 1,
+                        totalPages: 1
+                    },
+                    form: {
+                        section: '',
+                        expiry: '',
+                        name: '',
+                        phone: '',
+                        address: '',
+                        advertisement: '',
+                        faction: null
+                    },
+                    validated: false,
+                    pushInsufficientFunds: 0,
+                    pushReceivedCooldown: false,
+                    deletePending: false,
+                    createPending: false,
+                    editPending: false,
+                    factions: {},
+                    isAdmin: false,
+                    characterId: null,
+                },
+                computed: {
+                    currentCharacterName: function () {
+                        if (!this.currentAdvertisement || !this.currentAdvertisement.charactername) {
+                            return '';
+                        }
+                        return this.currentAdvertisement.charactername.replace('_', ' ');
+                    }
+                },
+                methods: {
+                    openPostAdvertisement: function () {
+                        this.resetAlerts();
+                        this.form = {
+                            section: '',
+                            expiry: '',
+                            name: '',
+                            phone: '',
+                            address: '',
+                            advertisement: '',
+                            faction: null
+                        };
+                        this.page = 'NEW_ADVERTISEMENT';
+                    },
+                    openEditAdvertisement: function () {
+                        this.resetAlerts();
+                        this.page = 'NEW_ADVERTISEMENT';
+                        this.form = this.currentAdvertisement;
+                        this.form.section = this.sections[this.currentAdvertisement.section-1];
+                        this.form.expiry = 1;
+                    },
+                    pushAdvertisement: function () {
+                        mta.triggerEvent('advertisements:push', this.currentAdvertisement.id)
+                    },
+                    pushCooldown: function () {
+                        // We received a notice back from the server that we are on cooldown
+                        // for pushing this advertisement right now.
+                        this.pushReceivedCooldown = true;
+                    },
+                    setPushInsufficientFunds: function (isFaction) {
+                        // We received a notice that we have insufficient funds to push this
+                        // advertisement currently.
+                        this.pushInsufficientFunds = isFaction ? 2 : 1;
+                    },
+                    resetAlerts: function () {
+                        this.pushReceivedCooldown = false;
+                        this.pushInsufficientFunds = 0;
+                        this.deletePending = false;
+                        this.createPending = false;
+                        this.editPending = false;
+                        this.validated = false;
+                    },
+                    deleteAdvertisement: function () {
+                        this.deletePending = this.currentAdvertisement.advertisement;
+                        mta.triggerEvent('advertisements:delete', this.currentAdvertisement.id);
+                    },
+                    validateForm: function () {
+                        let formObject = document.getElementById('new-ad-form');
+                        
+                        if (formObject.checkValidity() === false) {
+                            this.validated = true;
+                            return false;
+                        }
+
+                        return true;
+                    },
+                    postAdvertisement: function () {
+                        if (!this.validateForm()) {
+                            return;
+                        }
+
+                        if (this.form.id) {
+                            this.editPending = true;
+                        } else {
+                            this.createPending = true;
+                        }
+
+                        mta.triggerEvent('advertisements:post-advertisement', '[' + JSON.stringify(this.form) + ']')
+                    },
+                    viewSection: function (section) {
+                        this.resetAlerts();
+
+                        this.page = section === null ? 'HOME' : 'SECTION';
+                        this.pagination.page = 1;
+                        this.currentSection = section;
+                        this.advertisements = [];
+                        this.loading = true;
+
+                        this.fetchResults();
+                    },
+                    setPage: function (page) {
+                        this.pagination.page = page;
+                        this.fetchResults();
+                    },
+                    setResults: function (results, page, totalPages) {
+                        if (this.page != 'HOME' && this.page != 'SECTION') {
+                            this.page = 'HOME';
+                            this.currentSection = null;
+                        }
+
+                        this.advertisements = JSON.parse(atob(results));
+                        this.pagination.page = page;
+                        this.pagination.totalPages = totalPages;
+                        this.loading = false;
+                    },
+                    fetchResults: function () {
+                        mta.triggerEvent("advertisements:fetch-page", this.pagination.page, this.currentSection);
+                    },
+                    fetchAdvertisement: function (id) {
+                        this.resetAlerts();
+                        mta.triggerEvent("advertisements:fetch-single", id);
+                        this.loading = true;
+                    },
+                    setCurrentAdvertisement: function (result) {
+                        this.currentAdvertisement = JSON.parse(atob(result));
+                        this.page = 'VIEW_ADVERTISEMENT';
+                        this.loading = false;
+                    },
+                    initUserData: function (factions, isAdmin, characterId) {
+                        this.factions = JSON.parse(atob(factions));
+                        this.isAdmin = isAdmin;
+                        this.characterId = characterId;
+                    },
+                    close: function () {
+                        mta.triggerEvent("advertisements:close-browser");
+                    },
+                    timeSince: function(date) {
+                        var seconds = Math.floor(new Date() / 1000 - date);
+
+                        var interval = Math.floor(seconds / 31536000);
+
+                        if (interval > 1) {
+                            return interval + " years";
+                        }
+                        interval = Math.floor(seconds / 2592000);
+                        if (interval > 1) {
+                            return interval + " months";
+                        }
+                        interval = Math.floor(seconds / 86400);
+                        if (interval > 1) {
+                            return interval + " days";
+                        }
+                        interval = Math.floor(seconds / 3600);
+                        if (interval > 1) {
+                            return interval + " hours";
+                        }
+                        interval = Math.floor(seconds / 60);
+                        if (interval > 1) {
+                            return interval + " minutes";
+                        }
+                        return Math.floor(seconds) + " seconds";
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<content>
+    <pageLength>555</pageLength>
+	<title>Vehicles</title>
+	<text>Vehicle Commands
+To start a vehicles engine press J.
+To lock a vehicles doors press K
+To turn on and off the lights press L
+Handbrake can be lifted with /handbrake
+	
+You can bind the right and left indicators to any keys you wish using the commands:
+/bind [The key you want to bind] down indicator_left
+/bind [The key you want to bind] down indicator_right
+
+As with players and NPCs you can view a vehicle's menu by pressing M to enable the cursor and right-clicking on the vehicle.
+
+When driving any vehicle the speedometer and fuel gauge will be displayed in the bottom right corner. The icon above the fuel gauge will also tell you the speed limit on the road you are currently on.
+
+Vehicle Types
+
+Civilain cars
+Civilian cars are all the unowned cars you will find unlocked parked in car parks around the city. They are free to be used by anyone but in many cases are used for a particualr job available from city hall.
+	
+Personal Cars
+Personal cars are bought from the Grotti car dealership in Rodeo and are owned by a specific player. When you purchase a personal car you will be given a key which you can use to lock the doors to prevent anyone else from using the vehicle. The car is always on the server so be sure to lock the doors when you are not using it or it might be stolen while you are offline. The owner of a personal car can also use /park to change where their car will respawn.
+	
+Faction Vehicles
+These vehicles are only accessable to drive to members of the faction they belong to. The only factions with faction vehicles are the Police Department, Emergency Services and San Andreas Network. All other factions will have to buy and use personal cars.
+	</text>
+
+</content>

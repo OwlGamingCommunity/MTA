@@ -1,0 +1,16 @@
+<meta>
+	<info author="Exciter" description="Rightclick menu system" type="script" version="1.2" />
+	
+	<script src="rightclick_c.lua" type="client" />
+	
+	<file src="0.png" type="client" />
+	<!--<file src="131.png" type="client" />-->
+	<file src="0_a90.png" type="client" />
+	<file src="owl.png" type="client" />
+	
+	<export function="create" type="client" />
+	<export function="destroy" type="client" />
+	<export function="addRow" type="client" />
+	<export function="addrow" type="client" />
+	<export function="isrcOpen" type="client"/>
+</meta>

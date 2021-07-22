@@ -1,0 +1,4 @@
+<meta>
+    <info author="UG MTA Scripting Team" type="script" description="Information/Rumours/Statistics System"/>	
+	<script src="s_statistics.lua" type="server"/>
+</meta>

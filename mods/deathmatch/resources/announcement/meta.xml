@@ -1,0 +1,33 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team"/>
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+
+	<script src="motd_s.lua" type="server"/>
+	<script src="motd_c.lua" type="client"/>
+
+	<script src="motd_frontend_s.lua" type="server"/>
+	<script src="motd_frontend_c.lua" type="client"/>
+
+	<script src="motd_g.lua" type="shared"/>
+
+	<script src="opm_s.lua" type="server"/>
+	<script src="opm_c.lua" type="client"/>
+
+	<file src="OwlAnnLogo.png"/>
+	<file src="1.mp3"/>
+
+	<export function="canPlayerAccessMotdManager" type="server"/>
+	<export function="canPlayerAccessMotdManager" type="client"/>
+
+	<script src="notification_s.lua" type="server"/>
+	<script src="notification_c.lua" type="client"/>
+
+	<!--
+		makePlayerNotification(player, title, details)
+	-->
+	<export function="makePlayerNotification" type="server" http="true"/>
+
+	<file src="owl_noti.png"/>
+	<file src="opm.png"/>
+</meta>

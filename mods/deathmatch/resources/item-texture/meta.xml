@@ -1,0 +1,21 @@
+<meta>
+	<info type="script" author="Exciter" version="1.0" />
+
+	<file src="shaders/replacement.fx" />
+	<file src="shaders/decal.fx" />
+	<file src="trans.png" />
+
+	<script src="g_itemtexture.lua" type="shared" protected="true" />
+
+	<script src="c_itemtexture.lua" type="client" protected="true" />
+		<export function="validateFileFromURL" type="client" />
+	<script src="s_itemtexture.lua" type="server" />
+		<export function="addTexture" type="server" />
+		<export function="removeTexture" type="server" />
+		<export function="validateFileFromURL" type="server" />
+
+	<script src="c_vehtex.lua" type="client" protected="true" />
+	<script src="s_vehtex.lua" type="server" />
+
+	<min_mta_version server="1.5.4-9.11413" client="1.5.4-9.11413" />
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="Tag System"/>
+	
+	<script src="s_tag_system.lua" type="server" />
+	<script src="c_tag_system.lua" type="client" />
+</meta>

@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (gangshops6_LAe2) (1)" radius="16.66875" interior="0" model="17542" lodModel="17966" posX="2347.922" posY="-1364.289" posZ="27.15625" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (CJ_EXT_SPRUNK) (1)" radius="3.335291" interior="0" model="955" lodModel="0" posX="2352.195" posY="-1357.749" posZ="24.11799" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (CE_bar01) (1)" breakable="true" interior="0" alpha="255" model="13132" doublesided="false" scale="1" dimension="0" posX="2350.3" posY="-1366.1" posZ="26.3" rotX="0" rotY="0" rotZ="180.75"></object>
+    <object id="object (DYN_TABLE_2) (4)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="2359" posY="-1367.1" posZ="23" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (5)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="2358.3" posY="-1360.3" posZ="23" rotX="0" rotY="0" rotZ="330"></object>
+    <object id="object (DYN_TABLE_2) (6)" breakable="true" interior="0" alpha="255" model="1432" doublesided="false" scale="1" dimension="0" posX="2358.7" posY="-1370.8" posZ="23" rotX="0" rotY="0" rotZ="320"></object>
+    <object id="object (BinNt03_LA) (1)" breakable="true" interior="0" alpha="255" model="1333" doublesided="false" scale="1" dimension="0" posX="2339.3" posY="-1367.1" posZ="23.9" rotX="0" rotY="0" rotZ="0"></object>
+</map>

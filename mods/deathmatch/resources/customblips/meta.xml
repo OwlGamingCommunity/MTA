@@ -1,0 +1,26 @@
+<meta>
+	<info author="Talidan" type="misc" name="Custom Blips" description="A resource to create custom blips" version="1.1" />
+
+	<script src="imagelib.lua" type="client" />
+	<script src="blipstreamer_client.lua" type="client" />
+	<script src="customblips.lua" type="client" />
+	<script src="utility.lua" type="client" />
+	
+	<export function="guiConvertToCustomBlip" type="client" />
+	<export function="createCustomBlip" type="client" />
+	<export function="getCustomBlipStreamRadius" type="client" />
+	<export function="setCustomBlipStreamRadius" type="client" />
+	<export function="getCustomBlipPosition" type="client" />
+	<export function="setCustomBlipPosition" type="client" />
+	<export function="setCustomBlipAlpha" type="client" />
+	<export function="setCustomBlipRadarScale" type="client" />
+	<export function="setCustomBlipVisible" type="client" />
+	<export function="isCustomBlipVisible" type="client" />
+	<export function="destroyCustomBlip" type="client" />
+	<export function="setBlipImageColor" type="client" />
+	<export function="setBlipText" type="client" />
+	<export function="setBlipText2" type="client" />
+	<export function="setBlipPath" type="client" />
+	<export function="setBlipHideFromRadar" type="client" />
+	<export function="setCustomBlipRotation" type="client" />
+</meta>

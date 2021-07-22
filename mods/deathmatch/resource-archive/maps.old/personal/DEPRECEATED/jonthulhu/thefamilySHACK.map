@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (cxrf_savhus1_) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3355" doublesided="false" scale="1" dimension="0" posX="-1437.6" posY="-948.20001" posZ="200.10001" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorINT03) (1)" breakable="true" interior="0" alpha="255" model="1494" doublesided="false" scale="1" dimension="0" posX="-1438.3" posY="-956.59998" posZ="200.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_FIREBIN0) (1)" breakable="true" interior="0" alpha="255" model="1442" doublesided="false" scale="1" dimension="0" posX="-1426.5" posY="-955.20001" posZ="200.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_WHEELCHAIR1) (1)" breakable="true" interior="0" alpha="255" model="1369" doublesided="false" scale="1" dimension="0" posX="-1440.8" posY="-957.29999" posZ="201.10001" rotX="0" rotY="0" rotZ="60"></object>
+</map>

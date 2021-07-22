@@ -1,0 +1,50 @@
+<meta>
+    <info type="script" version="0.1.0"  />
+    <min_mta_version server="1.2.0-9.03618" client="1.2.0-9.03618" />
+
+	<!-- Dynamic Lighting system -->
+    <!--<script src="s_lights.lua" type="server" />-->
+
+	<!-- BMX / Skate Park System
+    <script src="s_bmx.lua" type="server" />
+    <script src="c_bmx.lua" type="client" />
+	<file src="bmxrules.xml" />-->
+	
+	<!-- Basketball -->
+	<script src="c_basketball.lua" type="client" />
+    <script src="s_basketball.lua" type="server" />
+
+	<file src="bball-sounds/drible.ogg" />
+    <file src="bball-sounds/board.ogg" />
+    <file src="bball-sounds/boardhit.ogg" />
+	
+	<!-- Paintball -->
+	<script src="paintball/c_paintball.lua" type="client" />
+	<script src="paintball/s_paintball.lua" type="server" />
+	
+	<file src="paintball/paintball.mp3" />
+
+	<!-- Golf -->
+	<script src="golf/c_golf.lua" type="client" />
+	<script src="golf/s_golf.lua" type="server" />
+
+	<!-- Ice Skating -->
+	<script src="s_iceskates.lua" type="server" />
+
+	<!-- Easter egg hunt 
+    <script src="easter/server.lua" type="server" />
+    <script src="easter/spawneggs.lua" type="server" />
+    <script src="easter/client.lua" type="client" />
+    <file src="easter/bunny.dff" />
+    <file src="easter/bunny.txd" />
+	<file src="easter/egg.txd" />
+	<file src="easter/egg.dff" />
+	-->
+	
+   	<!-- BMX event at verona pier 
+   	<script src="bmxpier/server.lua" type="server" />
+   	<script src="bmxpier/client.lua" type="client" />
+   	<!--<map src="bmxpier/bmx.map" dimension="1"></map>
+   	<file src="bmxpier/banner.jpg" />
+    <file src="bmxpier/DUPONT.jpg" /> -->
+</meta>

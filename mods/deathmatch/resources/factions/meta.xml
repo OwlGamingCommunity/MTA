@@ -1,0 +1,45 @@
+<meta>
+	<oop>true</oop>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Faction System"/>
+	
+	<script src="s_faction_system.lua" type="server" />
+	<script src="c_faction_system.lua" type="client" />
+	
+	<script src="s_faction_admin.lua" type="server" />
+	<script src="c_faction_admin.lua" type="client" />
+	
+	<script src="g_faction_exports.lua" type="shared" />
+	<script src="s_faction_exports.lua" type="server" />
+	<script src="c_faction_exports.lua" type="client" />
+
+	<script src="faction_manager_s.lua" type="server" />
+	<script src="faction_manager_c.lua" type="client" />
+	<export function="canAccessFactionManager" type="shared"/>
+	<export function="getFactionType" type="shared"/>
+
+	<script src="ranks/c_ranks.lua" type="client" />
+	<script src="ranks/s_ranks.lua" type="server" />
+	<export function="getFactionRankData" type="server" />
+	
+	<script src="ranks/s_permissions.lua" type="server" />
+	<script src="ranks/c_permissions.lua" type="client" />
+	<export function="hasMemberPermissionTo" type="server" />
+	<export function="hasMemberPermissionTo" type="client" />
+
+
+	<export function="isPlayerInFaction" type="shared"/>
+	<export function="getPlayerFactionRank" type="shared"/>
+	<export function="isPlayerFactionLeader" type="shared"/>
+	<export function="getFactionFromID" type="shared"/>
+	<export function="getFactionName" type="shared"/>
+	<export function="getFactionType" type="shared"/>
+	<export function="getFactionFromName" type="shared"/>
+	<export function="getFactionIDFromName" type="shared"/>
+	<export function="sendNotiToAllFactionMembers" type="server"/> 
+	<export function="getPlayersInFaction" type="shared"/>
+	<export function="getPlayerFactions" type="server"/>
+	<export function="isInFactionType" type="shared"/>
+	<export function="getPlayerFactionTypes" type="shared"/>
+	<export function="getCurrentFactionDuty" type="shared"/>
+	<export function="getAllFactionPhoneNumbers" type="shared"/>
+</meta>

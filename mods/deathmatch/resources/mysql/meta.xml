@@ -1,0 +1,54 @@
+<meta>
+        <info author="OwlGaming MTA Server Development Team" type="script" description=""/>
+		<oop>true</oop>
+
+        <script src="mysql.lua" type="server"/>
+		<export function="getConn" type="server" http="false" />
+		<export function="getSmallestID" type="server" http="false" />
+
+		<script src="lazyquery.lua" type="server"/>
+		<export function="lazyQuery" type="server" http="false" />
+
+        <script src="migrations.lua" type="server"/>
+		<export function="createMigrations" type="server"/>
+
+		<script src="mysql_external_module.lua" type="server" />
+		<export function="getMySQLUsername" type="server"/>
+		<export function="getMySQLPassword" type="server"/>
+		<export function="getMySQLDBName" type="server"/>
+		<export function="getMySQLHost" type="server"/>
+		<export function="getMySQLPort" type="server"/>
+		<export function="getForumsPrefix" type="server"/>
+		<!-- above is legacy -->
+		<export function="lazyQuery" type="server"/>
+		<export function="ping" 			type="server" http="false" />
+		<export function="escape_string" 	type="server" http="false" />
+		<export function="query" 			type="server" http="false" />
+		<export function="forumQuery"		type="server" http="false" />
+		<export function="forum_query_fetch_assoc" 	type="server" http="false" />
+		<export function="forum_query_free" type="server" http="false" />
+		<export function="forum_query_insert_free"type="server" http="false" />
+		<export function="unbuffered_query" type="server" http="false" />
+		<export function="query_free" 		type="server" http="false" />
+		<export function="fetch_assoc" 		type="server" http="false" />
+		<export function="rows_assoc" 		type="server" http="false" />
+		<export function="free_result" 		type="server" http="false" />
+		<export function="result" 			type="server" http="false" />
+		<export function="num_rows" 		type="server" http="false" />
+		<export function="query_fetch_assoc"type="server" http="false" />
+		<export function="query_rows_assoc" type="server" http="false" />
+		<export function="insert_id" 		type="server" http="false" />
+		<export function="query_rows_assoc" type="server" http="false" />
+		<export function="query_insert_free"type="server" http="false" />
+		<export function="escape_string"    type="server" http="false" />
+		<export function="debugMode"        type="server" http="false" />
+		<export function="returnQueryStats" type="server" http="false" />
+		<export function="getOpenQueryStr"  type="server" http="false" />
+
+		<!-- custom mysql functions -->
+		<export function="select" />
+		<export function="select_one" />
+		<export function="insert"  type="server" http="false" />
+		<export function="update"  type="server" http="false" />
+		<export function="delete"  type="server" http="false" />
+</meta>

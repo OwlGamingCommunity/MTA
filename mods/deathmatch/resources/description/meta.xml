@@ -1,0 +1,12 @@
+<meta>
+    <info author="Maxime - OwlGaming MTA Server Development Team" type="script" description="Overlay Description System (Vehicle, Property, Player)"/>
+
+	<script src="c_vehicle_descriptions.lua" type="client"/>
+	<script src="s_vehicle_descriptions.lua" type="server"/>
+
+	<script src="c_property_descriptions.lua" type="client"/>
+
+  <script src="c_note_descriptions.lua" type="client" />
+
+	<file src="BizNote.ttf"/>
+</meta>

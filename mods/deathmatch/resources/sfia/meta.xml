@@ -1,0 +1,50 @@
+<meta>
+	<info author="Exciter" description="Features related to aviation, air traffic control and airports." type="script" version="1.1" />
+
+	<script src="g_airtrack.lua" type="client"/>
+	<script src="g_airtrack.lua" type="server"/>
+
+	<script src="c_airtrack.lua" type="client"/>
+	<script src="s_airtrack.lua" type="server"/>
+		<export function="getPlayersInAircraft" type="server"/>
+
+	<script src="g_radar.lua" type="client"/>
+	<script src="g_radar.lua" type="server"/>
+	<script src="c_radar.lua" type="client"/>
+	<script src="s_radar.lua" type="server"/>
+
+	<script src="g_airgates.lua" type="client"/>
+	<script src="g_airgates.lua" type="server"/>
+	<script src="c_airgates.lua" type="client"/>
+	<script src="s_airgates.lua" type="server"/>
+		<export function="getDataForExitingConnectedPlane" type="server"/>
+
+	<script src="s_airport.lua" type="server"/>
+	<script src="c_airport.lua" type="client"/>
+	<script src="s_pilotmission.lua" type="server"/>
+	<script src="c_pilotmission.lua" type="client"/>
+
+	<script src="faadevice/client.lua" type="client"/>
+	<script src="faadevice/server.lua" type="server"/>
+	<file src="faadevice/faalogo.png" />
+	<file src="faadevice/Sanandreas_map.jpg" />
+
+	<script src="c_airportmaps.lua" type="client"/>
+	<script src="s_airportmaps.lua" type="server"/>
+
+	<min_mta_version server="1.3.0-9.04570"></min_mta_version>
+
+	<file src="images/map_LVA.png"/>
+	<file src="images/map_LSA.jpg"/>
+	<file src="images/map_BCA.jpg"/>
+	<file src="images/map_OCA.png"/>
+	<file src="images/map_SFA.png"/>
+
+	<file src="radaricons/00.png"/>
+	<file src="radaricons/01.png"/>
+	<file src="radaricons/02.png"/>
+	<file src="radaricons/03.png"/>
+	<file src="radaricons/04.png"/>
+	<file src="radaricons/05.png"/>
+	<file src="radaricons/06.png"/>
+</meta>

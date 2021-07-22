@@ -1,0 +1,10 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Lottery System"/>
+
+	<script src="s_lottery.lua" type="server"/>
+	<export function="getLotteryJackpot" type="server"/>
+	<export function="getLotteryNumber" type="server"/>
+	<export function="updateLotteryJackpot" type="server"/>
+	<export function="lotteryDraw" type="server"/>
+	<export function="canThisPlayerBuyTicket" type="server"/>
+</meta>

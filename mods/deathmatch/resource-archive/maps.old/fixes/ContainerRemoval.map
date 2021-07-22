@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (lasdkrtgrp2) (1)" radius="13.891983" interior="0" model="3574" lodModel="3744" posX="2159.8281" posY="-1930.6328" posZ="15.07813" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lasnfltrail) (1)" radius="11.069402" interior="0" model="3567" lodModel="0" posX="2142.9141" posY="-1947.4219" posZ="13.26563" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

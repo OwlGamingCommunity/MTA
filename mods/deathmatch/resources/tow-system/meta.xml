@@ -1,0 +1,21 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Towing / Impounding system"/>
+
+	<oop>true</oop>
+
+	<script src="s_tow.lua" />
+	<export function="CanTowTruckDriverVehPos" type="server" />
+	<export function="CanTowTruckDriverGetPaid" type="server" />
+	<export function="cannotVehpos" type="server" />
+	<script src="s_backup.lua" />
+	<script src="c_backup.lua" type="client" />
+	<script src="c_tow.lua" type="client" />
+
+	<script src="clear_impound.lua" />
+	<export function="clearImpound" type="server" />
+
+	<script src="leo-impound/impound_s.lua" type="server" />
+	<script src="leo-impound/impound_c.lua" type="client" />
+	<script src="leo-impound/impound_g.lua" type="shared" />
+	<export function="getImpoundLanes" type="server" />
+</meta>

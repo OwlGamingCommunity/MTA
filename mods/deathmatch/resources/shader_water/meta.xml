@@ -1,0 +1,7 @@
+<meta>
+	<info description="Shader - Water" version="0.0.5" type="script" />
+	<script src="c_water.lua" type="client" />
+	<file src="water.fx" type="client" />
+	<file src="images/smallnoise3d.dds" type="client" />
+	<file src="images/cube_env256.dds" type="client" />
+</meta>

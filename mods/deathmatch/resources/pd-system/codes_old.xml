@@ -1,0 +1,58 @@
+<content>
+Ten-codes (General)
+10-1 - All units regroup\meet at _____
+10-3 - Stop transmitting/clear the radio.
+10-4 - or Roger or Received Received and understood.
+10-5 - Please repeat.
+
+Negative - Negative/no.
+10-6 - Disregard.
+10-7 - Standby.
+10-8 - Busy.
+10-9 - Busy with DB work (currently undercover).
+10-14 - Pick up officer/prisoner at ______
+10-15 - Suspect arrested - Number of suspects - Station/prison.
+10-18 - Do you need any further backup (10-70)?
+10-20 - Location.
+10-21 - Report status.
+10-22 - Report in person - location (come here/go there).
+10-27 - Switching radio channel.
+10-40 - Lots of people in the area.
+10-41 - Possible illegal activity.
+10-50 - Out of vehicle for investigation
+10-55 - Traffic stop.
+10-56 - Computer check.
+10-57 - VICTOR Vehicle pursuit.
+10-57 - FOXTROT Foot pursuit.
+10-60 - Vehicle description.
+10-61 - Suspect(s) description.
+10-66 - Felony Stop
+10-70 - Back/assistance required. (State if Code 1, Code 2, or Code 3)
+10-71 - Ambulance required.
+10-78 - SWAT required (EMERGENCY RESPONSE, state if a non-emergency response is required).
+10-98 - No further assistance required
+10-99 - Situation concluded - conclusion (e.g Ticket issued)
+ 
+Response Codes
+Code 0 - Urgent assistance required. (ALL units drop what you're doing and attend immediately, even if you are in an on-going situation such as a pursuit) // Lights and sirens.
+Code 1 - Non-Emergency - Respond in own time. (If something comes up, deal with it first) // No lights or sirens.
+Code 2 - Non-Emergency - Respond in own time. (If something comes up, leave it keep responding) // Lights, no sirens.
+Code 3 - Emergency - Respond now, lights & sirens.
+Code 4 - All available SWAT Team personnel report in on the radio (/r).
+ 
+Status Codes (1, 2 & 3 are personal)
+Status 1 - Off duty.
+Status 2- On duty.
+Status 3- Break.
+Status 4 - Patrolling, available for calls.
+Status 6 - I am on scene (target location).
+
+IC Codes (Identity Code)
+IC1 – White
+IC2 – Black
+IC3 – Latino
+IC4 – Middle Eastern
+IC5 – Asian(Chinese etc.)
+IC6 – Unkown ethinity
+
+</content>

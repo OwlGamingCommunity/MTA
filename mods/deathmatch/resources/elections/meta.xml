@@ -1,0 +1,4 @@
+<meta>
+<script src="c_elections.lua" type="client" />
+<script src="s_elections.lua" type="server" />
+</meta>

@@ -1,0 +1,369 @@
+<meta>
+    <info author="Maxime - OwlGaming MTA Server Development Team" type="script" description="Account System" />
+
+    <script src="login-panel/server.lua" type="server" />
+    <script src="login-panel/client.lua" type="client" />
+
+    <file src="login-panel/login_window.png" />
+    <file src="login-panel/register_window.png" />
+
+    <file src="login-panel/login.png" />
+    <file src="login-panel/register.png" />
+
+    <file src="login-panel/sh.png" />
+    <file src="login-panel/shr.png" />
+
+    <file src="login-panel/cancel.png" />
+    <file src="login-panel/cancel2.png" />
+
+    <file src="login-panel/signup.png" />
+    <file src="login-panel/signup2.png" />
+    <file src="login-panel/OwlLogo7.png" />
+
+    <script src="g_events.lua" type="server" />
+    <script src="g_events.lua" type="client" />
+
+    <script src="s_main.lua" type="server" />
+    <script src="c_main.lua" type="client" />
+    <export function="loadSavedData" type="client" />
+    <export function="appendSavedData" type="client" />
+
+    <script src="c_tutorial.lua" type="client" />
+
+    <script src="s_characters.lua" type="server" />
+    <script src="c_characters.lua" type="client" />
+
+    <script src="s_login.lua" type="server" />
+    <script src="c_login.lua" type="client" />
+
+    <script src="s_email_request.lua" type="server" />
+    <script src="c_email_request.lua" type="client" />
+
+    <script src="c_create_character.lua" type="client" />
+    <script src="s_create_character.lua" type="server" />
+
+    <script src="c_options.lua" type="client" />
+
+    <script src="c_update.lua" type="client" />
+
+	<script src="f10-settings\c_f10_settings.lua" type="client" />
+	<script src="f10-settings\s_f10_settings.lua" type="server" />
+
+	<script src="rules_apps/server_rules_s.lua" type="server" />
+    <script src="rules_apps/server_rules_c.lua" type="client" />
+
+    <script src="s_news.lua" type="server" />
+
+    <export function="checkValidCharacterName" type="client" />
+	<export function="checkValidCharacterName" type="server" />
+
+    <export function="screenStandBy" type="client" />
+
+    <export function="updateAccountSettings" type="client" />
+
+    <file src="img/newchar.png" />
+    <file src="img/000.png" />
+    <file src="img/007.png" />
+    <file src="img/009.png" />
+    <file src="img/010.png" />
+    <file src="img/011.png" />
+    <file src="img/012.png" />
+    <file src="img/013.png" />
+    <file src="img/014.png" />
+    <file src="img/015.png" />
+    <file src="img/016.png" />
+    <file src="img/017.png" />
+    <file src="img/018.png" />
+    <file src="img/019.png" />
+    <file src="img/020.png" />
+    <file src="img/021.png" />
+    <file src="img/022.png" />
+    <file src="img/023.png" />
+    <file src="img/024.png" />
+    <file src="img/025.png" />
+    <file src="img/026.png" />
+    <file src="img/027.png" />
+    <file src="img/028.png" />
+    <file src="img/029.png" />
+    <file src="img/030.png" />
+    <file src="img/031.png" />
+    <file src="img/032.png" />
+    <file src="img/033.png" />
+    <file src="img/034.png" />
+    <file src="img/035.png" />
+    <file src="img/036.png" />
+    <file src="img/037.png" />
+    <file src="img/038.png" />
+    <file src="img/039.png" />
+    <file src="img/040.png" />
+    <file src="img/041.png" />
+    <file src="img/043.png" />
+    <file src="img/044.png" />
+    <file src="img/045.png" />
+    <file src="img/046.png" />
+    <file src="img/047.png" />
+    <file src="img/048.png" />
+    <file src="img/049.png" />
+    <file src="img/050.png" />
+    <file src="img/051.png" />
+    <file src="img/052.png" />
+    <file src="img/053.png" />
+    <file src="img/054.png" />
+    <file src="img/055.png" />
+    <file src="img/056.png" />
+    <file src="img/057.png" />
+    <file src="img/058.png" />
+    <file src="img/059.png" />
+    <file src="img/060.png" />
+    <file src="img/061.png" />
+    <file src="img/062.png" />
+    <file src="img/063.png" />
+    <file src="img/064.png" />
+    <file src="img/066.png" />
+    <file src="img/067.png" />
+    <file src="img/068.png" />
+    <file src="img/069.png" />
+    <file src="img/070.png" />
+    <file src="img/071.png" />
+    <file src="img/072.png" />
+    <file src="img/073.png" />
+    <file src="img/075.png" />
+    <file src="img/076.png" />
+    <file src="img/077.png" />
+    <file src="img/078.png" />
+    <file src="img/079.png" />
+    <file src="img/080.png" />
+    <file src="img/081.png" />
+    <file src="img/082.png" />
+    <file src="img/083.png" />
+    <file src="img/084.png" />
+    <file src="img/085.png" />
+    <file src="img/087.png" />
+    <file src="img/088.png" />
+    <file src="img/089.png" />
+    <file src="img/090.png" />
+    <file src="img/091.png" />
+    <file src="img/092.png" />
+    <file src="img/093.png" />
+    <file src="img/094.png" />
+    <file src="img/095.png" />
+    <file src="img/096.png" />
+    <file src="img/097.png" />
+    <file src="img/098.png" />
+    <file src="img/099.png" />
+    <file src="img/100.png" />
+    <file src="img/101.png" />
+    <file src="img/102.png" />
+    <file src="img/103.png" />
+    <file src="img/104.png" />
+    <file src="img/105.png" />
+    <file src="img/106.png" />
+    <file src="img/107.png" />
+    <file src="img/108.png" />
+    <file src="img/109.png" />
+    <file src="img/110.png" />
+    <file src="img/111.png" />
+    <file src="img/112.png" />
+    <file src="img/113.png" />
+    <file src="img/114.png" />
+    <file src="img/115.png" />
+    <file src="img/116.png" />
+    <file src="img/117.png" />
+    <file src="img/118.png" />
+    <file src="img/120.png" />
+    <file src="img/121.png" />
+    <file src="img/122.png" />
+    <file src="img/123.png" />
+    <file src="img/124.png" />
+    <file src="img/125.png" />
+    <file src="img/126.png" />
+    <file src="img/127.png" />
+    <file src="img/128.png" />
+    <file src="img/129.png" />
+    <file src="img/130.png" />
+    <file src="img/131.png" />
+    <file src="img/132.png" />
+    <file src="img/133.png" />
+    <file src="img/134.png" />
+    <file src="img/135.png" />
+    <file src="img/136.png" />
+    <file src="img/137.png" />
+    <file src="img/138.png" />
+    <file src="img/139.png" />
+    <file src="img/140.png" />
+    <file src="img/141.png" />
+    <file src="img/142.png" />
+    <file src="img/143.png" />
+    <file src="img/144.png" />
+    <file src="img/145.png" />
+    <file src="img/146.png" />
+    <file src="img/147.png" />
+    <file src="img/148.png" />
+    <file src="img/150.png" />
+    <file src="img/151.png" />
+    <file src="img/152.png" />
+    <file src="img/153.png" />
+    <file src="img/154.png" />
+    <file src="img/155.png" />
+    <file src="img/156.png" />
+    <file src="img/157.png" />
+    <file src="img/158.png" />
+    <file src="img/159.png" />
+    <file src="img/160.png" />
+    <file src="img/161.png" />
+    <file src="img/162.png" />
+    <file src="img/163.png" />
+    <file src="img/164.png" />
+    <file src="img/165.png" />
+    <file src="img/166.png" />
+    <file src="img/167.png" />
+    <file src="img/168.png" />
+    <file src="img/169.png" />
+    <file src="img/170.png" />
+    <file src="img/171.png" />
+    <file src="img/172.png" />
+    <file src="img/173.png" />
+    <file src="img/174.png" />
+    <file src="img/175.png" />
+    <file src="img/176.png" />
+    <file src="img/177.png" />
+    <file src="img/178.png" />
+    <file src="img/179.png" />
+    <file src="img/180.png" />
+    <file src="img/181.png" />
+    <file src="img/182.png" />
+    <file src="img/183.png" />
+    <file src="img/184.png" />
+    <file src="img/185.png" />
+    <file src="img/186.png" />
+    <file src="img/187.png" />
+    <file src="img/188.png" />
+    <file src="img/189.png" />
+    <file src="img/190.png" />
+    <file src="img/191.png" />
+    <file src="img/192.png" />
+    <file src="img/193.png" />
+    <file src="img/194.png" />
+    <file src="img/195.png" />
+    <file src="img/196.png" />
+    <file src="img/197.png" />
+    <file src="img/198.png" />
+    <file src="img/199.png" />
+    <file src="img/200.png" />
+    <file src="img/201.png" />
+    <file src="img/202.png" />
+    <file src="img/203.png" />
+    <file src="img/204.png" />
+    <file src="img/205.png" />
+    <file src="img/206.png" />
+    <file src="img/207.png" />
+    <file src="img/209.png" />
+    <file src="img/210.png" />
+    <file src="img/211.png" />
+    <file src="img/212.png" />
+    <file src="img/213.png" />
+    <file src="img/214.png" />
+    <file src="img/215.png" />
+    <file src="img/216.png" />
+    <file src="img/217.png" />
+    <file src="img/218.png" />
+    <file src="img/219.png" />
+    <file src="img/220.png" />
+    <file src="img/221.png" />
+    <file src="img/222.png" />
+    <file src="img/223.png" />
+    <file src="img/224.png" />
+    <file src="img/225.png" />
+    <file src="img/226.png" />
+    <file src="img/227.png" />
+    <file src="img/228.png" />
+    <file src="img/229.png" />
+    <file src="img/230.png" />
+    <file src="img/231.png" />
+    <file src="img/232.png" />
+    <file src="img/233.png" />
+    <file src="img/234.png" />
+    <file src="img/235.png" />
+    <file src="img/236.png" />
+    <file src="img/237.png" />
+    <file src="img/238.png" />
+    <file src="img/239.png" />
+    <file src="img/240.png" />
+    <file src="img/241.png" />
+    <file src="img/242.png" />
+    <file src="img/243.png" />
+    <file src="img/244.png" />
+    <file src="img/245.png" />
+    <file src="img/246.png" />
+    <file src="img/247.png" />
+    <file src="img/248.png" />
+    <file src="img/249.png" />
+    <file src="img/250.png" />
+    <file src="img/251.png" />
+    <file src="img/252.png" />
+    <file src="img/253.png" />
+    <file src="img/254.png" />
+    <file src="img/255.png" />
+    <file src="img/256.png" />
+    <file src="img/257.png" />
+    <file src="img/258.png" />
+    <file src="img/259.png" />
+    <file src="img/260.png" />
+    <file src="img/261.png" />
+    <file src="img/262.png" />
+    <file src="img/263.png" />
+    <file src="img/264.png" />
+    <file src="img/274.png" />
+    <file src="img/275.png" />
+    <file src="img/276.png" />
+    <file src="img/277.png" />
+    <file src="img/278.png" />
+    <file src="img/279.png" />
+    <file src="img/280.png" />
+    <file src="img/281.png" />
+    <file src="img/282.png" />
+    <file src="img/283.png" />
+    <file src="img/284.png" />
+    <file src="img/285.png" />
+    <file src="img/286.png" />
+    <file src="img/287.png" />
+    <file src="img/288.png" />
+    <file src="img/nil.png" />
+
+    <!-- 1.1 additions -->
+    <file src="img/001.png" />
+    <file src="img/002.png" />
+    <file src="img/265.png" />
+    <file src="img/266.png" />
+    <file src="img/267.png" />
+    <file src="img/268.png" />
+    <file src="img/269.png" />
+    <file src="img/270.png" />
+    <file src="img/271.png" />
+    <file src="img/272.png" />
+    <file src="img/290.png" />
+    <file src="img/291.png" />
+    <file src="img/292.png" />
+    <file src="img/293.png" />
+    <file src="img/294.png" />
+    <file src="img/295.png" />
+    <file src="img/296.png" />
+    <file src="img/297.png" />
+    <file src="img/298.png" />
+    <file src="img/299.png" />
+    <file src="img/300.png" />
+    <file src="img/301.png" />
+    <file src="img/302.png" />
+    <file src="img/303.png" />
+    <file src="img/304.png" />
+    <file src="img/305.png" />
+    <file src="img/306.png" />
+    <file src="img/307.png" />
+    <file src="img/308.png" />
+    <file src="img/309.png" />
+    <file src="img/310.png" />
+    <file src="img/311.png" />
+    <file src="img/312.png" />
+
+    <min_mta_version client="1.3.0-9.04464"></min_mta_version>
+</meta>

@@ -1,0 +1,39 @@
+<meta>
+	<info author="CrystalMV" version="1.1" name="DrawTag" description="Draw your own pictures on walls" type="script" />
+	<min_mta_version client="1.3.0-9.03931"/>
+	<script src="drawtag_s.lua" />
+	<script src="drawtag_c.lua" type="client" />
+	<script src="drawing_c.lua" type="client" />
+	<script src="spraying_s.lua" />
+	<script src="spraying_c.lua" type="client" />
+	<file src="imgs/red.png" />
+	<file src="imgs/green.png" />
+	<file src="imgs/blue.png" />
+	<file src="imgs/size.png" />
+	<file src="imgs/transparent.png" />
+	<export function="createTagFromExistingData" type="server" http="false" />
+	<export function="getAllTags"                type="server" http="false" />
+	<export function="getTagAttachedElement"     type="server" http="false" />
+	<export function="getTagPosition"            type="server" http="false" />
+	<export function="getTagNormal"              type="server" http="false" />
+	<export function="getTagSize"                type="server" http="false" />
+	<export function="getTagTexture"             type="server" http="false" />
+	<export function="getTagData"                type="server" http="false" />
+	<export function="getAllTags"                type="client" http="false" />
+	<export function="getTagAttachedElement"     type="client" http="false" />
+	<export function="getTagPosition"            type="client" http="false" />
+	<export function="getTagNormal"              type="client" http="false" />
+	<export function="getTagSize"                type="client" http="false" />
+	<export function="getTagTexture"             type="client" http="false" />
+	<export function="setPlayerSprayMode"        type="server" http="false" />
+	<export function="getPlayerSprayMode"        type="server" http="false" />
+	<export function="setPlayerTagSize"          type="server" http="false" />
+	<export function="getPlayerTagSize"          type="server" http="false" />
+	<export function="setPlayerTagTexture"       type="server" http="false" />
+	<export function="getPlayerSprayMode"        type="client" http="false" />
+	<export function="getPlayerTagSize"          type="client" http="false" />
+	<export function="setEditorTexture"          type="client" http="false" />
+	<export function="showDrawingWindow"         type="client" http="false" />
+	<export function="isDrawingWindowVisible"    type="client" http="false" />
+</meta>
+

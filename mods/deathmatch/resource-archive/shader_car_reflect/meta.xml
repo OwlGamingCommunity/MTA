@@ -1,0 +1,8 @@
+<meta>
+	<info description="shader" version="1.6" type="script" />
+	<script src="client_carshader.lua" type="client" cache="false" />
+	<script src="client_shaderinit.luac" type="client" cache="false" />
+	<script src="client_switchmode.luac" type="client" />
+	<file src="fx/mta-helper.fx" type="client" />
+	<file src="images/smallnoise3d.dds" type="client" />
+</meta>

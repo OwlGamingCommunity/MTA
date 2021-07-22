@@ -1,0 +1,25 @@
+<meta>
+    <info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="A datetime library to process date time as MTA doesn't support well enough."/>
+	
+	<script src="datetime_s.lua" type="server"/>
+	<script src="datetime_c.lua" type="client"/>
+
+	<script src="datetime_g.lua" type="server"/>
+	<script src="datetime_g.lua" type="client"/>
+
+	<export function="formatTimeInterval" type="server" /> <!--formatTimeInterval( timeInseconds ) -->
+	<export function="formatTimeInterval" type="client" /> <!--formatTimeInterval( timeInseconds ) -->
+	<export function="formatFutureTimeInterval" type="server" /> <!--formatFutureTimeInterval( timeInseconds ) -->
+	<export function="formatFutureTimeInterval" type="client" /> <!--formatFutureTimeInterval( timeInseconds ) -->
+
+	<export function="formatSeconds" type="server" />
+	<export function="formatSeconds" type="client" />
+
+	<export function="now" type="server" />
+	<export function="now" type="client" />
+
+	<export function="getTimestamp" type="server" />
+	<export function="getTimestamp" type="client" />
+	<export function="datetimeToTimestamp" type="server" />
+	<export function="datetimeToTimestamp" type="client" />
+</meta>

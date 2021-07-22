@@ -1,0 +1,10 @@
+<map>
+	<object id="object (burbdoor) (5)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="599.09961" posY="-1263" posZ="74.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (burbdoor) (8)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="599.09961" posY="-1256.2002" posZ="74.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (burbdoor) (9)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="599.09961" posY="-1249.4004" posZ="74.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (burbdoor) (11)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="597.90039" posY="-1246" posZ="72.8" rotX="90" rotY="0" rotZ="270"></object>
+    <object id="object (burbdoor) (12)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="595.2998" posY="-1246" posZ="72.8" rotX="90" rotY="0" rotZ="270"></object>
+    <object id="object (burbdoor) (13)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="594.09961" posY="-1249.4004" posZ="74.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (burbdoor) (14)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="594.09961" posY="-1256.2002" posZ="74.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (burbdoor) (15)" breakable="true" interior="0" collisions="true" alpha="0" model="13187" doublesided="false" scale="1" dimension="491" posX="594.09961" posY="-1263" posZ="74.3" rotX="0" rotY="0" rotZ="0"></object>
+</map>

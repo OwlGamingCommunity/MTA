@@ -1,0 +1,68 @@
+<meta>
+    <script src="g_defs.lua" type="shared"/>
+
+    <script src="games/g_decks.lua" type="server"/>
+    <script src="games/g_suits.lua" type="server"/>
+    <script src="games/g_demo.lua" type="server"/>
+
+    <script src="s_sessions.lua" type="server"/>
+    <script src="c_session.lua" type="client"/>
+
+    <export function="openCardDeck" type="server"/>
+
+    <file src="assets/cards/2s.png"/>
+    <file src="assets/cards/2h.png"/>
+    <file src="assets/cards/2d.png"/>
+    <file src="assets/cards/2c.png"/>
+    <file src="assets/cards/3s.png"/>
+    <file src="assets/cards/3h.png"/>
+    <file src="assets/cards/3d.png"/>
+    <file src="assets/cards/3c.png"/>
+    <file src="assets/cards/4s.png"/>
+    <file src="assets/cards/4h.png"/>
+    <file src="assets/cards/4d.png"/>
+    <file src="assets/cards/4c.png"/>
+    <file src="assets/cards/5s.png"/>
+    <file src="assets/cards/5h.png"/>
+    <file src="assets/cards/5d.png"/>
+    <file src="assets/cards/5c.png"/>
+    <file src="assets/cards/6s.png"/>
+    <file src="assets/cards/6h.png"/>
+    <file src="assets/cards/6d.png"/>
+    <file src="assets/cards/6c.png"/>
+    <file src="assets/cards/7s.png"/>
+    <file src="assets/cards/7h.png"/>
+    <file src="assets/cards/7d.png"/>
+    <file src="assets/cards/7c.png"/>
+    <file src="assets/cards/8s.png"/>
+    <file src="assets/cards/8h.png"/>
+    <file src="assets/cards/8d.png"/>
+    <file src="assets/cards/8c.png"/>
+    <file src="assets/cards/9s.png"/>
+    <file src="assets/cards/9h.png"/>
+    <file src="assets/cards/9d.png"/>
+    <file src="assets/cards/9c.png"/>
+    <file src="assets/cards/10s.png"/>
+    <file src="assets/cards/10h.png"/>
+    <file src="assets/cards/10d.png"/>
+    <file src="assets/cards/10c.png"/>
+    <file src="assets/cards/js.png"/>
+    <file src="assets/cards/jh.png"/>
+    <file src="assets/cards/jd.png"/>
+    <file src="assets/cards/jc.png"/>
+    <file src="assets/cards/qs.png"/>
+    <file src="assets/cards/qh.png"/>
+    <file src="assets/cards/qd.png"/>
+    <file src="assets/cards/qc.png"/>
+    <file src="assets/cards/ks.png"/>
+    <file src="assets/cards/kh.png"/>
+    <file src="assets/cards/kd.png"/>
+    <file src="assets/cards/kc.png"/>
+    <file src="assets/cards/as.png"/>
+    <file src="assets/cards/ah.png"/>
+    <file src="assets/cards/ad.png"/>
+    <file src="assets/cards/ac.png"/>
+
+    <file src="assets/cards/back.png"/>
+    <file src="assets/transparent.png"/>
+</meta>

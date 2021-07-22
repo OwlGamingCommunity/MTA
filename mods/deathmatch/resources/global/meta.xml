@@ -1,0 +1,292 @@
+<!--
+ * ***********************************************************************************************************************
+ * Copyright (c) 2015 OwlGaming Community - All Rights Reserved
+ * All rights reserved. This program and the accompanying materials are private property belongs to OwlGaming Community
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * ***********************************************************************************************************************
+-->
+
+<meta>
+	<info author="OWL MTA Scripting Team" type="script" description="Global Functions" />
+	
+	<script src="g_chat_globals.lua" type="shared" />
+	<script src="s_chat_globals.lua" type="server" />
+	<script src="c_fov.lua" type="client" />
+	<export function="getPlayerFov" type="client" />
+	
+	<script src="c_chat_globals.lua" type="client" />
+	<export function="getNearbyElements" type="shared" />
+	
+	
+	<export function="getOOCState" type="server" />
+	<export function="setOOCState" type="server" />
+	<export function="sendMessageToAdmins" type="server" http="true"/>
+	<export function="sendMessageToSeniorAdmins" type="server" http="true"/>
+	<export function="sendLocalText" type="server" />
+	<export function="sendLocalMeAction" type="server" />
+	<export function="sendLocalDoAction" type="server" />
+	<export function="findPlayerByPartialNick" type="shared" />
+	<script src="admin_warn.lua" type="client" />
+	<script src="g_admin_globals.lua" type="server" />
+	<script src="c_GUI.lua" type="client" />
+	
+	<export function="centerWindow" type="client" />
+	<export function="guiComboBoxAdjustHeight" type="client" />
+	
+	<export function="getPlayerAdminLevel" type="server" />
+	<export function="getPlayerAdminTitle" type="server" />
+	<export function="isPlayerScripter" type="server" />
+	<export function="isPlayerLvl2Scripter" type="server" />
+	<export function="isPlayerLvl2Scripter" type="client" />
+	
+	<export function="getAdmins" type="server" />
+	<export function="isPlayerIA" type="server" />
+	
+	<export function="getGameMasters" type="server" />
+	<export function="getPlayerGameMasterLevel" type="server" />
+	
+	<script src="g_admin_globals.lua" type="client" />
+	<export function="isPlayerAdmin" type="client" />
+	<export function="isPlayerFullAdmin" type="client" />
+	<export function="isPlayerSuperAdmin" type="client" />
+	<export function="isPlayerHeadAdmin" type="client" />
+	<export function="isPlayerLeadAdmin" type="client" />
+	<export function="getPlayerAdminLevel" type="client" />
+	<export function="getPlayerAdminTitle" type="client" />
+	<export function="isPlayerScripter" type="client" />
+	<export function="getAdmins" type="client" />
+	
+	<export function="isPlayerGameMaster" type="client" />
+	<export function="isPlayerFullGameMaster" type="client" />
+	<export function="isPlayerLeadGameMaster" type="client" />
+	<export function="isPlayerHeadGameMaster" type="client" />
+	<export function="isPlayerGMTeamLeader" type="client" />
+	<export function="getPlayerGMTitle" type="client" />
+	<export function="getGameMasters" type="client" />
+	<export function="getPlayerGameMasterLevel" type="client" />
+	
+	<script src="s_optomization_globals.lua" type="client" />
+	
+	<script src="c_vehicle_globals.lua" type="server" />
+	<script src="c_vehicle_globals.lua" type="client" />
+	<export function="getVehicleVelocity" type="server" />
+	<export function="getVehicleVelocity" type="client" />
+	<export function="relateVelocity" type="server" />
+	<export function="relateVelocity" type="client" />
+	
+	<script src="s_vehicle_globals.lua" type="server" />
+	<export function="getVehiclesOwnedByCharacter" type="server" />
+	<export function="canPlayerBuyVehicle" type="server" />
+	
+	<script src="s_money_globals.lua" type="server" />
+	<script src="c_money_globals.lua" type="client" />
+	<export function="giveMoney" type="server" />
+	<export function="takeMoney" type="server" />
+	<export function="setMoney" type="server" />
+	<export function="hasMoney" type="server" />
+	<export function="hasMoney" type="client" />
+	<export function="getMoney" type="server" />
+	<export function="getMoney" type="client" />
+	<export function="checkMoneyHacks" type="server" />
+	<export function="getTaxAmount" type="server" />
+	<export function="getIncomeTaxAmount" type="server" />
+	<export function="setTaxAmount" type="server" />
+	<export function="setIncomeTaxAmount" type="server" />
+	<export function="formatMoney" type="shared" />
+	<export function="formatWeight" type="shared" />
+	<export function="formatLength" type="shared" />
+	
+	<script src="s_country_globals.lua" type="server" />
+	<export function="getPlayerCountry" type="server" />
+	<export function="getPlayerCountryByIP" type="server" />
+	
+	<script src="s_item_globals.lua" type="server" />
+	<export function="hasSpaceForItem" type="server" />
+	<export function="hasItem" type="server" />
+	<export function="giveItem" type="server" />
+	<export function="takeItem" type="server" />
+	
+	<script src="c_item_globals.lua" type="client" />
+	<export function="hasSpaceForItem" type="client" />
+	<export function="hasItem" type="client" />
+	<export function="getItemName" type="client" />
+	
+	<script src="g_version_globals.lua" type="shared" />
+	<export function="getScriptVersion" type="server" />
+	<export function="getScriptVersion" type="client" />
+	
+	<script src="c_animation_globals.lua" type="client" />
+	<export function="applyAnimation" type="client" />
+	<export function="removeAnimation" type="client" />
+	
+	<script src="s_animation_globals.lua" type="server" />
+	<export function="applyAnimation" type="server" />
+	<export function="removeAnimation" type="server" />
+	
+	<script src="s_nametag_globals.lua" type="server" />
+	<export function="updateNametagColor" type="server" />
+	
+	<script src="s_zone_globals.lua" type="server" />
+	<export function="getElementZoneName" type="server" />
+	
+	<script src="g_benchmark.lua" type="client" />
+	<export function="startBenchMark" type="client" />
+	<export function="endBenchMark" type="client" />
+	<export function="split" type="client" />
+	
+	<script src="g_benchmark.lua" type="server" />
+	<export function="startBenchMark" type="server" />
+	<export function="endBenchMark" type="server" />
+	<export function="split" type="server" />
+	
+	<script src="weapon_globals_g.lua" type="shared" cache="false"/>
+	<export function="createWeaponSerial" type="shared" />
+	<export function="retrieveWeaponDetails" type="shared" />
+	
+	<script src="s_bannedPlayers.lua" type="server" />
+	<export function="fetchIPs" type="server" />
+	<export function="fetchSerials" type="server" />
+	<export function="updateBans" type="server" />
+	
+	<script src="c_anims.lua" type="client" />
+	<script src="c_notification.lua" type="client" />
+	
+	<export function="sendMessageToSupporters" type="server" http="true"/>
+	<export function="sendMessageToStaff" type="server" http="true"/>
+	
+	<export function="getPlayerName" type="server" />
+	<export function="getPlayerName" type="client" />
+	
+	<export function="getRandomSkin" type="server" />
+	<export function="getRandomSkin" type="client" />
+	
+	<script src="s_fadecam.lua" type="server" />
+	<script src="c_fadecam.lua" type="client" />
+	<export function="fadeToBlack" type="server" />
+	<export function="fadeToBlack" type="client" />
+	<export function="fadeFromBlack" type="server" />
+	<export function="fadeFromBlack" type="client" />
+	
+	<script src="s_mysql.lua" type="server" />
+	<export function="toSQL" type="server" />
+	
+	<script src="g_vehicle_global.lua" type="shared" />
+	<export function="getVehicleName" type="server" />
+	<export function="getVehicleName" type="client" />
+	
+	<export function="getAdminTitle1" type="server" />
+	<export function="getAdminTitle1" type="client" />
+	
+	<script src="g_date_time.lua" type="shared" />
+	<export function="formatDate" type="server" />
+	<export function="formatDate" type="client" />
+	<export function="daysInMonth" type="server" />
+	<export function="daysInMonth" type="client" />
+	<export function="numberToMonth" type="server" />
+	<export function="numberToMonth" type="client" />
+	<export function="monthToNumber" type="server" />
+	<export function="monthToNumber" type="client" />
+	<export function="isThisYearLeap" type="server" />
+	<export function="isThisYearLeap" type="client" />
+	<export function="getPlayerDoB" type="server" />
+	<export function="getPlayerDoB" type="client" />
+	
+	<script src="g_functions.lua" type="shared" />
+	
+	<export function="explode" type="shared" />
+	<export function="implode" type="shared" />
+
+	
+	<export function="isStaffOnDuty" type="server" />
+	<export function="isStaffOnDuty" type="client" />
+	
+	<export function="isAdminOnDuty" type="server" />
+	<export function="isAdminOnDuty" type="client" />
+	
+	<export function="isGMOnDuty" type="server" />
+	<export function="isGMOnDuty" type="client" />
+	
+	<script src="s_int_globals.lua" type="server" />
+	<export function="getInteriorsOwnedByCharacter" type="server" />
+	<export function="canPlayerBuyInterior" type="server" />
+	<export function="canPlayerFactionBuyInterior" type="server" />
+	<export function="canFactionBuyInterior" type="server" />
+	<!--canFactionBuyInterior(theFaction, cost)-->
+	
+	<export function="sendWrnToStaff" type="server" />
+	<export function="sendWrnToStaffOnDuty" type="server" />
+	<export function="getPlayerFullIdentity" type="server" />
+	<export function="getPlayerFullIdentity" type="client" />
+	
+	<export function="createRandomMaleName" type="server" />
+	<export function="createRandomMaleName" type="client" />
+	
+	<export function="isStaff" type="server" />
+	<export function="isStaff" type="client" />
+	
+	<export function="getSmallestIdFromDbTable" type="server" />
+	<!--function getSmallestIdFromDbTable(tableName) - finds the smallest ID in the SQL instead of auto increment-->
+	
+	<export function="getAdminTitles" type="server" />
+	<export function="getAdminTitles" type="client" />
+	
+	<script src="s_account_globals.lua" type="server" />
+	<export function="getCharacterIDFromName" type="server" />
+	<export function="getCharacterNameFromID" type="server" />
+	<export function="getPlayerFromCharacterID" type="server" />
+	
+	<export function="getUrlFromString" type="server" />
+	<export function="getUrlFromString" type="client" />
+	<!--round(val, decimal)-->
+	<export function="round" type="server" />
+	<export function="round" type="client" />
+	
+	<export function="isEmail" type="server" />
+	<export function="isEmail" type="client" />
+
+	<script src="g_string_encryption.lua" type="shared" cache="false"/>
+
+	<export function="countTable" type="shared" />
+	<export function="mergeTables" type="shared" />
+
+	<export function="encryptString" type="shared" />
+	<export function="decryptString" type="shared" />
+	 <!--
+	* rule is optional, 
+	* rule can be a player element or a string or nothing
+	* when rule is a player element, player's serial will be used as decryption rule, this prevents decrypting on different client machines. Useful for somethings like "remember me" features where they can't simply copy and paste the encrypted file and then decrypt it.
+	/ MAXIME-->
+	
+	<export function="getPedWeapons" type="shared" />
+
+	<script src="sounds_s.lua" type="server" />
+	<script src="sounds_c.lua" type="client" />
+	<file src="sounds/invite.ogg" />
+	<export function="playSoundError" type="client" />
+	<export function="playSoundSuccess" type="client" />
+	<export function="playSoundCreate" type="client" />
+	<export function="playSoundAlert" type="client" />
+
+
+	<script src="g_resources.lua" type="shared" />
+	<export function="isResourceRunning" type="shared" />
+
+	<script src="g_eqs.lua" type="shared" />
+	<export function="exciterQueryString" type="shared" />
+
+	<min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"></min_mta_version>
+
+	<file src="web/css/bootstrap.darkly.css" type="client"/>
+	<file src="web/css/open-iconic-bootstrap.css" type="client"/>
+	<file src="web/css/animate.css" type="client"/>
+	<file src="web/js/bootstrap.min.js" type="client"/>
+	<file src="web/js/vue.min.js" type="client"/>
+	<file src="web/js/jquery.min.js" type="client"/>
+
+	<file src="web/fonts/open-iconic.eot"/>
+	<file src="web/fonts/open-iconic.otf"/>
+	<file src="web/fonts/open-iconic.svg"/>
+	<file src="web/fonts/open-iconic.ttf"/>
+	<file src="web/fonts/open-iconic.woff"/>
+</meta>

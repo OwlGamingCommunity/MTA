@@ -1,0 +1,11 @@
+<meta>
+	<script src="s_vehicle_interiors.lua"/>
+	<script src="c_vehicle_interiors.lua" type="client"/>
+	
+	<export function="add"/>
+	<export function="isNearExit"/>
+	
+	<file src="files/ab_cargo_int.txd"/>
+	<file src="files/at400_interior.txd"/>
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

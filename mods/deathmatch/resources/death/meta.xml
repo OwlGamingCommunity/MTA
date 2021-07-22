@@ -1,0 +1,14 @@
+<meta>
+    <info author="Maxime - OwlGaming MTA Server Development Team" type="script" description="Death System" />
+    
+    <script src="graveyard/graveyard_s.lua" type="server" />
+    <script src="graveyard/graveyard_c.lua" type="client" />
+
+    <script src="graveyard/tombs_g.lua" type="server" />
+    <script src="graveyard/tombs_g.lua" type="client" />
+    <file src="graveyard/tombstone.ttf"/>
+
+    <script src="deathFX/deathFX_c.lua" type="client" />
+    <file src="deathFX/wasted.mp3"/>
+    <file src="deathFX/cked.mp3"/>
+</meta>

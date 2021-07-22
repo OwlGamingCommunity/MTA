@@ -1,0 +1,5 @@
+<meta>
+	<info author="Maxime - OWL MTA Scripting Team" type="script" description="" />
+	<script src="script.lua" type="server"/>
+	<export function="check" type="server" /> 
+</meta>

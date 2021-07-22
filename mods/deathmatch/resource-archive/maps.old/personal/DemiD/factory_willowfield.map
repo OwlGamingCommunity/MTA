@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (mondoshave_LAS) (1)" breakable="true" interior="0" alpha="255" model="5066" doublesided="true" scale="1" dimension="0" posX="2342.5601" posY="-2079.8" posZ="15.8" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (mondoshave_LAS) (2)" breakable="true" interior="0" alpha="255" model="5066" doublesided="true" scale="1" dimension="0" posX="2376.6799" posY="-2072.8999" posZ="15.81" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorEXT15) (1)" breakable="true" interior="0" alpha="255" model="1536" doublesided="true" scale="1" dimension="0" posX="2348.2" posY="-2059.27" posZ="12.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (sfsefirehseflag) (1)" breakable="true" interior="0" alpha="255" model="11245" doublesided="true" scale="1" dimension="0" posX="2352.3" posY="-2058.6001" posZ="18.6" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (nt_securecam1_01) (1)" breakable="true" interior="0" alpha="255" model="1616" doublesided="true" scale="1" dimension="0" posX="2343" posY="-2059" posZ="18.7" rotX="0" rotY="0" rotZ="230"></object>
+    <object id="object (nt_securecam1_01) (2)" breakable="true" interior="0" alpha="255" model="1616" doublesided="true" scale="1" dimension="0" posX="2341.7" posY="-2093.3" posZ="20.4" rotX="0" rotY="0" rotZ="337.999"></object>
+    <object id="object (nt_securecam1_01) (3)" breakable="true" interior="0" alpha="255" model="1616" doublesided="true" scale="1" dimension="0" posX="2377.5" posY="-2062" posZ="20.4" rotX="0" rotY="0" rotZ="155.994"></object>
+    <object id="object (nt_securecam2_01) (1)" breakable="true" interior="0" alpha="255" model="1622" doublesided="true" scale="1" dimension="0" posX="2342.7" posY="-2094.3" posZ="20.6" rotX="0" rotY="0" rotZ="130"></object>
+    <object id="object (kmb_keypad) (1)" breakable="true" interior="0" alpha="255" model="2922" doublesided="true" scale="1" dimension="0" posX="2379.8" posY="-2072.8999" posZ="13.8" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (kmb_keypad) (2)" breakable="true" interior="0" alpha="255" model="2922" doublesided="true" scale="1" dimension="0" posX="2337.2" posY="-2079.8" posZ="13.8" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (refthinchim1) (1)" breakable="true" interior="0" alpha="255" model="3258" doublesided="true" scale="1" dimension="0" posX="2353.3999" posY="-2087.7" posZ="3.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (dckcanpy) (1)" breakable="true" interior="0" alpha="255" model="3627" doublesided="true" scale="1" dimension="0" posX="2327.3" posY="-2078.8" posZ="16.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_aircon2) (1)" breakable="true" interior="0" alpha="255" model="2649" doublesided="true" scale="1" dimension="0" posX="2347.3999" posY="-2095.1001" posZ="17.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Streetlamp2) (1)" breakable="true" interior="0" alpha="255" model="1231" doublesided="true" scale="1" dimension="0" posX="2338.1001" posY="-2073.3999" posZ="15.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Streetlamp2) (2)" breakable="true" interior="0" alpha="255" model="1231" doublesided="true" scale="1" dimension="0" posX="2381.3" posY="-2078.7" posZ="15.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (refinerybox1) (1)" breakable="true" interior="0" alpha="255" model="3257" doublesided="true" scale="1" dimension="0" posX="2372.2" posY="-2076.8" posZ="9.4" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (kmb_lockeddoor) (1)" breakable="true" interior="0" alpha="255" model="2949" doublesided="true" scale="1" dimension="0" posX="2372.1799" posY="-2070.2" posZ="24.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cxref_woodstair) (2)" breakable="true" interior="0" alpha="255" model="3361" doublesided="true" scale="1" dimension="0" posX="2365.3999" posY="-2070.6001" posZ="22.4" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (kmb_cam) (2)" breakable="true" interior="0" alpha="255" model="2921" doublesided="true" scale="1" dimension="0" posX="2372.2" posY="-2084.7" posZ="27.5" rotX="0" rotY="0" rotZ="328"></object>
+    <object id="object (privatesign3) (1)" breakable="true" interior="0" alpha="255" model="3264" doublesided="true" scale="1" dimension="0" posX="2325.1001" posY="-2061.5" posZ="12.4" rotX="0" rotY="0" rotZ="180"></object>
+</map>

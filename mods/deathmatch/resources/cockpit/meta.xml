@@ -1,0 +1,17 @@
+<meta>
+	<info type="script" author="r1k3" name="cockpit" version="1.2" />
+	<min_mta_version client="1.3.5" server="1.3.5" />
+	<script src="aircraft_client.lua" type="client"/>
+	<file src="grafik/attitude_indicator.png" type="client"/>
+	<file src="grafik/altimeter_1.png" type="client"/>
+	<file src="grafik/variometer.png" type="client"/>
+	<file src="grafik/altimeter_pointer_1.png" type="client"/>
+	<file src="grafik/altimeter_pointer_2.png" type="client"/>
+	<file src="grafik/airspeed_indicator.png" type="client"/>
+	<file src="grafik/compass_1.png" type="client"/>
+	<file src="grafik/compass_2.png" type="client"/>
+	<file src="grafik/corner_1.png" type="client"/>
+	<file src="grafik/corner_2.png" type="client"/>
+	<file src="grafik/led_on.png" type="client"/>
+	<file src="grafik/led_off.png" type="client"/>
+</meta>

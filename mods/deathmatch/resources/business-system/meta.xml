@@ -1,0 +1,5 @@
+<meta>
+	<info author="Maxime - OG MTA Scripting Team" type="script" description="Business System"/>
+	<script src="s_business_system.lua" type="server" />
+	<script src="c_business_system.lua" type="client" /> 
+</meta>

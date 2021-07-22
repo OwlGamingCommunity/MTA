@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (BinNt07_LA) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="2015.79956" posY="-2435.88843" posZ="1763.90503"></object>
+    <removeWorldObject id="removeWorldObject (lasdkrtgrp2) (1)" radius="13.891983" interior="0" model="3574" lodModel="3744" posX="2771.0703" posY="-2520.5469" posZ="15.21875" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (lasdkrtgrp2) (2)" radius="13.891983" interior="0" model="3574" lodModel="3744" posX="2774.7969" posY="-2534.9531" posZ="15.21875" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (sub_floodlite) (1)" radius="16.251438" interior="0" model="1278" lodModel="0" posX="2802.4297" posY="-2556.5234" posZ="26.70313" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (des_nwsherrif) (1)" breakable="true" interior="0" alpha="255" model="11451" doublesided="false" scale="1" dimension="0" posX="2793.1001" posY="-2546.1001" posZ="12.6" rotX="0" rotY="0" rotZ="320"></object>
+</map> 

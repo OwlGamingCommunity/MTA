@@ -1,0 +1,12 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" />
+	
+	<script src="c_weapon_cap.lua" type="client" />
+	<export function="getAmmoCap" type="client" />
+	<export function="getFreeAmmo" type="client" />
+	
+	<script src="s_weapon_cap.lua" type="server" />
+	<export function="getAmmoCap" type="server" />
+	<export function="getAmmoCap" type="server" />
+	<export function="getGTACap" type="server" />
+</meta>

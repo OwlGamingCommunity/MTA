@@ -1,0 +1,10 @@
+<meta>
+	<info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="Dynamic Command Library System"/>
+	
+	<script src="s_panel_admin_help.lua" type="server" />
+	<script src="c_panel_admin_help.lua" type="client" />
+	
+	<script src="s_panel_gm_help.lua" type="server" />
+	<script src="c_panel_gm_help.lua" type="client" />
+	
+</meta>

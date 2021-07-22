@@ -1,0 +1,11 @@
+<meta>
+	<info author="Maxime - OWL MTA Scripting Team" type="script" description="" />
+	<script src="achievement_s.lua" type="server"/>
+	<script src="achievement_c.lua" type="client"/>
+	<file src="achievement.png" />
+	<file src="achievement.mp3" />
+	<export function="awardPlayer" type="server" /> <!-- awardPlayer(thePlayer, title, desc, gc) -->
+	<export function="displayAchievement" type="client" /> <!-- displayAchievement(title, desc, gc) -->
+	<export function="playSoundFx" type="client" />
+	<export function="playSoundFx" type="server" />
+</meta>

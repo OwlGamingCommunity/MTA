@@ -1,0 +1,9 @@
+<meta>
+	<info author='Maxime - OwlGaming'/>
+	<script src='ban_s.lua' type='server'/>
+	<script src='whois_s.lua' type='server'/>
+	<script src='ban_c.lua' type='client'/>
+	<export function="checkAccountBan" type="server"/>
+	<export function="addToBan" type="server"/>
+	<!--addToBan(account, serial, ip, admin, reason)-->
+</meta>	

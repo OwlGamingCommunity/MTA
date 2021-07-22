@@ -1,0 +1,64 @@
+<content>
+    <pageLength>1200</pageLength>
+	<title>Employment</title>
+	<text>Everyone wants to make a buck or two so you'll need to get yourself a job. There are currently 7 legal jobs available in the server:
+	
+	* Delivery Driver
+	* Taxi Driver
+	* Bus Driver
+	* City Maintenance
+	* Mechanic
+	* Locksmith
+	* Fisherman (Not in city hall list)
+	
+	You can find most of the jobs at city hall which is marked on your map with the red target icon. Approach the desk where the woman is standing and you will be shown the job list. Highlight the job you want and click the accept button to be hired.
+	
+	Delivery Driver
+	This job involves working for RS Haul based at the Rockshore East industrial estate. Collect a mule (truck) from the depot and enter /startjob once inside. You will be shown your first drop off location by the pink blip on your radar and map.
+	
+	Drive to the location and once inside the pink checkpoint enter the /dumpload command. You now have a choice of continuing to the next drop off point (pink blip) or returning to the depot (green blip) to finish the job and collect your wage.
+	
+	You can continue to do as many drop offs as you like and will be paid $50 for each one you do.
+	
+	Taxi Driver
+	Collect a taxi or cabbie from the LV Transport depot in Redsands East. When a player calls for a taxi using /taxi [location] you will receive a message alerting you. Drive to the customers location to pick them up. Once you have dropped them where they want to go they need to /pay you the fare for the journey.
+	
+	Bus Driver
+	Collect a bus from the LV Transport depot in Redsands East. Once inside the bus or coach enter the /startbus command. You will be shown the bus route through red and yellow check points.
+	
+	* Yellow checkpoints indicate the route you need to take.
+	* Red checkpoints are the actual stops on the route.
+	
+	When you reach a red checkpoint the name/ location of the stop is announced locally and you will are paid $18. You will be prompted to stop for a moment to allow customers to get on. Customers pay $2 when entering the bus but the driver does not receive this money. To begin the route again simply enter /startbus.
+	
+	City Maintenance
+	As a city maintenance worker it is your job to maintain the appearance of the city by removing graffiti tags. To remove a tag use the spray can provided to repaint over the tagged surface. You are paid for every tag you remove.
+	
+	Mechanic
+	Right click on an unlocked car to be shown the services you can provide. Currently mechanics can:
+	
+	* Repair body work - fixes the appearance of the vehicle but not the health.
+	* Service a vehicle - completely fixes a vehicle
+	* Replace tyres - Reinflates the tyres
+	* Repaint vehicles - Changes the vehicles colour.
+	* Add upgrades - Adds available upgrades to the car.
+	* Add paintjob - Adds available paintjobs to the car.
+	
+	In the GUI the mechanic is shown what the cost is to provide that service. To make a profit the mechanic must charge more than this amount.
+	
+	Locksmith
+	Locksmiths have the ability to duplicate any key items they have in their inventory. To copy a key they use /copykey [key type][key ID]
+	
+	Key Types:
+	1 = Vehicle
+	2 = House
+	3 = Business
+	
+	Duplicating a key cost the locksmith $15 so they must charge more than this amount to make a profit.
+	
+	Quitting a job
+	To quit any of the city hall jobs enter the /quitjob command.
+	
+	</text>
+
+</content>

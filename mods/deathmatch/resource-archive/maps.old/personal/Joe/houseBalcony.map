@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (cs_mountplat) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="18368" doublesided="true" scale="1" dimension="0" posX="1338.9" posY="-663.79999" posZ="103.729" rotX="0" rotY="0" rotZ="280.75"></object>
+    <removeWorldObject id="removeWorldObject (veg_treeb1) (1)" radius="11.874638" interior="0" model="617" lodModel="0" posX="1328.1172" posY="-668.29687" posZ="106.39844" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

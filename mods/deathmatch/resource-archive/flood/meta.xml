@@ -1,0 +1,4 @@
+<meta>
+	<script src="s_flood.lua"/>
+	<!--<script src="c_flood.lua" type="client"/>-->
+</meta>

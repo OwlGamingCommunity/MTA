@@ -1,0 +1,11 @@
+<meta>
+	<script src="s_gates.lua" type="server" />
+	<script src="c_gates.lua" type="client" />
+	<file src="allgates.mp3" />
+	<file src="singlegate.mp3" />
+	<file src="buzz.wav" />
+	<script src="c_prison.lua" type="client" />
+	<script src="s_prison.lua" type="server" />
+	<script src="g_prison.lua" type="shared" />
+	<export function="checkForRelease" type="server" />
+</meta>

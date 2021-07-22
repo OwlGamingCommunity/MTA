@@ -1,0 +1,86 @@
+<meta>
+	<info author="OwlGaming MTA Scripting Team" type="script" description="Admin System"/>
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+
+	<script src="Vehicle/s_vehicle_commands.lua" type="server"/>
+	<file src="Player/nudge.wav" />
+	<script src="Player/c_player_commands.lua" type="client"/>
+	<script src="Player/s_player_commands.lua" type="server"/>
+
+	<script src="Player/c_weapon_creator.lua" type="client"/>
+
+	<script src="Player/s_ck.lua" type="server"/>
+	<script src="Player/c_teleport.lua" type="client"/>
+	<script src="Player/s_teleport.lua" type="server"/>
+	<script src="Player/s_language.lua" type="server"/>
+	<script src="Player/s_relations.lua" type="server"/>
+	<!--<script src="Player/s_search.lua" type="server"/>-->
+
+	<script src="Player/s_vpoints.lua" type="server"/>
+	<script src="Player/s_licenses.lua" type="server"/>
+	<script src="Player/c_npc911.lua" type="client"/>
+	<script src="Player/s_npc911.lua" type="server"/>
+
+	<script src="Player/adminjail_s.lua" type="server"/>
+	<script src="Player/adminjail_c.lua" type="client"/>
+	<export function="timerUnjailPlayer" type="server"/>
+
+
+	<script src="Interior/s_interior_commands.lua" type="server"/>
+	<script src="Interior/c_interior_commands.lua" type="client"/>
+
+	<script src="Resources/s_resource_commands.lua" type="server"/>
+	<script src="Resources/c_resource_commands.lua" type="client"/>
+
+
+	<script src="g_history.lua" type="server"/>
+	<script src="g_history.lua" type="client"/>
+
+	<script src="Player/c_afk_kick.lua" type="client"/>
+	<script src="Player/s_afk_kick.lua" type="server"/>
+
+	<script src="Player/s_recon.lua" type="server"/>
+	<script src="Player/c_recon.lua" type="client"/>
+
+	<script src="monitor/s_monitor.lua" type="server"/>
+	<script src="monitor/c_monitor.lua" type="client"/>
+
+	<script src="Player/c_ped_voices.lua" type="client"/>
+	<script src="Player/c_mark.lua" type="client"/>
+
+	<script src="Player/s_punish.lua" type="server"/>
+
+
+	<script src="s_check.lua" type="server" />
+	<script src="c_check.lua" type="client" />
+	<file src="search.png" />
+
+	<script src="teleport.lua" type="server" />
+	<script src="lounge.lua" type="client" />
+
+	<script src="c_overlay.lua" type="client" />
+
+	<script src="feedback/feedback_s.lua" type="server"/>
+	<script src="feedback/feedback_c.lua" type="client"/>
+
+	<script src="s_other_commands.lua" type="server"/>
+
+	 <settings>
+		<setting name="*maxAmountOfAmmopacks" value="200" />
+		<setting name="*maxAmountOfWeapons" value="100" />
+     </settings>
+
+	<file src="weapIcons/ammo.png" />
+	<file src="weapIcons/gun.png" />
+	<file src="images/whitedot.jpg" />
+
+	<script src="staff_manager/staff_manager_s.lua" type="server"/>
+	<script src="staff_manager/staff_manager_c.lua" type="client"/>
+	<script src="staff_manager/staff_manager_g.lua" type="server"/>
+	<script src="staff_manager/staff_manager_g.lua" type="client"/>
+
+	<export function="canPlayerAccessStaffManager" type="server"/>
+	<export function="canPlayerAccessStaffManager" type="client"/>
+	<export function="toggleRecon" type="client"/>
+	<export function="addAdminHistory" type="server" http="true" /> <!-- addAdminHistory(user, admin, reason, action, duration) user and admin can be player elements or userids; action and duration are optional -->
+</meta>

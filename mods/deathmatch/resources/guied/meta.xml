@@ -1,0 +1,103 @@
+<meta>
+    <info author="Remp" name="GUI Editor" version="3.1.2" type="misc"/>
+
+	<config src="help.xml" type="client"/>
+	
+	<script src="server.lua" type="server"/>
+	
+	<script src="client/util.lua" type="client"/>
+	<script src="util_common.lua" type="client"/>
+	<script src="util_common.lua" type="server"/>
+	
+	<script src="client/extensions/gridlist.lua" type="client"/>	
+	
+	<script src="client/input.lua" type="client"/>
+	<script src="client/settings.lua" type="client"/>
+	
+    <script src="client/main.lua" type="client"/>  
+	<script src="client/menu.lua" type="client"/>
+    <script src="client/menu_item.lua" type="client"/>
+	
+    <script src="client/creator.lua" type="client"/>
+    <script src="client/mover.lua" type="client"/>
+    <script src="client/sizer.lua" type="client"/>
+    <script src="client/attacher.lua" type="client"/>
+	
+    <script src="client/resolution_preview.lua" type="client"/>
+    <script src="client/titlebar_button.lua" type="client"/>
+    <script src="client/coder.lua" type="client"/>
+    <script src="client/variables.lua" type="client"/>
+    <script src="client/undo_redo.lua" type="client"/>
+    <script src="client/snapping.lua" type="client"/>
+	<script src="client/code_generation.lua" type="client"/>	
+	<script src="client/output.lua" type="client"/>	
+	<script src="client/crush.lua" type="client"/>	
+	<script src="client/message_box.lua" type="client"/>	
+	<script src="client/dimensions_set.lua" type="client"/>	
+	<script src="client/offset.lua" type="client"/>	
+	<script src="client/multiple_element.lua" type="client"/>	
+	<script src="client/context_bar.lua" type="client"/>	
+	<script src="client/getters.lua" type="client"/>	
+	<script src="client/font.lua" type="client"/>	
+	<script src="client/image_picker.lua" type="client"/>	
+	<script src="client/expanding_gridlist.lua" type="client"/>	
+	<script src="client/sharing.lua" type="client"/>	
+
+	<script src="client/help.lua" type="client"/>	
+	<file src="client/help_documentation.xml"/>
+	
+	<script src="client/gui_properties.lua" type="client"/>	
+	<file src="cegui/cegui_property_descriptions.xml"/>
+	<file src="cegui/cegui_widgets.xml"/>
+	
+    <script src="client/load_gui_code.lua" type="client"/>
+    <script src="client/load_gui.lua" type="client"/>
+	
+    <script src="client/tutorials/tutorial.lua" type="client"/>
+    <script src="client/tutorials/tutorial_output_type.lua" type="client"/>
+    <script src="client/tutorials/tutorial_properties.lua" type="client"/>
+    <script src="client/tutorials/tutorial_main.lua" type="client"/>
+
+
+    <script src="client/menus/menu_manager.lua" type="client"/>   
+    <script src="client/menus/menu_common.lua" type="client"/>
+    <script src="client/menus/menu_main.lua" type="client"/>
+	
+	<script src="client/menus/items/item_common.lua" type="client"/>
+	<script src="client/menus/items/item_resolution.lua" type="client"/>
+	<script src="client/menus/items/item_multiple_selection.lua" type="client"/>
+	<script src="client/menus/items/item_dx.lua" type="client"/>
+	
+	<script src="client/colorpicker/colorpicker.lua" type="client"/>
+    <file src="client/colorpicker/alpha.png"/>
+    <file src="client/colorpicker/palette.png"/>
+	
+    <file src="fonts/PetitFormalScript.ttf"/>
+    <file src="fonts/EmblemaOne.ttf"/>
+	
+    <script src="client/dx_elements/dx_checkbox.lua" type="client"/>
+    <script src="client/dx_elements/dx_radiobutton.lua" type="client"/>
+    <script src="client/dx_elements/dx_slider.lua" type="client"/>
+    <script src="client/dx_elements/dx_editbox.lua" type="client"/>
+    <script src="client/dx_elements/dx_elements.lua" type="client"/>
+	
+    <file src="images/dx_elements/checkbox_tick.png"/>
+    <file src="images/dx_elements/slider_end.png"/>
+    <file src="images/dx_elements/slider_pointer.png"/>
+    <file src="images/dx_elements/radio_button.png"/>
+	
+    <file src="images/dot_white.png"/>
+    <file src="images/reset.png"/>
+    <file src="images/cross.png"/>
+    <file src="images/arrow_out.png"/>
+    <file src="images/plus.png"/>
+	
+    <file src="images/examples/mtalogo.png"/>
+    <file src="images/examples/shruk.png"/>
+	
+	<aclrequest>
+		<right name="general.ModifyOtherObjects" access="true" />
+		<right name="function.callRemote" access="true"/>
+		<!-- <right name="command.start" access="true" /> -->
+	</aclrequest>
+</meta>

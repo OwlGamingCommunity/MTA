@@ -1,0 +1,22 @@
+<meta>
+    <info type="script" author="Exciter" version="1.0" />
+
+    <script src="g_clubtec.lua" type="client" />
+    <script src="g_clubtec.lua" type="server" />
+    <script src="c_clubtec.lua" type="client" protected="true" />
+    <script src="s_clubtec.lua" type="server" />
+
+    <export function="getVideoPlayerCurrentVideoDisc" type="server" />
+    <export function="getVideoPlayerItems" type="server" />
+    <export function="getVideoPlayerItems" type="client" />
+    <export function="isVideoPlayer" type="server" />
+    <export function="isVideoPlayer" type="client" />
+    <export function="isVideoDisc" type="server" />
+    <export function="isVideoDisc" type="client" />
+    <export function="isClubtecGuy" type="server" />
+    <export function="isClubtecGuy" type="client" />
+
+    <file src="img/vs1000_guihead.png" />
+
+    <min_mta_version server="1.3.0-9.05000"></min_mta_version>
+</meta>

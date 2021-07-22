@@ -1,0 +1,7 @@
+<meta>
+	<info author="Logitech (BrukMSR" version="0.0" type="script" name="Loading With Sprite Anims" />
+	<script src="c_animWork.luac" type="client" />
+	<script src="c_loading_system.luac" type="client" />
+	<file src="sprites.png" />
+	<file src="plsWait.png" />
+</meta>

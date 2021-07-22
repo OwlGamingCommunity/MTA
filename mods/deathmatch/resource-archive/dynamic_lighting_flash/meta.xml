@@ -1,0 +1,33 @@
+
+<!--
+* ***********************************************************************************************************************
+* Copyright (c) 2015 OwlGaming Community - All Rights Reserved
+* All rights reserved. This program and the accompanying materials are private property belongs to OwlGaming Community
+* Unauthorized copying of this file, via any medium is strictly prohibited
+* Proprietary and confidential
+* Original author: Ren712
+* ***********************************************************************************************************************
+-->
+
+<meta>
+	<info name="Shader Flashlight test" description="The flashlight resource." author="" version="1.2.2" type="script" />
+	
+	<script src="functions_g.lua" type="shared" />
+	<script src="functions_c.lua" type="client" />
+	<script src="functions_s.lua" type="server" />
+
+	<script src="c_shader_light.lua" type="client" />
+	<script src="s_shader_light.lua" type="server" />
+
+	<script src="battery_s.lua" type="server" />
+	<script src="battery_c.lua" type="client" cache='false' />
+
+	<file src="shaders/shader_lightBulb.fx" type="client" />
+	<file src="shaders/shader_lightRays.fx" type="client" />
+	<file src="shaders/shader_null.fx" type="client" />
+	<file src="objects/flashlight.txd" type="client" />
+	<file src="objects/flashlight.dff" type="client" />
+	<file src="sounds/switch.wav" type="client" />
+	
+	<export function="toggleFlashLight" type='client'/>
+</meta>

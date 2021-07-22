@@ -1,0 +1,38 @@
+<content>
+    <pageLength>500</pageLength>
+	<title>Chat Commands</title>
+	<text>In Character
+	t [text] - Local In Character chat
+	y [text] - Radio
+	/w [player] [text] - In character whisper
+	/c [text] - Low / close local chat
+	/cw [text] - Whisper to occupants of the same vehicle
+	/s [text] - Local shouting
+	/district [text] - IC chat limited to the part of the city you are in
+	/L1 - Local IC chat in your first language.
+	/L2 - Local IC chat in your second language.
+	/L3 - Local IC chat in your third language.
+	
+	Out of Character
+	/o [text] - Global Out of Character Chat
+	/b [text] - Local Out of Character chat
+	/pm [player] [text] - Out of Character private message
+	
+	Role play commands
+	/do [text] - Event e.g. * The music blares ((Player Name))
+	/me[text] - * Player Name adjusts his glasses
+	/ad [show tele number: 0/1] [text] - In Character global advertising (requires cellphone item)
+	
+	Faction Commands
+	/f [text] - Out of Character faction chat
+	/m [text] - In character megaphone
+	
+	Cellphone Commands
+	/p [text] - Cellphone chat. (If you use t chat when on a cellphone it will appear as normal local chat. You must use /p to talk during a phone call).
+	/loudspeaker - Increases the radius phone conversations can be heard from.
+	
+	/helpcmds to see a full list of commands.
+	
+	</text>
+
+</content>

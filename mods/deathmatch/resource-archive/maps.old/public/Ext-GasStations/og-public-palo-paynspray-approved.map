@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (sw_SHED02) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="12978" doublesided="false" scale="1" dimension="0" posX="2415.2998" posY="86.90039" posZ="25.5" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (ce_spray) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="13027" doublesided="false" scale="1" dimension="0" posX="2415.2002" posY="86.90039" posZ="28.7" rotX="0" rotY="0" rotZ="90"></object>
+</map>

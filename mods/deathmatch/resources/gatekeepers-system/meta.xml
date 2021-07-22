@@ -1,0 +1,13 @@
+<meta>
+	<info author="Maxime - OWL MTA Scripting Team" type="script" description="Gatekeepers System"/>
+	
+	<script src="s_peds.lua" type="server" />
+
+	
+	<script src="c_ped_rightclick.lua" type="client" />
+	
+	<script src="c_cityhall_ped.lua" type="client" />
+	<script src="s_cityhall_ped.lua" type="server" />
+	<script src="c_locksmith.lua" type="client" />
+	<script src="s_locksmith.lua" type="server"/>
+</meta>

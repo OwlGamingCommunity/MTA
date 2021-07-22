@@ -1,0 +1,5 @@
+<meta>
+	<info />
+	<script src="c_vehicle_mods.lua" type="client" />
+	<file src="readme.txt" />
+</meta>

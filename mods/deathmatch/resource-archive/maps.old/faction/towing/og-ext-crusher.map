@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (laxrf_scrapbox) (1)" radius="16.977306" interior="0" model="3722" lodModel="3723" posX="2178.7344" posY="-1971.2656" posZ="16.86719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (laxrf_scrapbox) (2)" radius="16.977306" interior="0" model="3722" lodModel="3723" posX="2197.75" posY="-1993.3594" posZ="14.99219" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (laxrf_scrapbox) (3)" radius="16.977306" interior="0" model="3722" lodModel="3723" posX="2093.2813" posY="-1975.5859" posZ="16.86719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (dckwrkhut) (1)" radius="8.8088837" interior="0" model="3626" lodModel="3770" posX="2197.9766" posY="-1970.5625" posZ="14" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (TwrCrane_S_03) (1)" breakable="true" interior="0" alpha="255" model="1391" doublesided="false" scale="1" dimension="0" posX="2186.8999" posY="-2018.4" posZ="33.5" rotX="0" rotY="0" rotZ="50"></object>
+    <removeWorldObject id="removeWorldObject (lamppost3) (1)" radius="6.6149273" interior="0" model="1226" lodModel="0" posX="2208.627" posY="-1977.5189" posZ="13.89806" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

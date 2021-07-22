@@ -1,0 +1,5 @@
+<meta>
+	<info author="Exciter" type="misc" name="Fonts" description="fetch fonts to other resources from one global storage instead of adding fonts to each resource" version="1.0" />
+
+	<file src="helveticastrong.ttf" />
+</meta>

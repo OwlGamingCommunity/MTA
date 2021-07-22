@@ -1,0 +1,18 @@
+<meta>
+    <info type="script" author="iG, Owl, Exciter" version="1.0" />
+    
+    <file src="shaders/texreptransform.fx" />
+    <file src="files/load.png" />
+    
+    <script src="c_fakevideo.lua" type="client" protected="true" />
+    <script src="s_fakevideo.lua" type="server" />
+    <script src="g_fakevideo.lua" type="client" />
+    <script src="g_fakevideo.lua" type="server" />
+    
+    <export function="getFakevideoData" type="client" />
+    <export function="getFakevideoData" type="server" />
+
+    <min_mta_version server="1.3.0-9.05000"></min_mta_version>
+
+    <file src="files/clubtec_load.png" />
+</meta>

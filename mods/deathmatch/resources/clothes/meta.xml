@@ -1,0 +1,17 @@
+<meta>
+	<script src="c_clothing.lua" type="client" cache="false"/>
+	<script src="s_clothing.lua"/>
+
+	<script src="g_util.lua" type="shared"/>
+	<script src="s_shop.lua"/>
+	<script src="c_shop.lua" type="client"/>
+
+	<file src="tex.fx" type="client"/>
+
+	<script src="ped_s.lua" type="server"/>
+	<script src="ped_c.lua" type="client"/>
+
+	<export function="openClothesWizard" type="client"/>
+	<export function="getSkinBasicInfo" type="shared"/>
+	<min_mta_version server="1.5.4-9.11342" />
+</meta>

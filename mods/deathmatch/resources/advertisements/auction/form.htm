@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="http://mta/global/web/css/bootstrap.darkly.css">
+    <link rel="stylesheet" href="http://mta/global/web/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="http://mta/global/web/css/animate.css">
+    <link rel="stylesheet" href="http://mta/local/advertisements.css">
+    <script src="http://mta/global/web/js/jquery.min.js"></script>
+    <script src="http://mta/global/web/js/bootstrap.min.js"></script>
+    <script src="http://mta/global/web/js/vue.min.js"></script>
+
+    <style>
+
+        .show-overflow-scroll::-webkit-scrollbar {
+            width: auto;
+            display: initial !important;
+        }
+
+        .show-overflow-scroll::-webkit-scrollbar-button {
+            display: initial !important;
+        }
+    </style>
+</head>
+
+<body style="background: none; overflow: none;">
+    <div id="app">
+        <!--
+            INITIAL CONFIRM WINDOW
+        -->
+        <div class="row" v-show="hideConfirmed === false" style="margin-top: 200px">
+            <div class="col-sm-3 offset-sm-2">
+                <div class="card card-primary">
+                    <div class="card-header bg-primary">
+                        Auction House
+                    </div>
+                    <div class="card-body">
+                        Would you like to sell your {{ fullVehicleName }}?
+                    </div>
+                    <div class="card-footer text-right">
+                        <button class="btn btn-link" @click="cancel()">No</button>
+                        <button class="btn btn-primary" @click="confirmVehicleAuctioning()">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+            AUCTION DETAILS
+        -->
+        <div class="row show-overflow-scroll" v-show="confirmed === true" :style="{
+            'margin-top': '150px',
+            'margin-left': '75px',
+            'max-height': maxHeight.toString().concat('px'),
+            'overflow-y': 'scroll',
+        }">
+            <div class="col-sm-3">
+                <div class="card card-primary">
+                    <div class="card-header bg-primary">
+                        Auction House
+                    </div>
+                    <div class="card-body">
+                        <form id="new-auction-form" :class="{'was-validated': validated}" @submit.prevent="">
+                            <div class="row">
+                                <div class="form-group col-sm-12">
+                                    <label>Name</label>
+                                    <input type="text" disabled :value="fullVehicleName" class="form-control">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>Plate</label>
+                                    <input type="text" disabled :value="vehicle.plate" class="form-control">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>VIN</label>
+                                    <input type="text" disabled :value="vehicle.vin" class="form-control">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>Mileage</label>
+                                    <input type="text" disabled :value="vehicle.odometer" class="form-control">
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>End Date</label>
+                                    <select class="form-control" v-model="form.end_date" required>
+                                        <option value="24">1 Day</option>
+                                        <option value="72">3 Days</option>
+                                        <option value="168">1 Week</option>
+                                    </select>
+
+                                    <div class="invalid-feedback">
+                                        Please choose an end date for the auction.
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label>Description</label>
+                                    <textarea class="form-control" v-model="form.description" required max="255"></textarea>
+                                    <div class="invalid-feedback">
+                                        Please enter a description of the vehicle.
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>Starting Bid</label>
+                                    <input type="number" class="form-control" v-model="form.starting_bid" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a starting bid.
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>Minimum Increase</label>
+                                    <input type="number" class="form-control" v-model="form.minimum_increase" required>
+                                    <div class="invalid-feedback">
+                                        Please enter the minimum bid increase amount.
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12">
+                                    <label>Buyout</label>
+                                    <input type="number" class="form-control" v-model="form.buyout" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a buyout amount.
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-right">
+                        <button class="btn btn-link" @click="cancel()">Cancel</button>
+                        <button class="btn btn-primary" @click="auctionVehicle()">Auction Vehicle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                vehicle: {},
+                form: {},
+                hideConfirmed: false,
+                confirmed: false,
+                validated: false,
+                maxHeight: 0,
+            },
+            computed: {
+                fullVehicleName: function () {
+                    return this.vehicle.year + ' ' + this.vehicle.brand + ' ' + this.vehicle.model;
+                }
+            },
+            methods: {
+                init: function (vehicleData) {
+                    this.vehicle = JSON.parse(atob(vehicleData));
+                    this.maxHeight = this.vehicle.screenSize[1] - 300;
+                },
+                sleep: function (ms) {
+                    return new Promise(resolve => setTimeout(resolve, ms));
+                },
+                confirmVehicleAuctioning: async function () {
+                    this.hideConfirmed = true;
+                    mta.triggerEvent('vehicle-auction:confirmed');
+                    await this.sleep(1000);
+                    this.confirmed = true;
+                },
+                cancel: function () {
+                    mta.triggerEvent('vehicle-auction:cancel');
+                },
+                validateForm: function () {
+                    let formObject = document.getElementById('new-auction-form');
+
+                    if (formObject.checkValidity() === false) {
+                        this.validated = true;
+                        return false;
+                    }
+
+                    return true;
+                },
+                auctionVehicle: function () {
+                    if (!this.validateForm()) {
+                        return;
+                    }
+
+                    mta.triggerEvent('vehicle-auction:submit', '[' + JSON.stringify(this.form) + ']');
+                },
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<meta>
+	<info author="Maxime - OwlGaming Scripting Team"/>
+
+	<script src="g_configs.lua" type="server"/>
+	<script src="g_configs.lua" type="client"/>
+
+	<script src="g_staff.lua" type="server"/>
+	<script src="g_staff.lua" type="client"/>
+
+	<script src="functions_s.lua" type="server"/>
+
+	<script src="s_forums.lua" type="server"/>
+
+	<file src="invite.ogg" />
+
+	<export function="isPlayerIA" type="server"/>
+	<export function="isPlayerIA" type="client"/>
+
+	<export function="getScripterLevel" type="server"/>
+	<export function="isPlayerTester" type="server"/>
+	<export function="isPlayerScripter" type="server"/>
+	<export function="isPlayerLeadScripter" type="server"/>
+
+	<export function="getAdminLevel" type="server"/>
+	<export function="getAdminLevel" type="client"/>
+
+	<export function="isPlayerTrialAdmin" type="server"/>
+	<export function="isPlayerTrialAdmin" type="client"/>
+
+	<export function="isPlayerAdmin" type="server"/>
+	<export function="isPlayerAdmin" type="client"/>
+
+	<export function="isPlayerSeniorAdmin" type="server"/>
+	<export function="isPlayerSeniorAdmin" type="client"/>
+
+	<export function="isPlayerLeadAdmin" type="server"/>
+	<export function="isPlayerLeadAdmin" type="client"/>
+
+	<export function="isPlayerHeadAdmin" type="server"/>
+	<export function="isPlayerHeadAdmin" type="client"/>
+
+	<export function="isPlayerSupporter" type="server"/>
+	<export function="isPlayerSupporter" type="client"/>
+
+	<export function="isPlayerSupportManager" type="server"/>
+	<export function="isPlayerSupportManager" type="client"/>
+
+	<export function="isPlayerVehicleConsultant" type="server"/>
+	<export function="isPlayerVehicleConsultant" type="client"/>
+
+	<export function="isPlayerVCTMember" type="server"/>
+	<export function="isPlayerVCTMember" type="client"/>
+
+	<export function="getScripterLevel" type="client"/>
+	<export function="isPlayerTester" type="client"/>
+	<export function="isPlayerScripter" type="client"/>
+	<export function="isPlayerLeadScripter" type="client"/>
+
+	<export function="isPlayerMappingTeamLeader" type="server"/>
+	<export function="isPlayerMappingTeamLeader" type="client"/>
+
+	<export function="isPlayerMappingTeamMember" type="server"/>
+	<export function="isPlayerMappingTeamMember" type="client"/>
+
+	<export function="isPlayerFMTMember" type="shared"/>
+	<export function="isPlayerFMTLeader" type="shared"/>
+
+	<export function="isPlayerStaff" type="shared"/>
+	<export function="getSupporterNumber" type="shared"/>
+	<export function="getAuxiliaryStaffNumbers" type="shared"/>
+	<export function="getAdminStaffNumbers" type="shared"/>
+
+	<export function="getAdminGroups" type="server"/>
+
+	<export function="savePerms" type="server"/>
+
+	<export function="getAdminTitles" type="server"/>
+	<export function="getAdminTitles" type="client"/>
+
+	<export function="getStaffTitle" type="server"/>
+	<export function="getStaffTitle" type="client"/>
+
+	<export function="getStaffTitles" type="server"/>
+	<export function="getStaffTitles" type="client"/>
+
+	<export function="logintoForumAccount" type="server"/>
+	<export function="fetchForumInfo" type="server"/>
+
+	<min_mta_version server="1.5.4-9.11413" />
+</meta>

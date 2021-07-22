@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (vegasNnewfence2b) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="7191" doublesided="false" scale="1" dimension="0" posX="2540.6006" posY="-1444.7998" posZ="25" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (des_quarrygate) (3)" breakable="true" interior="0" collisions="true" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="2540.6006" posY="-1457.9004" posZ="26" rotX="0" rotY="0" rotZ="90"></object>
+    <removeWorldObject id="removeWorldObject (la_fuckcar1) (1)" radius="5.7985301" interior="0" model="3594" lodModel="0" posX="2527.7061" posY="-1473.7664" posZ="24.93744" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (la_fuckcar1) (2)" radius="5.7985301" interior="0" model="3594" lodModel="0" posX="2511.8726" posY="-1474.1422" posZ="23.88261" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (des_quarrygate) (4)" breakable="true" interior="0" collisions="true" alpha="255" model="3049" doublesided="false" scale="1" dimension="0" posX="2540.6006" posY="-1462.4004" posZ="26" rotX="0" rotY="0" rotZ="90"></object>
+</map>

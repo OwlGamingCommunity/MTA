@@ -1,0 +1,4 @@
+<meta>
+	<script src="s_hardwaresurvey.lua" type="server"/>
+	<script src="c_hardwaresurvey.lua" type="client"/>
+</meta>

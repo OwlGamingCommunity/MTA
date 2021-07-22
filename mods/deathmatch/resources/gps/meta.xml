@@ -1,0 +1,26 @@
+<meta>
+    <info type="utility" version="1.0.0" />
+    <script src="pathfind_g.lua"  type="shared"/>
+	<script src="minheap_g.lua"  type="shared"/>
+
+	<!--<script src="c_drawroute.lua" type="client" />-->
+	<script src="c_getRadarRadius.lua" type="client" />
+
+	<script src="c_gps_navigation.lua" type="client" />
+
+	<!--<script src="c_gps.lua" type="client" />
+	<script src="s_gps.lua" type="server" />-->
+	<file src="map.jpg"/>
+
+	<!--<file src="Left.wav"/>
+	<file src="Right.wav"/>-->
+
+	<script src="c_speedLimit.lua" type="client"/>
+
+	<script src="street_names_g.lua" type="shared"/>
+	<script src="vehiclenodes_g.lua"  type="shared"/>
+	<script src="functions_g.lua" type="shared"/>
+
+	<export function="getPlayerStreetLocation" type="shared" />
+	<script src="c_street_names_on_f11_map.lua" type="client" />
+</meta>

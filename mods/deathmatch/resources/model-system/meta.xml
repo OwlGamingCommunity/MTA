@@ -1,0 +1,40 @@
+<meta>
+	<script author='Maxime - UG' type="client" src="replace.lua" cache='false'/>
+
+	<!--New sniper + new scope-->
+  	<!--<file src="sniper.dff" cache='false'/>
+	<file src="sniper.txd" cache='false'/>-->
+	<!--Suitcase
+	<file src="suitcase.txd" cache='false'/>
+	<file src="suitcase.dff" cache='false'/> -->
+	<!--New ATM
+	<file src="atm.txd" cache='false'/>
+	<file src="atm.dff" cache='false'/> -->
+	<!--Cocaine bag -->
+	<file src="mari.txd" cache='false'/>
+	<file src="cocaine.txd" cache='false'/>
+	<file src="cocaine.dff" cache='false'/>
+	<!--tv
+	<file src="tv.txd" cache='false'/>
+	<file src="tv.dff" cache='false'/> -->
+	<!--drug pill-->
+	<file src="pill.txd" cache='false'/>
+	<file src="pill.dff" cache='false'/>
+	<!--celpphone
+	<file src="cellphone.txd" cache='false'/>
+	<file src="cellphone.dff" cache='false'/> -->
+	<!--laptop-->
+	<file src="laptop.txd" cache='false'/>
+	<file src="laptop.dff" cache='false'/>
+
+	<file src="dog.dff" cache='false'/>
+	<file src="dog.txd" cache='false'/>
+	
+	<file src="labrador.dff" cache='false'/>
+	<file src="labrador.txd" cache='false'/>
+
+	<!-- Billboards -->
+
+	<file src="enterable-barracks.txd" cache='false'/>
+	<file src="enterable-barracks.dff" cache='false'/>
+</meta>
