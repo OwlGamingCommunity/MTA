@@ -2,6 +2,10 @@
 
 This repository contains the OwlGaming MTA codebase for Multi Theft Auto. The recommended way to deploy the code is using a docker image.
 
+## Credits
+
+The code in this repository comes from various sources from probably nearly a decade of development. Thank you to everyone who contributed over the years.
+
 ## Building for release
 
 - Build the image `docker build -t owlgaming-mta .`
