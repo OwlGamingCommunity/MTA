@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   UNIQUE KEY `forumid_UNIQUE` (`forumid`),
   UNIQUE KEY `email` (`email`),
   KEY `account_admin` (`admin`)
-) ENGINE=InnoDB AUTO_INCREMENT=131902 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.account_loa
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `account_loa` (
   `effective` tinyint(1) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`loa_id`),
   KEY `account_link_idx` (`account_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=560 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.bans
@@ -73,7 +73,7 @@ CREATE TABLE IF NOT EXISTS `bans` (
   `until` datetime DEFAULT NULL,
   `threadid` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3448 DEFAULT CHARSET=utf8 COMMENT='Handle serial bans instead of using MTA built-in / Maxime';
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Handle serial bans instead of using MTA built-in / Maxime';
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.django_migrations
@@ -83,7 +83,7 @@ CREATE TABLE IF NOT EXISTS `django_migrations` (
   `name` varchar(255) NOT NULL,
   `applied` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.django_session
@@ -226,7 +226,7 @@ CREATE TABLE IF NOT EXISTS `paypal_ipn` (
   `option_selection2` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `paypal_ipn_8e113603` (`txn_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1350 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.purchases
@@ -242,7 +242,7 @@ CREATE TABLE IF NOT EXISTS `purchases` (
   `method` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`order_id`),
   UNIQUE KEY `txn_id` (`txn_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5425 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.tc_comments
@@ -257,7 +257,7 @@ CREATE TABLE IF NOT EXISTS `tc_comments` (
   PRIMARY KEY (`id`),
   KEY `tcid_idx` (`tcid`),
   KEY `comment_poster` (`poster`)
-) ENGINE=InnoDB AUTO_INCREMENT=68585 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.tc_subscribers
@@ -268,7 +268,7 @@ CREATE TABLE IF NOT EXISTS `tc_subscribers` (
   PRIMARY KEY (`id`),
   KEY `subscriber_ticket` (`ticket_id`),
   KEY `subscriber_account` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=633 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table core.tc_tickets
@@ -289,7 +289,7 @@ CREATE TABLE IF NOT EXISTS `tc_tickets` (
   KEY `ticket_creator` (`creator`),
   KEY `ticket_assignee` (`assign_to`),
   KEY `ticket_status` (`status`)
-) ENGINE=InnoDB AUTO_INCREMENT=10122 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
