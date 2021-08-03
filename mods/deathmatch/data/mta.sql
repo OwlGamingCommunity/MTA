@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `account_details` (
   `max_characters` int(10) unsigned NOT NULL DEFAULT '30',
   `remember_token` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`account_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=131902 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.account_settings
@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `adminhistory` (
   PRIMARY KEY (`id`),
   KEY `adminhistory_user_ea155d8a_uniq` (`user`),
   KEY `adminhistory_user_char_c1d4310b_uniq` (`user_char`)
-) ENGINE=MyISAM AUTO_INCREMENT=28141 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.admin_teleports
@@ -101,7 +101,7 @@ CREATE TABLE IF NOT EXISTS `admin_teleports` (
   `dim` int(6) NOT NULL DEFAULT '0' COMMENT 'dimension',
   PRIMARY KEY (`id`),
   UNIQUE KEY `NAMEUNI` (`location_value`(100))
-) ENGINE=MyISAM AUTO_INCREMENT=71 DEFAULT CHARSET=latin1 COMMENT='/tps manager';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='/tps manager';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.advertisements
@@ -170,7 +170,7 @@ CREATE TABLE IF NOT EXISTS `applications` (
   `answer3` varchar(500) DEFAULT NULL,
   `answer4` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=40511 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.applications_questions
@@ -187,7 +187,7 @@ CREATE TABLE IF NOT EXISTS `applications_questions` (
   `updateDate` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `part` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=188 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.atms
@@ -202,7 +202,7 @@ CREATE TABLE IF NOT EXISTS `atms` (
   `deposit` tinyint(3) unsigned DEFAULT '0',
   `limit` int(10) unsigned DEFAULT '5000',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1356 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.atm_cards
@@ -216,7 +216,7 @@ CREATE TABLE IF NOT EXISTS `atm_cards` (
   `limit_type` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`card_id`),
   UNIQUE KEY `card_id_UNIQUE` (`card_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=29497 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.books
@@ -228,7 +228,7 @@ CREATE TABLE IF NOT EXISTS `books` (
   `readOnly` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8421 DEFAULT CHARSET=latin1 COMMENT='This is used for the book system. // Chaos';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='This is used for the book system. // Chaos';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.characters
@@ -310,7 +310,7 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `max_clothes` int(10) unsigned NOT NULL DEFAULT '3',
   `date_of_birth` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=51711 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.characters_faction
@@ -324,7 +324,7 @@ CREATE TABLE IF NOT EXISTS `characters_faction` (
   `faction_perks` text,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9710 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 CREATE TABLE `faction_ranks` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -361,7 +361,7 @@ CREATE TABLE IF NOT EXISTS `clothing` (
   `manufactured_date` datetime DEFAULT NULL,
   `sold` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=46489 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.commands
@@ -374,7 +374,7 @@ CREATE TABLE IF NOT EXISTS `commands` (
   `category` int(2) NOT NULL DEFAULT '1',
   `last_update` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=622 DEFAULT CHARSET=utf8 COMMENT='Saves all info about all kinds of supported commands and con';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Saves all info about all kinds of supported commands and con';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.dancers
@@ -390,7 +390,7 @@ CREATE TABLE IF NOT EXISTS `dancers` (
   `dimension` int(10) unsigned NOT NULL,
   `offset` tinyint(3) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=316 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.dog_users
@@ -399,7 +399,7 @@ CREATE TABLE IF NOT EXISTS `dog_users` (
   `charactername` varchar(45) NOT NULL,
   `attack` int(1) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=198 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.donators
@@ -411,7 +411,7 @@ CREATE TABLE IF NOT EXISTS `donators` (
   `perkValue` varchar(10) NOT NULL DEFAULT '1',
   `expirationDate` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=10225 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.don_purchases
@@ -422,7 +422,7 @@ CREATE TABLE IF NOT EXISTS `don_purchases` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `account` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=69220 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.duty_allowed
@@ -433,7 +433,7 @@ CREATE TABLE IF NOT EXISTS `duty_allowed` (
   `itemValue` varchar(45) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=442 DEFAULT CHARSET=latin1 COMMENT='Used for an admin allow list.';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Used for an admin allow list.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.duty_custom
@@ -446,7 +446,7 @@ CREATE TABLE IF NOT EXISTS `duty_custom` (
   `items` text NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=596 DEFAULT CHARSET=latin1 COMMENT='Used for custom duties.';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Used for custom duties.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.duty_locations
@@ -464,7 +464,7 @@ CREATE TABLE IF NOT EXISTS `duty_locations` (
   `model` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1606 DEFAULT CHARSET=latin1 COMMENT='Used for custom duty locations.';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Used for custom duty locations.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.elections
@@ -475,7 +475,7 @@ CREATE TABLE IF NOT EXISTS `elections` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `elections_UNIQUE` (`electionsname`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.elevators
@@ -497,7 +497,7 @@ CREATE TABLE IF NOT EXISTS `elevators` (
   `tprot` decimal(10,6) DEFAULT '0.000000',
   `oneway` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2721 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.emailaccounts
@@ -507,7 +507,7 @@ CREATE TABLE IF NOT EXISTS `emailaccounts` (
   `password` text,
   `creator` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3096 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.emails
@@ -521,7 +521,7 @@ CREATE TABLE IF NOT EXISTS `emails` (
   `inbox` int(1) NOT NULL DEFAULT '0',
   `outbox` int(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=327 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.faa_registry
@@ -555,7 +555,7 @@ CREATE TABLE IF NOT EXISTS `factions` (
   `before_wage_charge` int(6) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=192 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.files
@@ -571,7 +571,7 @@ CREATE TABLE IF NOT EXISTS `files` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `connected_interior_UNIQUE` (`connected_interior`),
   UNIQUE KEY `avatar_for_account_UNIQUE` (`avatar_for_account`)
-) ENGINE=MyISAM AUTO_INCREMENT=6835 DEFAULT CHARSET=utf8 COMMENT='Store file up to 21MB per record / By Maxime / Consult with him if you''re unsure of something.';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Store file up to 21MB per record / By Maxime / Consult with him if you''re unsure of something.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.force_apps
@@ -581,7 +581,7 @@ CREATE TABLE IF NOT EXISTS `force_apps` (
   `forceapp_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7154 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC COMMENT='Save forceapped players information to keep them from resubm';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC COMMENT='Save forceapped players information to keep them from resubm';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.friends
@@ -608,7 +608,7 @@ CREATE TABLE IF NOT EXISTS `fuelpeds` (
   `deletedBy` int(11) DEFAULT '0',
   `shop_link` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=310 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.gates
@@ -640,7 +640,7 @@ CREATE TABLE IF NOT EXISTS `gates` (
   `triggerDistanceVehicle` float DEFAULT NULL,
   `sound` varchar(50) DEFAULT 'metalgate',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=860 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.health_diagnose
@@ -664,7 +664,7 @@ CREATE TABLE IF NOT EXISTS `insurance_data` (
   `premium` int(11) NOT NULL,
   `insurancefaction` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`policyid`)
-) ENGINE=MyISAM AUTO_INCREMENT=1063 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.insurance_factions
@@ -720,7 +720,7 @@ CREATE TABLE IF NOT EXISTS `interiors` (
   `settings` text,
   `address` varchar(256) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5167 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.interior_business
@@ -741,7 +741,7 @@ CREATE TABLE IF NOT EXISTS `interior_logs` (
   `actor` int(11) DEFAULT NULL,
   PRIMARY KEY (`log_id`),
   KEY `log_interior` (`intID`)
-) ENGINE=MyISAM AUTO_INCREMENT=8218796 DEFAULT CHARSET=utf8 COMMENT='Stores all admin actions on interiors - Monitored by Interio';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Stores all admin actions on interiors - Monitored by Interio';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.interior_notes
@@ -752,7 +752,7 @@ CREATE TABLE IF NOT EXISTS `interior_notes` (
   `note` varchar(500) NOT NULL,
   `date` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3362 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.interior_textures
@@ -763,7 +763,7 @@ CREATE TABLE IF NOT EXISTS `interior_textures` (
   `url` varchar(255) NOT NULL,
   `rotation` smallint(5) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=130621 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.ippc_airlines
@@ -772,7 +772,7 @@ CREATE TABLE IF NOT EXISTS `ippc_airlines` (
   `name` varchar(50) NOT NULL,
   `code` varchar(3) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.ippc_airline_pilots
@@ -782,7 +782,7 @@ CREATE TABLE IF NOT EXISTS `ippc_airline_pilots` (
   `character` int(11) NOT NULL,
   `leader` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.ippc_flights
@@ -810,7 +810,7 @@ CREATE TABLE IF NOT EXISTS `ippc_flights` (
   `submitted` datetime NOT NULL,
   `status` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.items
@@ -823,7 +823,7 @@ CREATE TABLE IF NOT EXISTS `items` (
   `protected` int(100) NOT NULL DEFAULT '0',
   `metadata` text COMMENT 'additional data for the item that can be edited per individual item, JSON',
   PRIMARY KEY (`index`)
-) ENGINE=MyISAM AUTO_INCREMENT=21645361 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.jailed
@@ -839,7 +839,7 @@ CREATE TABLE IF NOT EXISTS `jailed` (
   `cell` text NOT NULL,
   `fine` int(5) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8332 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.jobs
@@ -862,7 +862,7 @@ CREATE TABLE IF NOT EXISTS `jobs_trucker_orders` (
   `orderInterior` int(11) NOT NULL DEFAULT '0',
   `orderSupplies` text,
   PRIMARY KEY (`orderID`)
-) ENGINE=MyISAM AUTO_INCREMENT=4330 DEFAULT CHARSET=utf8 COMMENT='Saves info about customer orders to create markers for truck';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Saves info about customer orders to create markers for truck';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.leo_impound_lot
@@ -881,7 +881,7 @@ CREATE TABLE IF NOT EXISTS `leo_impound_lot` (
   `fine` int(11) NOT NULL DEFAULT '0',
   `release_date` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`lane`)
-) ENGINE=MyISAM AUTO_INCREMENT=610 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.lifts
@@ -890,7 +890,7 @@ CREATE TABLE IF NOT EXISTS `lifts` (
   `disabled` tinyint(1) NOT NULL DEFAULT '0',
   `comment` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.lift_floors
@@ -905,7 +905,7 @@ CREATE TABLE IF NOT EXISTS `lift_floors` (
   `floor` varchar(3) NOT NULL,
   `name` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=60 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.lottery
@@ -932,7 +932,7 @@ CREATE TABLE IF NOT EXISTS `maps` (
   `note` text NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=360 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.maps_objects
@@ -958,7 +958,7 @@ CREATE TABLE IF NOT EXISTS `maps_objects` (
   `alpha` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`index`),
   UNIQUE KEY `index_UNIQUE` (`index`)
-) ENGINE=MyISAM AUTO_INCREMENT=20206 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_apb
@@ -970,7 +970,7 @@ CREATE TABLE IF NOT EXISTS `mdc_apb` (
   `time` int(11) NOT NULL,
   `organization` varchar(10) NOT NULL DEFAULT 'LSPD',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2918 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_calls
@@ -981,7 +981,7 @@ CREATE TABLE IF NOT EXISTS `mdc_calls` (
   `description` varchar(255) NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=47945 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_crimes
@@ -993,7 +993,7 @@ CREATE TABLE IF NOT EXISTS `mdc_crimes` (
   `officer` int(11) NOT NULL,
   `timestamp` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=25493 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_criminals
@@ -1025,7 +1025,7 @@ CREATE TABLE IF NOT EXISTS `mdc_faa_events` (
   `officer` varchar(100) NOT NULL,
   `timestamp` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=655 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_faa_licenses
@@ -1037,7 +1037,7 @@ CREATE TABLE IF NOT EXISTS `mdc_faa_licenses` (
   `value` int(4) DEFAULT NULL,
   `officer` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3443 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_groups
@@ -1058,7 +1058,7 @@ CREATE TABLE IF NOT EXISTS `mdc_groups` (
   UNIQUE KEY `name_UNIQUE` (`name`),
   UNIQUE KEY `faction_id_UNIQUE` (`faction_id`),
   KEY `idx_idx` (`faction_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8 COMMENT='User group''s permissions based on factions.';
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='User group''s permissions based on factions.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_impounds
@@ -1069,7 +1069,7 @@ CREATE TABLE IF NOT EXISTS `mdc_impounds` (
   `reporter` text,
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=40786 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_users
@@ -1079,7 +1079,7 @@ CREATE TABLE IF NOT EXISTS `mdc_users` (
   `level` int(11) unsigned NOT NULL,
   `organization` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2228 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 CREATE TABLE IF NOT EXISTS `mdc_dmv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -1100,7 +1100,7 @@ CREATE TABLE IF NOT EXISTS `mdc_users_old` (
   `level` int(11) NOT NULL,
   `organization` varchar(30) NOT NULL DEFAULT 'LSPD',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=951 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.migrations
@@ -1110,7 +1110,7 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   `migration` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UNIQUE` (`resource`,`migration`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mobile_payments
@@ -1128,7 +1128,7 @@ CREATE TABLE IF NOT EXISTS `mobile_payments` (
   `transaction_id` varchar(45) NOT NULL,
   PRIMARY KEY (`payment_id`),
   UNIQUE KEY `payment_id_UNIQUE` (`payment_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=297 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.motds
@@ -1142,7 +1142,7 @@ CREATE TABLE IF NOT EXISTS `motds` (
   `dismissable` tinyint(1) NOT NULL DEFAULT '1',
   `audiences` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=135 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.motd_read
@@ -1151,7 +1151,7 @@ CREATE TABLE IF NOT EXISTS `motd_read` (
   `motdid` int(11) NOT NULL,
   `userid` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=89878 DEFAULT CHARSET=latin1 COMMENT='Note down everyone that read and dismissed the motd.';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Note down everyone that read and dismissed the motd.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.notifications
@@ -1165,7 +1165,7 @@ CREATE TABLE IF NOT EXISTS `notifications` (
   `type` varchar(50) NOT NULL DEFAULT 'other',
   PRIMARY KEY (`id`),
   KEY `notification_user` (`userid`)
-) ENGINE=MyISAM AUTO_INCREMENT=1907561 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.objects
@@ -1187,7 +1187,7 @@ CREATE TABLE IF NOT EXISTS `objects` (
   `breakable` int(1) NOT NULL DEFAULT '0',
   `alpha` int(11) NOT NULL DEFAULT '255',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1030810 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.online_sessions
@@ -1199,7 +1199,7 @@ CREATE TABLE IF NOT EXISTS `online_sessions` (
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1556189 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.paynspray
@@ -1211,7 +1211,7 @@ CREATE TABLE IF NOT EXISTS `paynspray` (
   `dimension` int(5) DEFAULT '0',
   `interior` int(5) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=62 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.pd_tickets
@@ -1253,7 +1253,7 @@ CREATE TABLE IF NOT EXISTS `peds` (
   `created_by` int(11) DEFAULT NULL,
   `created_at` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=389 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.phones
@@ -1285,7 +1285,7 @@ CREATE TABLE IF NOT EXISTS `phone_contacts` (
   `entryFavorited` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=84080 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.phone_history
@@ -1298,7 +1298,7 @@ CREATE TABLE IF NOT EXISTS `phone_history` (
   `private` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `ID_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=681733 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.phone_sms
@@ -1312,7 +1312,7 @@ CREATE TABLE IF NOT EXISTS `phone_sms` (
   `private` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `ID_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=490478 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.pilot_notams
@@ -1331,7 +1331,7 @@ CREATE TABLE IF NOT EXISTS `publicphones` (
   `z` float NOT NULL,
   `dimension` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=99 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.radio_stations
@@ -1346,7 +1346,7 @@ CREATE TABLE IF NOT EXISTS `radio_stations` (
   `order` int(5) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=474 DEFAULT CHARSET=latin1 COMMENT='Dynamic radio stations.';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Dynamic radio stations.';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.ramps
@@ -1359,7 +1359,7 @@ CREATE TABLE IF NOT EXISTS `ramps` (
   `creator` text,
   `liftposition` int(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1102 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.reports
@@ -1372,7 +1372,7 @@ CREATE TABLE IF NOT EXISTS `reports` (
   `details` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=251779 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.restricted_freqs
@@ -1382,7 +1382,7 @@ CREATE TABLE IF NOT EXISTS `restricted_freqs` (
   `limitedto` int(5) DEFAULT NULL,
   `addedby` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=60 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.sapt_destinations
@@ -1391,7 +1391,7 @@ CREATE TABLE IF NOT EXISTS `sapt_destinations` (
   `name` text NOT NULL,
   `destinationID` varchar(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.sapt_locations
@@ -1404,7 +1404,7 @@ CREATE TABLE IF NOT EXISTS `sapt_locations` (
   `posY` float NOT NULL,
   `posZ` float NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=45 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.sapt_routes
@@ -1414,7 +1414,7 @@ CREATE TABLE IF NOT EXISTS `sapt_routes` (
   `route` int(11) NOT NULL,
   `destination` varchar(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.serial_whitelist
@@ -1429,7 +1429,7 @@ CREATE TABLE IF NOT EXISTS `serial_whitelist` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`),
   KEY `serial_whitelist_userid_4b8e2882_uniq` (`userid`)
-) ENGINE=MyISAM AUTO_INCREMENT=1610 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.settings
@@ -1438,7 +1438,7 @@ CREATE TABLE IF NOT EXISTS `settings` (
   `name` text,
   `value` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.sfia_pilots
@@ -1446,7 +1446,7 @@ CREATE TABLE IF NOT EXISTS `sfia_pilots` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `charactername` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=46 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.shops
@@ -1468,7 +1468,7 @@ CREATE TABLE IF NOT EXISTS `shops` (
   `faction_belong` int(11) NOT NULL DEFAULT '0',
   `faction_access` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11070 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.shop_contacts_info
@@ -1497,7 +1497,7 @@ CREATE TABLE IF NOT EXISTS `shop_products` (
   `pRestockedDate` datetime DEFAULT NULL,
   PRIMARY KEY (`pID`),
   UNIQUE KEY `pID_UNIQUE` (`pID`)
-) ENGINE=MyISAM AUTO_INCREMENT=105812 DEFAULT CHARSET=utf8 COMMENT='Saves on-sale products from players, business system by Maxi';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Saves on-sale products from players, business system by Maxi';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.speedcams
@@ -1512,7 +1512,7 @@ CREATE TABLE IF NOT EXISTS `speedcams` (
   `radius` int(4) NOT NULL DEFAULT '2',
   `enabled` smallint(1) DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.speedingviolations
@@ -1524,7 +1524,7 @@ CREATE TABLE IF NOT EXISTS `speedingviolations` (
   `area` varchar(50) NOT NULL,
   `personVisible` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1129083 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.staff_changelogs
@@ -1538,7 +1538,7 @@ CREATE TABLE IF NOT EXISTS `staff_changelogs` (
   `details` varchar(255) DEFAULT NULL,
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1887 DEFAULT CHARSET=latin1 COMMENT='Maxime 2015.01.08';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Maxime 2015.01.08';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.tags
@@ -1556,7 +1556,7 @@ CREATE TABLE IF NOT EXISTS `tags` (
   `creationdate` datetime DEFAULT NULL,
   `creator` int(11) NOT NULL DEFAULT '-1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=20075 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.tempinteriors
@@ -1592,7 +1592,7 @@ CREATE TABLE IF NOT EXISTS `tempobjects` (
   `alpha` tinyint(3) unsigned NOT NULL DEFAULT '255',
   PRIMARY KEY (`id`),
   KEY `dimension` (`dimension`)
-) ENGINE=MyISAM AUTO_INCREMENT=710887 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.textures_animated
@@ -1604,7 +1604,7 @@ CREATE TABLE IF NOT EXISTS `textures_animated` (
   `createdBy` int(11) NOT NULL,
   `createdAt` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.towstats
@@ -1617,7 +1617,7 @@ CREATE TABLE IF NOT EXISTS `towstats` (
   PRIMARY KEY (`id`),
   KEY `character_idx` (`character`),
   KEY `vehicle_idx` (`vehicle`)
-) ENGINE=MyISAM AUTO_INCREMENT=32842 DEFAULT CHARSET=latin1 COMMENT='Detailed information for TTR leaders who towed what and when';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Detailed information for TTR leaders who towed what and when';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.vehicles
@@ -1702,7 +1702,7 @@ CREATE TABLE IF NOT EXISTS `vehicles` (
   `settings` varchar(500) DEFAULT NULL,
   `hotwired` TINYINT(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=29140 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.vehicles_custom
@@ -1723,7 +1723,7 @@ CREATE TABLE IF NOT EXISTS `vehicles_custom` (
   `doortype` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=29122 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.vehicles_shop
@@ -1749,7 +1749,7 @@ CREATE TABLE IF NOT EXISTS `vehicles_shop` (
   `spawn_rate` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3312 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.vehicle_logs
@@ -1761,7 +1761,7 @@ CREATE TABLE IF NOT EXISTS `vehicle_logs` (
   `actor` int(11) DEFAULT NULL,
   PRIMARY KEY (`log_id`),
   KEY `log_vehicle` (`vehID`)
-) ENGINE=MyISAM AUTO_INCREMENT=8042971 DEFAULT CHARSET=utf8 COMMENT='Stores all admin actions on vehicles - Monitored by Vehicle ';
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='Stores all admin actions on vehicles - Monitored by Vehicle ';
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.vehicle_notes
@@ -1772,7 +1772,7 @@ CREATE TABLE IF NOT EXISTS `vehicle_notes` (
   `note` varchar(500) NOT NULL,
   `date` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13263 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.wiretransfers
@@ -1788,7 +1788,7 @@ CREATE TABLE IF NOT EXISTS `wiretransfers` (
   `to_card` varchar(45) DEFAULT NULL,
   `details` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6665418 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.worlditems
@@ -1816,7 +1816,7 @@ CREATE TABLE IF NOT EXISTS `worlditems` (
   `useExactValues` int(1) NOT NULL DEFAULT '0',
   `metadata` text COMMENT 'additional data for the item that can be edited per individual item, JSON',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=875517 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table mta.worlditems_data
@@ -1827,7 +1827,7 @@ CREATE TABLE IF NOT EXISTS `worlditems_data` (
   `value` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `xitem_idx` (`item`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
