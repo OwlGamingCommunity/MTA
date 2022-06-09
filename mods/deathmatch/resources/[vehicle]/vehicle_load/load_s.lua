@@ -7,6 +7,7 @@
 * ***********************************************************************************************************************
 ]]
 
+local mysql = exports.mysql
 local threads = {}
 local threadTimer = nil
 local load_speed = 50
@@ -86,7 +87,7 @@ function loadOneVehicle(data, loadDeletedOne)
 		local var1, var2 = data.variant1, data.variant2
 		if not exports.vehicle:isValidVariant( data.model, var1, var2 ) then
 			var1, var2 = exports.vehicle:getRandomVariant( data.model )
-			dbExec( exports.mysql:getConn('mta') "UPDATE vehicles SET variant1 = " .. var1 .. ", variant2 = " .. var2 .. " WHERE id='" .. mysql:escape_string(data.id) .. "'")
+			dbExec( exports.mysql:getConn('mta'), "UPDATE vehicles SET variant1 = " .. var1 .. ", variant2 = " .. var2 .. " WHERE id='" .. mysql:escape_string(data.id) .. "'")
 		end
 
 		-- Spawn the vehicle
