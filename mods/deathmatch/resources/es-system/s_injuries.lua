@@ -333,7 +333,7 @@ function lvesHeal(thePlayer, commandName, targetPartialNick, price)
 					if price > 500 then
 						outputChatBox("This is too much to ask for.", thePlayer, 255, 0, 0)
 					elseif price < 0 then
-						outputChatBox("Invalid amount!.", thePlayer, 255, 0, 0)
+						outputChatBox("Invalid amount!", thePlayer, 255, 0, 0)
 					else
 						local x, y, z = getElementPosition(thePlayer)
 						local tx, ty, tz = getElementPosition(targetPlayer)
