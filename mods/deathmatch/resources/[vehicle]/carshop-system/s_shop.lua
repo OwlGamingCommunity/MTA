@@ -274,9 +274,11 @@ function carshop_buyVehicle(paymentMethod)
 		if costCar <= 35000 then
 			if not exports.global:takeItem(client, 263) then
 				outputChatBox("There was an issue processing your request.", client, 255, 0 ,0)
+				return false
 			end
 		else
 			outputChatBox("You cannot use a token on a car worth over $35,000.", client, 255, 0, 0)
+			return false
 		end
 	else
 		if isOverlayDisabled then
