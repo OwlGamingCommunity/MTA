@@ -23,7 +23,7 @@ function drawPhoneGUI()
 	
 	wPhoneMenu = guiCreateStaticImage(posX, posY,w,h,"images/iphone_front.png",false)
 	phoneBackground = guiCreateStaticImage(0.085, 0.15, 0.83, 0.71, "images/backgrounds/Mountains.png", true, wPhoneMenu)
-	guiMoveToBack( phoneBackground )
+	--guiMoveToBack( phoneBackground ) don't use it, because it is will be set the phone apps doesn't click.
 	guiSetEnabled( phoneBackground, false )
 
 	local btnW, btnH = 105, 30
