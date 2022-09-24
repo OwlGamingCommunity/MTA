@@ -24,11 +24,11 @@ function jailPlayer(thePlayer, commandName, who, minutes, ...)
 				detachElements(targetPlayer)
 
 				if (minutes>=999) then
-					mysql:query_free("UPDATE accounts SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='1', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE id='" .. mysql:escape_string(accountID) .. "'")
+					mysql:query_free("UPDATE account_details SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='1', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE account_id='" .. mysql:escape_string(accountID) .. "'")
 					minutes = "indefinitely."
 					exports.anticheat:changeProtectedElementDataEx(targetPlayer, "jailtimer", true, false)
 				else
-					mysql:query_free("UPDATE accounts SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='0', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE id='" .. mysql:escape_string(tonumber(accountID)) .. "'")
+					mysql:query_free("UPDATE account_details SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='0', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE account_id='" .. mysql:escape_string(tonumber(accountID)) .. "'")
 					local theTimer = setTimer(timerUnjailPlayer, 60000, 1, targetPlayer)
 					setElementData(targetPlayer, "jailtimer", theTimer, false)
 					exports.anticheat:changeProtectedElementDataEx(targetPlayer, "jailserved", 0, false)
@@ -90,8 +90,8 @@ function jailPlayer(thePlayer, commandName, who, minutes, ...)
 		end
 	end
 end
---addCommandHandler("jail", jailPlayer, false, false)
---addCommandHandler("sjail", jailPlayer, false, false)
+addCommandHandler("jail", jailPlayer, false, false)
+addCommandHandler("sjail", jailPlayer, false, false)
 
 --OFFLINE JAIL BY MAXIME--------------------
 function offlineJailPlayer(thePlayer, commandName, who, minutes, ...)
@@ -114,9 +114,9 @@ function offlineJailPlayer(thePlayer, commandName, who, minutes, ...)
 				end
 			end
 			-- if player is acutally offline.
-			local row = mysql:query_fetch_assoc("SELECT `id`, `username`, `mtaserial`, `admin` FROM `accounts` WHERE `username`='".. mysql:escape_string( who ) .."' LIMIT 1")
+			local row = mysql:query_fetch_assoc("SELECT `id`, `username`, `admin` FROM `accounts` WHERE `username`='".. mysql:escape_string( who ) .."' LIMIT 1")
 			local accountID = false
-			local accountUsername = false
+			local accountUsername = true -- still it true, because when you jail a offiline player didn't get getElementData errors in debug.
 			if row and row.id ~= mysql_null() then
 				accountID = row["id"]
 				accountUsername = row["username"]
@@ -128,11 +128,11 @@ function offlineJailPlayer(thePlayer, commandName, who, minutes, ...)
 			local playerName = getPlayerName(thePlayer)
 
 			if (minutes>=999) then
-				mysql:query_free("UPDATE accounts SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='1', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE id='" .. mysql:escape_string(accountID) .. "'")
+				mysql:query_free("UPDATE account_details SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='1', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE account_id='" .. mysql:escape_string(accountID) .. "'")
 				minutes = 9999999
 				minutesString = "indefinitely."
 			else
-				mysql:query_free("UPDATE accounts SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='0', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE id='" .. mysql:escape_string(tonumber(accountID)) .. "'")
+				mysql:query_free("UPDATE account_details SET adminjail='1', adminjail_time='" .. mysql:escape_string(minutes) .. "', adminjail_permanent='0', adminjail_by='" .. mysql:escape_string(playerName) .. "', adminjail_reason='" .. mysql:escape_string(reason) .. "' WHERE account_id='" .. mysql:escape_string(tonumber(accountID)) .. "'")
 				minutesString = minutes .. " minutes(s)."
 			end
 
@@ -156,8 +156,8 @@ function offlineJailPlayer(thePlayer, commandName, who, minutes, ...)
 		end
 	end
 end
---addCommandHandler("ojail", offlineJailPlayer, false, false)
---addCommandHandler("sojail", offlineJailPlayer, false, false)
+addCommandHandler("ojail", offlineJailPlayer, false, false)
+addCommandHandler("sojail", offlineJailPlayer, false, false)
 
 function timerUnjailPlayer(jailedPlayer)
 	if(isElement(jailedPlayer)) then
@@ -170,7 +170,7 @@ function timerUnjailPlayer(jailedPlayer)
 			exports.anticheat:changeProtectedElementDataEx(jailedPlayer, "jailtime", timeLeft, false)
 
 			if (timeLeft<=0) and not (getElementData(jailedPlayer, "pd.jailtime")) then
-				local query = mysql:query_free("UPDATE accounts SET adminjail_time='0', adminjail='0' WHERE id='" .. mysql:escape_string(accountID) .. "'")
+				local query = mysql:query_free("UPDATE account_details SET adminjail_time='" .. mysql:escape_string(timeLeft) .. "' WHERE account_id='" .. mysql:escape_string(accountID) .. "'")
 				exports.anticheat:changeProtectedElementDataEx(jailedPlayer, "jailtimer", false, false)
 				exports.anticheat:changeProtectedElementDataEx(jailedPlayer, "adminjailed", false, false)
 				exports.anticheat:changeProtectedElementDataEx(jailedPlayer, "jailreason", false, false)
@@ -229,7 +229,7 @@ function unjailPlayer(thePlayer, commandName, who)
 				if not (jailed) then
 					outputChatBox(targetPlayerName .. " is not jailed.", thePlayer, 255, 0, 0)
 				else
-					local query = mysql:query_free("UPDATE account_details SET adminjail_time='0', adminjail='0' WHERE id='" .. mysql:escape_string(accountID) .. "'")
+					local query = mysql:query_free("UPDATE account_details SET adminjail_time='0', adminjail='0' WHERE account_id='" .. mysql:escape_string(accountID) .. "'")
 
 					if isTimer(jailed) then
 						killTimer(jailed)
