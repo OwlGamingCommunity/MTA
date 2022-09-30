@@ -107,10 +107,14 @@ function carshop_buyCar_close()
 	end
 	guiSetInputEnabled(false)
 	setElementData(getLocalPlayer(), "exclusiveGUI", false, false)
+	setElementData(getLocalPlayer(), "carshopfix", false)
+	setElementFrozen(getLocalPlayer(), false)
 end
 --PREVENT ABUSER TO CHANGE CHAR
 addEventHandler ( "account:changingchar", getRootElement(), carshop_buyCar_close )
 addEventHandler("onClientChangeChar", getRootElement(), carshop_buyCar_close)
+addEventHandler("CarshopFix", getRootElement(), carshop_buyCar_close)
+addEvent("CarshopFix", true)
 
 function cleanUp()
 	setElementData(getLocalPlayer(), "exclusiveGUI", false, false)
