@@ -169,6 +169,7 @@ function carshop_pickupUse(thePlayer)
 		local costTax = getElementData(parentCar, "carshop:taxcost")
 		if costCar and costTax then
 			triggerClientEvent(thePlayer, "carshop:showInfo", parentCar, costCar, costTax)
+			setElementData(thePlayer, "carshopfix", true)
 		end
 		cancelEvent()
 	end
@@ -202,7 +203,8 @@ addEventHandler( "onResourceStart", getResourceRootElement(), carshop_Initalize)
 
 function carshop_blockEnterVehicle(thePlayer)
 	local isCarShop = getElementData(source, "carshop")
-	if (isCarShop) then
+	local isInCarShop = getElementData(thePlayer, "carshopfix")
+	if (isCarShop and isInCarShop) then
 		local costCar = getElementData(source, "carshop:cost")
 
 		local payByCash = true
@@ -216,7 +218,7 @@ function carshop_blockEnterVehicle(thePlayer)
 		if money < 0 or costCar == 0 then
 			payByBank = false
 		end
-
+		setElementFrozen(thePlayer, true)
 		triggerClientEvent(thePlayer, "carshop:buyCar", source, costCar, payByCash, payByBank)
 	end
 	cancelEvent()
