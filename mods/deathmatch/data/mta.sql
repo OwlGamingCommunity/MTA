@@ -1038,7 +1038,18 @@ CREATE TABLE IF NOT EXISTS `mdc_faa_licenses` (
   `officer` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+CREATE TABLE IF NOT EXISTS `mdc_anpr` (
+  `id` int(11) NOT NULL,
+  `vehicle_plate` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `doneby` int(11) NOT NULL,
+  `time` int(11) NOT NULL,
+  `organization` varchar(10) NOT NULL DEFAULT 'LSPD'
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `mdc_anpr`
+--
 -- Data exporting was unselected.
 -- Dumping structure for table mta.mdc_groups
 CREATE TABLE IF NOT EXISTS `mdc_groups` (
