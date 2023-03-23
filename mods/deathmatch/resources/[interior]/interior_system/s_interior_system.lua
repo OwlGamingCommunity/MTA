@@ -371,7 +371,9 @@ function sellTo(thePlayer, commandName, targetPlayerName)
 						outputChatBox("This interior was purchased via a token and therefore cannot be sold to other players. Use /sellproperty instead.", thePlayer, 255, 0, 0)
 						return
 					end
-
+					if thePlayer == targetPlayer then
+						exports.global:sendMessageToAdmins("[INTERIOR]: "..getPlayerName(thePlayer).." has transfered interior #"..dbid.." ("..getElementData(interiorElement,"name")..") to himself.")
+					end
 					if interiorStatus.owner == getElementData(thePlayer, "dbid") or exports.integration:isPlayerAdmin(thePlayer) then
 						if getElementData(targetPlayer, "dbid") ~= interiorStatus.owner then
 							if exports.global:hasSpaceForItem(targetPlayer, 4, dbid) then
