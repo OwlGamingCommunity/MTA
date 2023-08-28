@@ -533,6 +533,7 @@ function Characters_onCharacterChange()
 
     setElementDataEx(client, "loggedin", 0, true)
     setElementDataEx(client, "dbid", 0, true)
+    setElementDataEx(client, "money", 0)
     setElementDataEx(client, "bankmoney", 0)
     setElementDataEx(client, "account:character:id", false)
     setElementAlpha(client, 0)
