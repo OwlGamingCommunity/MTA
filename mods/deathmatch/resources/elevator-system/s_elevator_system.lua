@@ -598,6 +598,8 @@ function SmallestElevatorID( ) -- finds the smallest ID in the SQL instead of au
 	local result = mysql:query_fetch_assoc("SELECT MIN(e1.id+1) AS nextID FROM elevators AS e1 LEFT JOIN elevators AS e2 ON e1.id +1 = e2.id WHERE e2.id IS NULL")
 	if result then
 		return tonumber(result["nextID"])
+	else -- this will fix if there's no data in `elevators` so the new elevator's id is 1
+		return 1
 	end
 	return false
 end
